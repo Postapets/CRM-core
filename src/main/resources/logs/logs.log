@@ -1,0 +1,21 @@
+02.14 18.16.02  INFO	ru.sfedu.crm.Main:10 - hello world
+02.14 19.37.38  INFO	ru.sfedu.crm.Main:11 - Main[0]: Start
+02.14 19.37.38  INFO	ru.sfedu.crm.Main:13 - ru.sfedu.crm.lab1.api.HibernateMetadataProvider@4145bad8
+02.14 19.37.39  INFO	ru.sfedu.crm.Main:15 - Main[1]: 
+02.14 19.37.39  INFO	ru.sfedu.crm.Main:17 - Main[2]: 
+02.14 19.40.17  INFO	ru.sfedu.crm.Main:11 - Main[0]: Start
+02.14 19.40.17  INFO	ru.sfedu.crm.Main:13 - ru.sfedu.crm.lab1.api.HibernateMetadataProvider@d41f816
+02.14 19.40.18  INFO	ru.sfedu.crm.Main:15 - Main[1]: 
+02.14 19.40.18  INFO	ru.sfedu.crm.Main:17 - Main[2]: 
+02.14 19.40.28  INFO	ru.sfedu.crm.Main:11 - Main[0]: Start
+02.14 19.40.28  INFO	ru.sfedu.crm.Main:13 - ru.sfedu.crm.lab1.api.HibernateMetadataProvider@132e0cc
+02.14 19.40.29  INFO	ru.sfedu.crm.Main:15 - Main[1]: 
+02.14 19.40.29  INFO	ru.sfedu.crm.Main:17 - Main[2]: 
+02.14 19.41.51  INFO	ru.sfedu.crm.Main:11 - Main[0]: Start
+02.14 19.41.51  INFO	ru.sfedu.crm.Main:13 - ru.sfedu.crm.lab1.api.HibernateMetadataProvider@b4711e2
+02.14 19.41.52  INFO	ru.sfedu.crm.Main:14 - [INFORMATION_SCHEMA, PUBLIC]
+02.14 19.41.52  INFO	ru.sfedu.crm.Main:15 - Main[2]: 
+02.14 19.42.51  INFO	ru.sfedu.crm.Main:11 - Main[0]: Start
+02.14 19.42.52  INFO	ru.sfedu.crm.Main:13 - ru.sfedu.crm.lab1.api.HibernateMetadataProvider@132e0cc
+02.14 19.42.52  INFO	ru.sfedu.crm.Main:14 - [INFORMATION_SCHEMA, PUBLIC]
+02.14 19.42.52  INFO	ru.sfedu.crm.Main:15 - Main[2]: 
