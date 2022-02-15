@@ -10,7 +10,12 @@ public class Constants {
     public static final String DEFAULT_CONFIG_PATH = "./src/main/resources/environment.properties";
 
     //sql
-    public static final String SQL_ALL_SCHEMAS = "SELECT schema_name FROM information_schema.schemata";
+    public static final String SQL_ALL_SCHEMAS = "select schema_name from information_schema.schemata";
+    public static final String SQL_ALL_TABLES = "select table_name from information_schema.TABLES\n" +
+            "where table_schema = 'PUBLIC'";
+    public static final String SQL_ALL_COLUMNS = "select column_name from INFORMATION_SCHEMA.columns\n" +
+            "where TABLE_SCHEMA = 'PUBLIC'";
+    public static final String SQL_ALL_USERS = "select name from information_schema.users";
 
 
 

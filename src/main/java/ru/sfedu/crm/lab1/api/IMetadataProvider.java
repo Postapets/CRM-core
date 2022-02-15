@@ -16,12 +16,6 @@ public interface IMetadataProvider {
     List getUsers();
 
     /**
-     * Returns all languages
-     * @return list
-     */
-    List getLanguages();
-
-    /**
      * Returns all tables
      * @return list
      */

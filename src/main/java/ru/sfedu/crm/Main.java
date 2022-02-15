@@ -10,9 +10,10 @@ public class Main {
     public static void main(String[] args) {
         log.info("Main[0]: Start");
         HibernateMetadataProvider hmp = new HibernateMetadataProvider();
-        log.info(hmp);
-        log.info(hmp.getSchemas());
-        log.info("Main[2]: ");
-
+        hmp.getSchemas();
+        hmp.getUsers();
+        hmp.getTables();
+        hmp.getColumns();
+        log.info("Main[1]: End");
     }
 }

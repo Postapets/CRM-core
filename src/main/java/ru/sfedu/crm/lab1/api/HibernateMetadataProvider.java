@@ -11,6 +11,7 @@ import ru.sfedu.crm.utils.HibernateUtil;
 import java.io.IOException;
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
 
@@ -54,11 +55,11 @@ public class HibernateMetadataProvider implements IMetadataProvider {
         return sessionFactory.openSession();
     }
 
-    public List getRecords(String str) {
+    public List getRecords(String string) {
         Session session = getSession();
-        NativeQuery query = session.createSQLQuery(str);
+        NativeQuery query = session.createSQLQuery(string);
         List resultList = query.getResultList();
-        log.debug("getRecords[]: resultList: " + resultList.toString());
+        log.debug("getRecords[]: resultList: " + resultList);
         session.close();
         return resultList;
     }
@@ -71,7 +72,7 @@ public class HibernateMetadataProvider implements IMetadataProvider {
     @Override
     public List getSchemas() {
         List resultList = getRecords(SQL_ALL_SCHEMAS);
-        log.debug("getRecords[]: resultList: " + resultList.toString());
+        log.info("getSchemas[]: resultList: " + resultList.toString());
         return resultList;
     }
 
@@ -82,18 +83,11 @@ public class HibernateMetadataProvider implements IMetadataProvider {
      */
     @Override
     public List getUsers() {
-        return null;
+        List resultList = getRecords(SQL_ALL_USERS);
+        log.info("getUsers[]: resultList: " + resultList);
+        return resultList;
     }
 
-    /**
-     * Returns all languages
-     *
-     * @return list
-     */
-    @Override
-    public List getLanguages() {
-        return null;
-    }
 
     /**
      * Returns all tables
@@ -102,7 +96,9 @@ public class HibernateMetadataProvider implements IMetadataProvider {
      */
     @Override
     public List getTables() {
-        return null;
+        List resultList = getRecords(SQL_ALL_TABLES);
+        log.info("getTables[]: resultList: " + resultList);
+        return resultList;
     }
 
     /**
@@ -112,7 +108,9 @@ public class HibernateMetadataProvider implements IMetadataProvider {
      */
     @Override
     public List getColumns() {
-        return null;
+        List resultList = getRecords(SQL_ALL_COLUMNS);
+        log.info("getColumns[]: resultList: " + resultList.toString());
+        return resultList;
     }
 
 
