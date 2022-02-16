@@ -18,7 +18,7 @@
         </RollingFile>
     </Appenders>
     <Loggers>
-        <Logger name = "ru.sfedu.crm" level = "info" additivity = "false">
+        <Logger name = "ru.sfedu.crm" level = "debug" additivity = "false">
             <AppenderRef ref="console"/>
             <AppenderRef ref="file"/>
         </Logger>

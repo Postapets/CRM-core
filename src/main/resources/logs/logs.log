@@ -154,3 +154,224 @@
 02.15 13.27.41  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:100 - getTables[]: resultList: [REQUEST, WORKER, USER, REQUESTCATEGORY, CLIENT, FEEDBACK]
 02.15 13.27.41  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:112 - getColumns[]: resultList: [ID, CLIENTID, DATE, CATEGORY, STATUS, DESCRIPTION, DISMISSINGREASON, ID, NAME, BIRTHDATE, PHONENUMBER, POSITION, EMPLOYMENTDATE, LEAVEDATE, ID, NAME, BIRTHDATE, PHONENUMBER, ID, CATEGORYNAME, ID, NAME, BIRTHDATE, PHONENUMBER, INN, STATUS, ID, REQUEST, RATE, MESSAGE]
 02.15 13.27.41  INFO	ru.sfedu.crm.Main:17 - Main[1]: End
+02.16 14.52.00  INFO	ru.sfedu.crm.Main:11 - Main[0]: Start
+02.16 14.52.01  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:50 - getSchemas[]: resultList: [INFORMATION_SCHEMA, PUBLIC]
+02.16 14.52.01  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:61 - getUsers[]: resultList: [USER]
+02.16 14.52.01  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:73 - getTables[]: resultList: []
+02.16 14.52.01  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:84 - getColumns[]: resultList: []
+02.16 14.52.01  INFO	ru.sfedu.crm.Main:17 - Main[1]: End
+02.16 14.53.27  INFO	ru.sfedu.crm.Main:11 - Main[0]: Start
+02.16 14.53.28  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:50 - getSchemas[]: resultList: [INFORMATION_SCHEMA, PUBLIC]
+02.16 14.53.28  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:61 - getUsers[]: resultList: [USER]
+02.16 14.53.28  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:73 - getTables[]: resultList: []
+02.16 14.53.28  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:84 - getColumns[]: resultList: []
+02.16 14.53.28  INFO	ru.sfedu.crm.Main:17 - Main[1]: End
+02.16 14.53.36  INFO	ru.sfedu.crm.Main:11 - Main[0]: Start
+02.16 14.53.37  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:50 - getSchemas[]: resultList: [INFORMATION_SCHEMA, PUBLIC]
+02.16 14.53.37  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:61 - getUsers[]: resultList: [USER]
+02.16 14.53.38  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:73 - getTables[]: resultList: []
+02.16 14.53.38  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:84 - getColumns[]: resultList: []
+02.16 14.53.38  INFO	ru.sfedu.crm.Main:17 - Main[1]: End
+02.16 14.54.18  INFO	ru.sfedu.crm.Main:11 - Main[0]: Start
+02.16 14.54.19  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:50 - getSchemas[]: resultList: [INFORMATION_SCHEMA, PUBLIC]
+02.16 14.54.19  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:61 - getUsers[]: resultList: [USER]
+02.16 14.54.19  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:73 - getTables[]: resultList: [REQUEST, WORKER, USER, REQUESTCATEGORY, CLIENT, FEEDBACK]
+02.16 14.54.19  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:84 - getColumns[]: resultList: [ID, CLIENTID, DATE, CATEGORY, STATUS, DESCRIPTION, DISMISSINGREASON, ID, NAME, BIRTHDATE, PHONENUMBER, POSITION, EMPLOYMENTDATE, LEAVEDATE, ID, NAME, BIRTHDATE, PHONENUMBER, ID, CATEGORYNAME, ID, NAME, BIRTHDATE, PHONENUMBER, INN, STATUS, ID, REQUEST, RATE, MESSAGE]
+02.16 14.54.19  INFO	ru.sfedu.crm.Main:17 - Main[1]: End
+02.16 15.27.11  INFO	ru.sfedu.crm.Main:11 - Main[0]: Start
+02.16 15.27.12  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:50 - getSchemas[]: resultList: [INFORMATION_SCHEMA, PUBLIC]
+02.16 15.27.12  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:61 - getUsers[]: resultList: [USER]
+02.16 15.27.12  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:73 - getTables[]: resultList: []
+02.16 15.27.12  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:84 - getColumns[]: resultList: []
+02.16 15.27.12  INFO	ru.sfedu.crm.Main:15 - Main[1]: End
+02.16 15.35.18  INFO	ru.sfedu.crm.Main:13 - Main[0]: Start
+02.16 15.35.19  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:50 - getSchemas[]: resultList: [INFORMATION_SCHEMA, PUBLIC]
+02.16 15.35.19  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:61 - getUsers[]: resultList: [USER]
+02.16 15.35.19  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:73 - getTables[]: resultList: []
+02.16 15.35.19  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:84 - getColumns[]: resultList: []
+02.16 15.39.58  INFO	ru.sfedu.crm.Main:13 - Main[0]: Start
+02.16 15.39.59  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:50 - getSchemas[]: resultList: [INFORMATION_SCHEMA, PUBLIC]
+02.16 15.39.59  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:61 - getUsers[]: resultList: [USER]
+02.16 15.39.59  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:73 - getTables[]: resultList: []
+02.16 15.39.59  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:84 - getColumns[]: resultList: []
+02.16 15.39.59 ERROR	ru.sfedu.crm.lab2.api.TestEntityProvider:30 - save[0]: saving error!
+02.16 15.39.59 ERROR	ru.sfedu.crm.lab2.api.TestEntityProvider:31 - save[1]:org.hibernate.MappingException: Unknown entity: ru.sfedu.crm.lab2.model.TestEntity
+02.16 15.39.59  INFO	ru.sfedu.crm.Main:20 - Main[1]: End
+02.16 15.40.09  INFO	ru.sfedu.crm.Main:13 - Main[0]: Start
+02.16 15.40.10  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:50 - getSchemas[]: resultList: [INFORMATION_SCHEMA, PUBLIC]
+02.16 15.40.10  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:61 - getUsers[]: resultList: [USER]
+02.16 15.40.10  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:73 - getTables[]: resultList: []
+02.16 15.40.10  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:84 - getColumns[]: resultList: []
+02.16 15.40.10 ERROR	ru.sfedu.crm.lab2.api.TestEntityProvider:30 - save[0]: saving error!
+02.16 15.40.10 ERROR	ru.sfedu.crm.lab2.api.TestEntityProvider:31 - save[1]:org.hibernate.MappingException: Unknown entity: ru.sfedu.crm.lab2.model.TestEntity
+02.16 15.40.10  INFO	ru.sfedu.crm.Main:20 - Main[1]: End
+02.16 15.41.33  INFO	ru.sfedu.crm.Main:13 - Main[0]: Start
+02.16 15.41.34  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:50 - getSchemas[]: resultList: [INFORMATION_SCHEMA, PUBLIC]
+02.16 15.41.34  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:61 - getUsers[]: resultList: [USER]
+02.16 15.41.34  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:73 - getTables[]: resultList: []
+02.16 15.41.34  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:84 - getColumns[]: resultList: []
+02.16 15.41.34 ERROR	ru.sfedu.crm.lab2.api.TestEntityProvider:30 - save[0]: saving error!
+02.16 15.41.34 ERROR	ru.sfedu.crm.lab2.api.TestEntityProvider:31 - save[1]:org.hibernate.MappingException: Unknown entity: ru.sfedu.crm.lab2.model.TestEntity
+02.16 15.41.34  INFO	ru.sfedu.crm.Main:20 - Main[1]: End
+02.16 15.47.11  INFO	ru.sfedu.crm.Main:13 - Main[0]: Start
+02.16 15.47.12  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:50 - getSchemas[]: resultList: [INFORMATION_SCHEMA, PUBLIC]
+02.16 15.47.12  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:61 - getUsers[]: resultList: [USER]
+02.16 15.47.12  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:73 - getTables[]: resultList: []
+02.16 15.47.12  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:84 - getColumns[]: resultList: []
+02.16 15.47.12 ERROR	ru.sfedu.crm.lab2.api.TestEntityProvider:30 - save[0]: saving error!
+02.16 15.47.12 ERROR	ru.sfedu.crm.lab2.api.TestEntityProvider:31 - save[1]:org.hibernate.exception.SQLGrammarException: could not prepare statement
+02.16 15.47.12  INFO	ru.sfedu.crm.Main:20 - Main[1]: End
+02.16 15.48.21  INFO	ru.sfedu.crm.Main:13 - Main[0]: Start
+02.16 15.48.23  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:50 - getSchemas[]: resultList: [INFORMATION_SCHEMA, PUBLIC]
+02.16 15.48.23  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:61 - getUsers[]: resultList: [USER]
+02.16 15.48.23  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:73 - getTables[]: resultList: []
+02.16 15.48.23  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:84 - getColumns[]: resultList: []
+02.16 15.48.23 ERROR	ru.sfedu.crm.lab2.api.TestEntityProvider:30 - save[0]: saving error!
+02.16 15.48.23 ERROR	ru.sfedu.crm.lab2.api.TestEntityProvider:31 - save[1]:org.hibernate.exception.SQLGrammarException: could not prepare statement
+02.16 15.48.23  INFO	ru.sfedu.crm.Main:20 - Main[1]: End
+02.16 15.53.16  INFO	ru.sfedu.crm.Main:13 - Main[0]: Start
+02.16 15.53.18  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:50 - getSchemas[]: resultList: [INFORMATION_SCHEMA, PUBLIC]
+02.16 15.53.18  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:61 - getUsers[]: resultList: [USER]
+02.16 15.53.18  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:73 - getTables[]: resultList: [TEST_ENTITY]
+02.16 15.53.18  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:84 - getColumns[]: resultList: [ID, CONTROL, DATECREATED, DESCRIPTION, NAME]
+02.16 15.53.18  INFO	ru.sfedu.crm.Main:20 - Main[1]: End
+02.16 16.06.32  INFO	ru.sfedu.crm.Main:20 - Main[0]: Start
+02.16 16.06.33  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:50 - getSchemas[]: resultList: [INFORMATION_SCHEMA, PUBLIC]
+02.16 16.06.33  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:61 - getUsers[]: resultList: [USER]
+02.16 16.06.33  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:73 - getTables[]: resultList: [TEST_ENTITY]
+02.16 16.06.33  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:84 - getColumns[]: resultList: [ID, CONTROL, DATECREATED, DESCRIPTION, NAME]
+02.16 16.06.33  INFO	ru.sfedu.crm.Main:28 - Main[1]: End
+02.16 16.08.56  INFO	ru.sfedu.crm.Main:20 - Main[0]: Start
+02.16 16.08.57 ERROR	ru.sfedu.crm.Main:51 - initDataBase[0]: Database initialization Error
+02.16 16.08.57 ERROR	ru.sfedu.crm.Main:52 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "TEST_ENTITY" уже существует
+Table "TEST_ENTITY" already exists; SQL statement:
+create table Test_Entity(id long primary key ,name text,description text,dateCreated Date,control bool) [42101-200]
+02.16 16.08.58  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:50 - getSchemas[]: resultList: [INFORMATION_SCHEMA, PUBLIC]
+02.16 16.08.58  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:61 - getUsers[]: resultList: [USER]
+02.16 16.08.58  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:73 - getTables[]: resultList: [TEST_ENTITY]
+02.16 16.08.58  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:84 - getColumns[]: resultList: [ID, CONTROL, DATECREATED, DESCRIPTION, NAME]
+02.16 16.08.58  INFO	ru.sfedu.crm.Main:29 - Main[1]: End
+02.16 16.10.29  INFO	ru.sfedu.crm.Main:20 - Main[0]: Start
+02.16 16.10.30  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:50 - getSchemas[]: resultList: [INFORMATION_SCHEMA, PUBLIC]
+02.16 16.10.30  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:61 - getUsers[]: resultList: [USER]
+02.16 16.10.30  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:73 - getTables[]: resultList: [TEST_ENTITY]
+02.16 16.10.30  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:84 - getColumns[]: resultList: [ID, CONTROL, DATECREATED, DESCRIPTION, NAME]
+02.16 16.10.30  INFO	ru.sfedu.crm.Main:29 - Main[1]: End
+02.16 16.12.17  INFO	ru.sfedu.crm.Main:20 - Main[0]: Start
+02.16 16.12.18  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:50 - getSchemas[]: resultList: [INFORMATION_SCHEMA, PUBLIC]
+02.16 16.12.18  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:61 - getUsers[]: resultList: [USER]
+02.16 16.12.18  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:73 - getTables[]: resultList: [TEST_ENTITY]
+02.16 16.12.18  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:84 - getColumns[]: resultList: [ID, CONTROL, DATECREATED, DESCRIPTION, NAME]
+02.16 16.12.18  INFO	ru.sfedu.crm.Main:29 - Main[1]: End
+02.16 16.12.37  INFO	ru.sfedu.crm.Main:20 - Main[0]: Start
+02.16 16.12.38  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:50 - getSchemas[]: resultList: [INFORMATION_SCHEMA, PUBLIC]
+02.16 16.12.38  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:61 - getUsers[]: resultList: [USER]
+02.16 16.12.38  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:73 - getTables[]: resultList: [TEST_ENTITY]
+02.16 16.12.38  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:84 - getColumns[]: resultList: [ID, CONTROL, DATECREATED, DESCRIPTION, NAME]
+02.16 16.12.38  INFO	ru.sfedu.crm.Main:29 - Main[1]: End
+02.16 16.13.17  INFO	ru.sfedu.crm.Main:20 - Main[0]: Start
+02.16 16.13.18  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:50 - getSchemas[]: resultList: [INFORMATION_SCHEMA, PUBLIC]
+02.16 16.13.18  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:61 - getUsers[]: resultList: [USER]
+02.16 16.13.18  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:73 - getTables[]: resultList: [TEST_ENTITY]
+02.16 16.13.18  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:84 - getColumns[]: resultList: [ID, CONTROL, DATECREATED, DESCRIPTION, NAME]
+02.16 16.13.18  INFO	ru.sfedu.crm.Main:28 - Main[1]: End
+02.16 16.27.21  INFO	ru.sfedu.crm.Main:20 - Main[0]: Start
+02.16 16.27.22  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:50 - getSchemas[]: resultList: [INFORMATION_SCHEMA, PUBLIC]
+02.16 16.27.22  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:61 - getUsers[]: resultList: [USER]
+02.16 16.27.22  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:73 - getTables[]: resultList: [TEST_ENTITY]
+02.16 16.27.22  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:84 - getColumns[]: resultList: [ID, CONTROL, DATECREATED, DESCRIPTION, NAME]
+02.16 16.27.22  INFO	ru.sfedu.crm.Main:28 - Main[1]: End
+02.16 16.43.51  INFO	ru.sfedu.crm.Main:20 - Main[0]: Start
+02.16 16.43.52  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:50 - getSchemas[]: resultList: [INFORMATION_SCHEMA, PUBLIC]
+02.16 16.43.52  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:61 - getUsers[]: resultList: [USER]
+02.16 16.43.52  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:73 - getTables[]: resultList: [TEST_ENTITY]
+02.16 16.43.52  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:84 - getColumns[]: resultList: [ID, CONTROL, DATECREATED, DESCRIPTION, NAME]
+02.16 16.43.52  INFO	ru.sfedu.crm.Main:38 - Optional[TestEntity{id=1, name='John', description='3123', dateCreated=null, control=true}]
+02.16 16.43.53  INFO	ru.sfedu.crm.Main:41 - Optional[TestEntity{id=1, name='UPDATED NAME', description='3123', dateCreated=null, control=true}]
+02.16 16.43.53 ERROR	ru.sfedu.crm.lab2.api.TestEntityProvider:44 - receiveRecordById[0] Record with id = 1 not found
+02.16 16.43.53 ERROR	ru.sfedu.crm.lab2.api.TestEntityProvider:45 - receiveRecordById[1]:java.lang.NullPointerException: null
+02.16 16.43.53  INFO	ru.sfedu.crm.Main:43 - Optional.empty
+02.16 16.43.53  INFO	ru.sfedu.crm.Main:25 - Main[1]: End
+02.16 16.44.42  INFO	ru.sfedu.crm.Main:20 - Main[0]: Start
+02.16 16.44.43 DEBUG	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:38 - getRecords[]: resultList: [INFORMATION_SCHEMA, PUBLIC]
+02.16 16.44.43  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:50 - getSchemas[]: resultList: [INFORMATION_SCHEMA, PUBLIC]
+02.16 16.44.43 DEBUG	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:38 - getRecords[]: resultList: [USER]
+02.16 16.44.43  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:61 - getUsers[]: resultList: [USER]
+02.16 16.44.43 DEBUG	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:38 - getRecords[]: resultList: [TEST_ENTITY]
+02.16 16.44.43  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:73 - getTables[]: resultList: [TEST_ENTITY]
+02.16 16.44.43 DEBUG	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:38 - getRecords[]: resultList: [ID, CONTROL, DATECREATED, DESCRIPTION, NAME]
+02.16 16.44.43  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:84 - getColumns[]: resultList: [ID, CONTROL, DATECREATED, DESCRIPTION, NAME]
+02.16 16.44.43 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:91 - addRecord[0]: try to save entity:TestEntity{id=null, name='John', description='3123', dateCreated=null, control=true}
+02.16 16.44.43 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:93 - addRecord[1]: entity saved!
+02.16 16.44.43 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:38 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab2.model.TestEntity
+02.16 16.44.43 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:40 - receiveRecordById[1]: receiving success! :
+02.16 16.44.43  INFO	ru.sfedu.crm.Main:38 - Optional[TestEntity{id=1, name='John', description='3123', dateCreated=null, control=true}]
+02.16 16.44.43 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:74 - updateRecord[0]: try to merge(update) entity:TestEntity{id=1, name='UPDATED NAME', description='3123', dateCreated=null, control=true}
+02.16 16.44.43 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:76 - updateRecord[0]: entity updated!
+02.16 16.44.43 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:38 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab2.model.TestEntity
+02.16 16.44.43 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:40 - receiveRecordById[1]: receiving success! :
+02.16 16.44.43  INFO	ru.sfedu.crm.Main:41 - Optional[TestEntity{id=1, name='UPDATED NAME', description='3123', dateCreated=null, control=true}]
+02.16 16.44.43 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:55 - deleteRecord[0]: try to delete entity:class ru.sfedu.crm.lab2.model.TestEntity
+02.16 16.44.43 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:58 - deleteRecord[1]: entity successfully deleted!
+02.16 16.44.43 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:38 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab2.model.TestEntity
+02.16 16.44.43 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:40 - receiveRecordById[1]: receiving success! :
+02.16 16.44.43 ERROR	ru.sfedu.crm.lab2.api.TestEntityProvider:44 - receiveRecordById[0] Record with id = 1 not found
+02.16 16.44.43 ERROR	ru.sfedu.crm.lab2.api.TestEntityProvider:45 - receiveRecordById[1]:java.lang.NullPointerException: null
+02.16 16.44.43  INFO	ru.sfedu.crm.Main:43 - Optional.empty
+02.16 16.44.43  INFO	ru.sfedu.crm.Main:25 - Main[1]: End
+02.16 17.03.09  INFO	ru.sfedu.crm.Main:20 - Main[0]: Start
+02.16 17.03.10 DEBUG	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:38 - getRecords[]: resultList: [INFORMATION_SCHEMA, PUBLIC]
+02.16 17.03.10  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:50 - getSchemas[]: resultList: [INFORMATION_SCHEMA, PUBLIC]
+02.16 17.03.10 DEBUG	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:38 - getRecords[]: resultList: [USER]
+02.16 17.03.10  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:61 - getUsers[]: resultList: [USER]
+02.16 17.03.10 DEBUG	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:38 - getRecords[]: resultList: [TEST_ENTITY]
+02.16 17.03.10  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:73 - getTables[]: resultList: [TEST_ENTITY]
+02.16 17.03.11 DEBUG	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:38 - getRecords[]: resultList: [ID, CONTROL, DATECREATED, DESCRIPTION, TEXT, NAME]
+02.16 17.03.11  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:84 - getColumns[]: resultList: [ID, CONTROL, DATECREATED, DESCRIPTION, TEXT, NAME]
+02.16 17.03.11 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:90 - addRecord[0]: try to save entity:TestEntity{id=null, name='John', description='3123', dateCreated=null, control=true, embeddedEntity=null}
+02.16 17.03.11 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:92 - addRecord[1]: entity saved!
+02.16 17.03.11 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:38 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab2.model.TestEntity
+02.16 17.03.11  INFO	ru.sfedu.crm.Main:38 - Optional[TestEntity{id=1, name='John', description='3123', dateCreated=null, control=true, embeddedEntity=null}]
+02.16 17.03.11 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:73 - updateRecord[0]: try to merge(update) entity:TestEntity{id=1, name='UPDATED NAME', description='3123', dateCreated=null, control=true, embeddedEntity=null}
+02.16 17.03.11 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:75 - updateRecord[0]: entity updated!
+02.16 17.03.11 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:38 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab2.model.TestEntity
+02.16 17.03.11  INFO	ru.sfedu.crm.Main:41 - Optional[TestEntity{id=1, name='UPDATED NAME', description='3123', dateCreated=null, control=true, embeddedEntity=null}]
+02.16 17.03.11 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:54 - deleteRecord[0]: try to delete entity:class ru.sfedu.crm.lab2.model.TestEntity
+02.16 17.03.11 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:57 - deleteRecord[1]: entity successfully deleted!
+02.16 17.03.11 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:38 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab2.model.TestEntity
+02.16 17.03.11 ERROR	ru.sfedu.crm.lab2.api.TestEntityProvider:43 - receiveRecordById[0] Record with id = 1 not found
+02.16 17.03.11 ERROR	ru.sfedu.crm.lab2.api.TestEntityProvider:44 - receiveRecordById[1]:java.lang.NullPointerException: null
+02.16 17.03.11  INFO	ru.sfedu.crm.Main:43 - Optional.empty
+02.16 17.03.11 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:90 - addRecord[0]: try to save entity:TestEntity{id=1, name='UPDATED NAME', description='3123', dateCreated=null, control=true, embeddedEntity=null}
+02.16 17.03.11 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:92 - addRecord[1]: entity saved!
+02.16 17.03.11 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:106 - clearTable[0]: try to clear table Test_Entity:
+02.16 17.03.11 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:109 - clearTable[0]: clearing table Test_Entity success!
+02.16 17.03.11  INFO	ru.sfedu.crm.Main:25 - Main[1]: End
+02.16 17.04.26  INFO	ru.sfedu.crm.Main:20 - Main[0]: Start
+02.16 17.04.27 DEBUG	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:38 - getRecords[]: resultList: [INFORMATION_SCHEMA, PUBLIC]
+02.16 17.04.27  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:50 - getSchemas[]: resultList: [INFORMATION_SCHEMA, PUBLIC]
+02.16 17.04.27 DEBUG	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:38 - getRecords[]: resultList: [USER]
+02.16 17.04.27  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:61 - getUsers[]: resultList: [USER]
+02.16 17.04.27 DEBUG	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:38 - getRecords[]: resultList: [TEST_ENTITY]
+02.16 17.04.27  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:73 - getTables[]: resultList: [TEST_ENTITY]
+02.16 17.04.27 DEBUG	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:38 - getRecords[]: resultList: [ID, CONTROL, DATECREATED, DESCRIPTION, TEXT, NAME]
+02.16 17.04.27  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:84 - getColumns[]: resultList: [ID, CONTROL, DATECREATED, DESCRIPTION, TEXT, NAME]
+02.16 17.04.27 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:90 - addRecord[0]: try to save entity:TestEntity{id=null, name='John', description='3123', dateCreated=null, control=true, embeddedEntity=null}
+02.16 17.04.28 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:92 - addRecord[1]: entity saved!
+02.16 17.04.28 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:38 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab2.model.TestEntity
+02.16 17.04.28  INFO	ru.sfedu.crm.Main:38 - Optional[TestEntity{id=1, name='John', description='3123', dateCreated=null, control=true, embeddedEntity=null}]
+02.16 17.04.28 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:73 - updateRecord[0]: try to merge(update) entity:TestEntity{id=1, name='UPDATED NAME', description='3123', dateCreated=null, control=true, embeddedEntity=null}
+02.16 17.04.28 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:75 - updateRecord[0]: entity updated!
+02.16 17.04.28 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:38 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab2.model.TestEntity
+02.16 17.04.28  INFO	ru.sfedu.crm.Main:41 - Optional[TestEntity{id=1, name='UPDATED NAME', description='3123', dateCreated=null, control=true, embeddedEntity=null}]
+02.16 17.04.28 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:54 - deleteRecord[0]: try to delete entity:class ru.sfedu.crm.lab2.model.TestEntity
+02.16 17.04.28 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:57 - deleteRecord[1]: entity successfully deleted!
+02.16 17.04.28 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:38 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab2.model.TestEntity
+02.16 17.04.28 ERROR	ru.sfedu.crm.lab2.api.TestEntityProvider:43 - receiveRecordById[0] Record with id = 1 not found
+02.16 17.04.28 ERROR	ru.sfedu.crm.lab2.api.TestEntityProvider:44 - receiveRecordById[1]:java.lang.NullPointerException: null
+02.16 17.04.28  INFO	ru.sfedu.crm.Main:43 - Optional.empty
+02.16 17.04.28 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:90 - addRecord[0]: try to save entity:TestEntity{id=1, name='UPDATED NAME', description='3123', dateCreated=null, control=true, embeddedEntity=null}
+02.16 17.04.28 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:92 - addRecord[1]: entity saved!
+02.16 17.04.28 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:106 - clearTable[0]: try to clear table Test_Entity:
+02.16 17.04.28 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:109 - clearTable[0]: clearing table Test_Entity success!
+02.16 17.04.28  INFO	ru.sfedu.crm.Main:25 - Main[1]: End

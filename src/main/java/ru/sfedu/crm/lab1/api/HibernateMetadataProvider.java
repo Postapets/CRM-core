@@ -22,39 +22,15 @@ public class HibernateMetadataProvider implements IMetadataProvider {
 
     private static Logger log = LogManager.getLogger(HibernateMetadataProvider.class);
 
-    public HibernateMetadataProvider(){
-        log.trace("Initialize database connection, getting driver:");
-        try{
-            Class.forName(getConfigurationEntry(DB_DRIVER));
-            log.trace("Creating tables:");
-            Connection connection = connection();
-            connection.createStatement().executeUpdate(CREATE_TABLE_USER);
-            connection.createStatement().executeUpdate(CREATE_TABLE_CLIENT);
-            connection.createStatement().executeUpdate(CREATE_TABLE_WORKER);
-            connection.createStatement().executeUpdate(CREATE_TABLE_REQUEST);
-            connection.createStatement().executeUpdate(CREATE_TABLE_REQUEST_CATEGORY);
-            connection.createStatement().executeUpdate(CREATE_TABLE_FEEDBACK);
-
-        }
-        catch(Exception e){
-            log.error("Database initialization Error");
-            log.error(e.getClass().getName() + ": " + e.getMessage());
-        }
-    }
-
-    private Connection connection() throws IOException, SQLException {
-        log.debug("connection[0]: Initialize db connection:");
-        Connection connection = DriverManager.getConnection(getConfigurationEntry(DB_URL)
-                , getConfigurationEntry(DB_USER)
-                , getConfigurationEntry(DB_PASSWORD));
-        log.debug("connection[1]: Connection success");
-        return connection;
-    }
     private Session getSession(){
         SessionFactory sessionFactory = HibernateUtil.getSessionFactory();
         return sessionFactory.openSession();
     }
 
+    /**
+     * @param string query
+     * @return resultList list of needed values
+     */
     public List getRecords(String string) {
         Session session = getSession();
         NativeQuery query = session.createSQLQuery(string);
@@ -66,7 +42,6 @@ public class HibernateMetadataProvider implements IMetadataProvider {
 
     /**
      * Returns all schemas
-     *
      * @return list
      */
     @Override
@@ -78,7 +53,6 @@ public class HibernateMetadataProvider implements IMetadataProvider {
 
     /**
      * Returns all users
-     *
      * @return list
      */
     @Override
@@ -91,7 +65,6 @@ public class HibernateMetadataProvider implements IMetadataProvider {
 
     /**
      * Returns all tables
-     *
      * @return list
      */
     @Override
@@ -103,7 +76,6 @@ public class HibernateMetadataProvider implements IMetadataProvider {
 
     /**
      * Returns all columns
-     *
      * @return list
      */
     @Override
@@ -114,5 +86,32 @@ public class HibernateMetadataProvider implements IMetadataProvider {
     }
 
 
+//    public HibernateMetadataProvider(){
+//        log.trace("Initialize database connection, getting driver:");
+//        try{
+//            Class.forName(getConfigurationEntry(DB_DRIVER));
+//            log.trace("Creating tables:");
+//            Connection connection = connection();
+//            connection.createStatement().executeUpdate(CREATE_TABLE_USER);
+//            connection.createStatement().executeUpdate(CREATE_TABLE_CLIENT);
+//            connection.createStatement().executeUpdate(CREATE_TABLE_WORKER);
+//            connection.createStatement().executeUpdate(CREATE_TABLE_REQUEST);
+//            connection.createStatement().executeUpdate(CREATE_TABLE_REQUEST_CATEGORY);
+//            connection.createStatement().executeUpdate(CREATE_TABLE_FEEDBACK);
+//        }
+//        catch(Exception e){
+//            log.error("Database initialization Error");
+//            log.error(e.getClass().getName() + ": " + e.getMessage());
+//        }
+//    }
+//
+//    private Connection connection() throws IOException, SQLException {
+//        log.debug("connection[0]: Initialize db connection:");
+//        Connection connection = DriverManager.getConnection(getConfigurationEntry(DB_URL)
+//                , getConfigurationEntry(DB_USER)
+//                , getConfigurationEntry(DB_PASSWORD));
+//        log.debug("connection[1]: Connection success");
+//        return connection;
+//    }
 
 }

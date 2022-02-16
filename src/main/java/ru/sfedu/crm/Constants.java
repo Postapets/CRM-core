@@ -17,7 +17,8 @@ public class Constants {
             "where TABLE_SCHEMA = 'PUBLIC'";
     public static final String SQL_ALL_USERS = "select name from information_schema.users";
 
-
+    public static final String HQL_FROM = "from %s";
+    public static final String HQL_DELETE_FROM = "delete from %s";
 
 
     //

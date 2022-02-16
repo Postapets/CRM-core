@@ -7,6 +7,7 @@ import org.hibernate.cfg.Configuration;
 import org.hibernate.internal.util.config.ConfigurationException;
 import org.hibernate.service.ServiceRegistry;
 import ru.sfedu.crm.Constants;
+import ru.sfedu.crm.lab2.model.TestEntity;
 
 import java.io.File;
 import java.io.IOException;
@@ -27,13 +28,13 @@ public class HibernateUtil {
             ServiceRegistry serviceRegistry = new StandardServiceRegistryBuilder().applySettings(configuration.getProperties()).build();
 
             MetadataSources metadataSources = new MetadataSources(serviceRegistry);
-            //addEntities(metadataSources);
-            //metadataSources.addAnnotatedClass(TestEntity.class);// Аннотированная сущность
-            //metadataSources.addResource("named-queries.hbm.xml");// Именованные запросы
+            bindEntities(metadataSources);
             sessionFactory = metadataSources.buildMetadata().buildSessionFactory();
         }
-
         return sessionFactory;
+    }
+    public static void bindEntities(MetadataSources metadataSources){
+        metadataSources.addAnnotatedClass(TestEntity.class);
     }
 
 }
