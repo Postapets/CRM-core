@@ -42,7 +42,9 @@ public class Main {
         tep.deleteRecord(TestEntity.class, 1L);
         log.info(tep.receiveRecordById(TestEntity.class,1L));
         tep.addRecord(entity);
+        log.info(tep.loadList(TestEntity.class));
         tep.clearTable(TestEntity.class);
+        log.info(tep.loadList(TestEntity.class));
     }
 //    private void initDatabase() {
 //        try{

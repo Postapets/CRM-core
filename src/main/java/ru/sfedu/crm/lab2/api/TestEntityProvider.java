@@ -10,6 +10,7 @@ import ru.sfedu.crm.Constants;
 import ru.sfedu.crm.lab2.model.TestEntity;
 import ru.sfedu.crm.utils.HibernateUtil;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
@@ -24,12 +25,20 @@ public class TestEntityProvider {
     public List<TestEntity> loadList(Class<TestEntity> entity) {
         Session session = this.getSession();
         Transaction transaction = session.beginTransaction();
-        log.debug("loadList[0]: try to load list of entities from table Test_Entity:");
-        Query query = session.createQuery(String.format(Constants.HQL_FROM,entity.getSimpleName()));
-        List list = query.list();
-        transaction.commit();
-        session.close();
-        return list;
+        try {
+            log.debug("loadList[0]: try to load list of entities from table Test_Entity:");
+            Query query = session.createQuery(String.format(Constants.HQL_FROM, entity.getSimpleName()));
+            List list = query.list();
+            log.debug("loadList[0]: Loading success!");
+            log.trace("List of records: " + list);
+            transaction.commit();
+            session.close();
+            return list;
+        } catch (Exception e) {
+            log.error("loadBeanList[0]: Loading from table Test_Entity Error");
+            log.error("loadBeanList[1]: " + e.getClass().getName() + ": " + e.getMessage());
+        }
+        return new ArrayList<>();
     }
 
     public Optional<TestEntity> receiveRecordById(Class<TestEntity> entity, Long id) {
@@ -37,6 +46,7 @@ public class TestEntityProvider {
         try{
             log.debug("receiveRecordById[0]: try to receive entity by id:" + entity);
             TestEntity testEntity = session.get(entity, id);
+            log.debug("receiveRecordById[0]: Receiving complete");
             session.close();
             return Optional.of(testEntity);
         }catch (NullPointerException e){
@@ -47,7 +57,6 @@ public class TestEntityProvider {
     }
 
     public Boolean deleteRecord(Class<TestEntity> entity, Long id) {
-        Boolean result = false;
         Session session = this.getSession();
         Transaction transaction = session.beginTransaction();
         try {
@@ -55,14 +64,13 @@ public class TestEntityProvider {
             TestEntity testEntity = session.get(entity, id);
             session.delete(testEntity);
             log.debug("deleteRecord[1]: entity successfully deleted!");
-            result = true;
-        }catch (NullPointerException e){
-            log.error("deleteRecord[0] Record with id = "+id+" not found");
-            log.error("deleteRecord[1]:" + e.getClass().getName() + ": " + e.getMessage());
-        }finally {
             transaction.commit();
             session.close();
-            return result;
+            return true;
+        }catch (Exception e){
+            log.error("deleteRecord[0] Record with id = "+id+" not found");
+            log.error("deleteRecord[1]:" + e.getClass().getName() + ": " + e.getMessage());
+            return false;
         }
     }
 
@@ -88,7 +96,7 @@ public class TestEntityProvider {
             Session session = this.getSession();
             Transaction transaction = session.beginTransaction();
             log.debug("addRecord[0]: try to save entity:" + entity);
-            Long id = (Long) session.save(entity);
+            session.save(entity);
             log.debug("addRecord[1]: entity saved!");
             transaction.commit();
             session.close();

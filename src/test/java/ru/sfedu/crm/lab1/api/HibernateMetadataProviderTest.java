@@ -1,3 +1,5 @@
+package ru.sfedu.crm.lab1.api;
+
 import org.junit.Test;
 import ru.sfedu.crm.lab1.api.HibernateMetadataProvider;
 
