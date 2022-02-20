@@ -2330,3 +2330,821 @@ create table Test_Entity(id long primary key ,name text,description text,dateCre
 02.17 16.21.29  INFO	ru.sfedu.crm.lab2.api.TestEntityProviderTest:51 - loadListNegative:
 02.17 16.21.29 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:29 - loadList[0]: try to load list of entities from table Test_Entity:
 02.17 16.21.29 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:32 - loadList[0]: Loading success!
+02.17 16.41.49 DEBUG	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:38 - getRecords[]: resultList: [INFORMATION_SCHEMA, PUBLIC]
+02.17 16.41.49 DEBUG	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:38 - getRecords[]: resultList: [TEST_ENTITY]
+02.17 16.41.49 DEBUG	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:38 - getRecords[]: resultList: [USER]
+02.17 16.41.49 DEBUG	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:38 - getRecords[]: resultList: [ID, CONTROL, DATECREATED, DESCRIPTION, TEXT, NAME]
+02.17 16.41.49  INFO	ru.sfedu.crm.lab2.api.TestEntityProviderTest:37 - Before run:
+02.17 16.41.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:114 - clearTable[0]: try to clear table Test_Entity:
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:117 - clearTable[0]: clearing table Test_Entity success!
+02.17 16.41.50  INFO	ru.sfedu.crm.lab2.api.TestEntityProviderTest:110 - addRecordPositive:
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:29 - loadList[0]: try to load list of entities from table Test_Entity:
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:32 - loadList[0]: Loading success!
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProviderTest:23 - initRecord[0]: Start initiate record
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:98 - addRecord[0]: try to save entity:TestEntity{id=1, name='john', description='any desc', dateCreated=null, control=true, embeddedEntity=EmbeddedEntity{text='Any embedded text'}}
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:100 - addRecord[1]: entity saved!
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:29 - loadList[0]: try to load list of entities from table Test_Entity:
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:32 - loadList[0]: Loading success!
+02.17 16.41.50  INFO	ru.sfedu.crm.lab2.api.TestEntityProviderTest:37 - Before run:
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:114 - clearTable[0]: try to clear table Test_Entity:
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:117 - clearTable[0]: clearing table Test_Entity success!
+02.17 16.41.50  INFO	ru.sfedu.crm.lab2.api.TestEntityProviderTest:89 - updateRecordPositive:
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProviderTest:23 - initRecord[0]: Start initiate record
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:98 - addRecord[0]: try to save entity:TestEntity{id=1, name='john', description='any desc', dateCreated=null, control=true, embeddedEntity=EmbeddedEntity{text='Any embedded text'}}
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:100 - addRecord[1]: entity saved!
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:29 - loadList[0]: try to load list of entities from table Test_Entity:
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:32 - loadList[0]: Loading success!
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:81 - updateRecord[0]: try to merge(update) entity:TestEntity{id=2, name='UPDATED NAME', description='any desc', dateCreated=null, control=true, embeddedEntity=EmbeddedEntity{text='Any embedded text'}}
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:83 - updateRecord[0]: entity updated!
+02.17 16.41.50  INFO	ru.sfedu.crm.lab2.api.TestEntityProviderTest:37 - Before run:
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:114 - clearTable[0]: try to clear table Test_Entity:
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:117 - clearTable[0]: clearing table Test_Entity success!
+02.17 16.41.50  INFO	ru.sfedu.crm.lab2.api.TestEntityProviderTest:99 - updateRecordNegative:
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProviderTest:23 - initRecord[0]: Start initiate record
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:98 - addRecord[0]: try to save entity:TestEntity{id=1, name='john', description='any desc', dateCreated=null, control=true, embeddedEntity=EmbeddedEntity{text='Any embedded text'}}
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:100 - addRecord[1]: entity saved!
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:47 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab2.model.TestEntity
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:49 - receiveRecordById[0]: Receiving complete
+02.17 16.41.50 ERROR	ru.sfedu.crm.lab2.api.TestEntityProvider:53 - receiveRecordById[0] Record with id = 200 not found
+02.17 16.41.50 ERROR	ru.sfedu.crm.lab2.api.TestEntityProvider:54 - receiveRecordById[1]:java.lang.NullPointerException: null
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:81 - updateRecord[0]: try to merge(update) entity:TestEntity{id=200, name='null', description='null', dateCreated=null, control=null, embeddedEntity=null}
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:83 - updateRecord[0]: entity updated!
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:47 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab2.model.TestEntity
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:49 - receiveRecordById[0]: Receiving complete
+02.17 16.41.50 ERROR	ru.sfedu.crm.lab2.api.TestEntityProvider:53 - receiveRecordById[0] Record with id = 200 not found
+02.17 16.41.50 ERROR	ru.sfedu.crm.lab2.api.TestEntityProvider:54 - receiveRecordById[1]:java.lang.NullPointerException: null
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:114 - clearTable[0]: try to clear table Test_Entity:
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:117 - clearTable[0]: clearing table Test_Entity success!
+02.17 16.41.50  INFO	ru.sfedu.crm.lab2.api.TestEntityProviderTest:37 - Before run:
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:114 - clearTable[0]: try to clear table Test_Entity:
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:117 - clearTable[0]: clearing table Test_Entity success!
+02.17 16.41.50  INFO	ru.sfedu.crm.lab2.api.TestEntityProviderTest:76 - deleteRecordPositive:
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProviderTest:23 - initRecord[0]: Start initiate record
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:98 - addRecord[0]: try to save entity:TestEntity{id=1, name='john', description='any desc', dateCreated=null, control=true, embeddedEntity=EmbeddedEntity{text='Any embedded text'}}
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:100 - addRecord[1]: entity saved!
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:29 - loadList[0]: try to load list of entities from table Test_Entity:
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:32 - loadList[0]: Loading success!
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:63 - deleteRecord[0]: try to delete entity:class ru.sfedu.crm.lab2.model.TestEntity
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:66 - deleteRecord[1]: entity successfully deleted!
+02.17 16.41.50  INFO	ru.sfedu.crm.lab2.api.TestEntityProviderTest:37 - Before run:
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:114 - clearTable[0]: try to clear table Test_Entity:
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:117 - clearTable[0]: clearing table Test_Entity success!
+02.17 16.41.50  INFO	ru.sfedu.crm.lab2.api.TestEntityProviderTest:83 - deleteRecordNegative:
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:63 - deleteRecord[0]: try to delete entity:class ru.sfedu.crm.lab2.model.TestEntity
+02.17 16.41.50 ERROR	ru.sfedu.crm.lab2.api.TestEntityProvider:71 - deleteRecord[0] Record with id = 1 not found
+02.17 16.41.50 ERROR	ru.sfedu.crm.lab2.api.TestEntityProvider:72 - deleteRecord[1]:java.lang.IllegalArgumentException: attempt to create delete event with null entity
+02.17 16.41.50  INFO	ru.sfedu.crm.lab2.api.TestEntityProviderTest:37 - Before run:
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:114 - clearTable[0]: try to clear table Test_Entity:
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:117 - clearTable[0]: clearing table Test_Entity success!
+02.17 16.41.50  INFO	ru.sfedu.crm.lab2.api.TestEntityProviderTest:58 - receiveRecordByIdPositive:
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProviderTest:23 - initRecord[0]: Start initiate record
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:98 - addRecord[0]: try to save entity:TestEntity{id=1, name='john', description='any desc', dateCreated=null, control=true, embeddedEntity=EmbeddedEntity{text='Any embedded text'}}
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:100 - addRecord[1]: entity saved!
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:29 - loadList[0]: try to load list of entities from table Test_Entity:
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:32 - loadList[0]: Loading success!
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:47 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab2.model.TestEntity
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:49 - receiveRecordById[0]: Receiving complete
+02.17 16.41.50  INFO	ru.sfedu.crm.lab2.api.TestEntityProviderTest:62 - Optional[TestEntity{id=6, name='john', description='any desc', dateCreated=null, control=true, embeddedEntity=EmbeddedEntity{text='Any embedded text'}}]
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:29 - loadList[0]: try to load list of entities from table Test_Entity:
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:32 - loadList[0]: Loading success!
+02.17 16.41.50  INFO	ru.sfedu.crm.lab2.api.TestEntityProviderTest:63 - [TestEntity{id=6, name='john', description='any desc', dateCreated=null, control=true, embeddedEntity=EmbeddedEntity{text='Any embedded text'}}]
+02.17 16.41.50  INFO	ru.sfedu.crm.lab2.api.TestEntityProviderTest:37 - Before run:
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:114 - clearTable[0]: try to clear table Test_Entity:
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:117 - clearTable[0]: clearing table Test_Entity success!
+02.17 16.41.50  INFO	ru.sfedu.crm.lab2.api.TestEntityProviderTest:68 - receiveRecordByIdNegative:
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:47 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab2.model.TestEntity
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:49 - receiveRecordById[0]: Receiving complete
+02.17 16.41.50 ERROR	ru.sfedu.crm.lab2.api.TestEntityProvider:53 - receiveRecordById[0] Record with id = 1 not found
+02.17 16.41.50 ERROR	ru.sfedu.crm.lab2.api.TestEntityProvider:54 - receiveRecordById[1]:java.lang.NullPointerException: null
+02.17 16.41.50  INFO	ru.sfedu.crm.lab2.api.TestEntityProviderTest:37 - Before run:
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:114 - clearTable[0]: try to clear table Test_Entity:
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:117 - clearTable[0]: clearing table Test_Entity success!
+02.17 16.41.50  INFO	ru.sfedu.crm.lab2.api.TestEntityProviderTest:43 - loadListPositive:
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProviderTest:23 - initRecord[0]: Start initiate record
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:98 - addRecord[0]: try to save entity:TestEntity{id=1, name='john', description='any desc', dateCreated=null, control=true, embeddedEntity=EmbeddedEntity{text='Any embedded text'}}
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:100 - addRecord[1]: entity saved!
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:29 - loadList[0]: try to load list of entities from table Test_Entity:
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:32 - loadList[0]: Loading success!
+02.17 16.41.50  INFO	ru.sfedu.crm.lab2.api.TestEntityProviderTest:37 - Before run:
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:114 - clearTable[0]: try to clear table Test_Entity:
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:117 - clearTable[0]: clearing table Test_Entity success!
+02.17 16.41.50  INFO	ru.sfedu.crm.lab2.api.TestEntityProviderTest:51 - loadListNegative:
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:29 - loadList[0]: try to load list of entities from table Test_Entity:
+02.17 16.41.50 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:32 - loadList[0]: Loading success!
+02.20 11.39.38  INFO	ru.sfedu.crm.lab2.api.TestEntityProviderTest:37 - Before run:
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:47 - clearTable[0]: try to clear table Test_Entity:
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:50 - clearTable[0]: clearing table Test_Entity success!
+02.20 11.39.39  INFO	ru.sfedu.crm.lab2.api.TestEntityProviderTest:110 - addRecordPositive:
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:29 - loadList[0]: try to load list of entities from table Test_Entity:
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:32 - loadList[0]: Loading success!
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProviderTest:23 - initRecord[0]: Start initiate record
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:110 - addRecord[0]: try to save entity:TestEntity{id=1, name='john', description='any desc', dateCreated=null, control=true, embeddedEntity=EmbeddedEntity{text='Any embedded text'}}
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:112 - addRecord[1]: entity saved!
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:29 - loadList[0]: try to load list of entities from table Test_Entity:
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:32 - loadList[0]: Loading success!
+02.20 11.39.39  INFO	ru.sfedu.crm.lab2.api.TestEntityProviderTest:37 - Before run:
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:47 - clearTable[0]: try to clear table Test_Entity:
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:50 - clearTable[0]: clearing table Test_Entity success!
+02.20 11.39.39  INFO	ru.sfedu.crm.lab2.api.TestEntityProviderTest:89 - updateRecordPositive:
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProviderTest:23 - initRecord[0]: Start initiate record
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:110 - addRecord[0]: try to save entity:TestEntity{id=1, name='john', description='any desc', dateCreated=null, control=true, embeddedEntity=EmbeddedEntity{text='Any embedded text'}}
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:112 - addRecord[1]: entity saved!
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:29 - loadList[0]: try to load list of entities from table Test_Entity:
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:32 - loadList[0]: Loading success!
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:93 - updateRecord[0]: try to merge(update) entity:TestEntity{id=2, name='UPDATED NAME', description='any desc', dateCreated=null, control=true, embeddedEntity=EmbeddedEntity{text='Any embedded text'}}
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:95 - updateRecord[0]: entity updated!
+02.20 11.39.39  INFO	ru.sfedu.crm.lab2.api.TestEntityProviderTest:37 - Before run:
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:47 - clearTable[0]: try to clear table Test_Entity:
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:50 - clearTable[0]: clearing table Test_Entity success!
+02.20 11.39.39  INFO	ru.sfedu.crm.lab2.api.TestEntityProviderTest:99 - updateRecordNegative:
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProviderTest:23 - initRecord[0]: Start initiate record
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:110 - addRecord[0]: try to save entity:TestEntity{id=1, name='john', description='any desc', dateCreated=null, control=true, embeddedEntity=EmbeddedEntity{text='Any embedded text'}}
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:112 - addRecord[1]: entity saved!
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:59 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab2.model.TestEntity
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:61 - receiveRecordById[0]: Receiving complete
+02.20 11.39.39 ERROR	ru.sfedu.crm.lab2.api.TestEntityProvider:65 - receiveRecordById[0] Record with id = 200 not found
+02.20 11.39.39 ERROR	ru.sfedu.crm.lab2.api.TestEntityProvider:66 - receiveRecordById[1]:java.lang.NullPointerException: null
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:93 - updateRecord[0]: try to merge(update) entity:TestEntity{id=200, name='null', description='null', dateCreated=null, control=null, embeddedEntity=null}
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:95 - updateRecord[0]: entity updated!
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:59 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab2.model.TestEntity
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:61 - receiveRecordById[0]: Receiving complete
+02.20 11.39.39 ERROR	ru.sfedu.crm.lab2.api.TestEntityProvider:65 - receiveRecordById[0] Record with id = 200 not found
+02.20 11.39.39 ERROR	ru.sfedu.crm.lab2.api.TestEntityProvider:66 - receiveRecordById[1]:java.lang.NullPointerException: null
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:47 - clearTable[0]: try to clear table Test_Entity:
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:50 - clearTable[0]: clearing table Test_Entity success!
+02.20 11.39.39  INFO	ru.sfedu.crm.lab2.api.TestEntityProviderTest:37 - Before run:
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:47 - clearTable[0]: try to clear table Test_Entity:
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:50 - clearTable[0]: clearing table Test_Entity success!
+02.20 11.39.39  INFO	ru.sfedu.crm.lab2.api.TestEntityProviderTest:76 - deleteRecordPositive:
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProviderTest:23 - initRecord[0]: Start initiate record
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:110 - addRecord[0]: try to save entity:TestEntity{id=1, name='john', description='any desc', dateCreated=null, control=true, embeddedEntity=EmbeddedEntity{text='Any embedded text'}}
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:112 - addRecord[1]: entity saved!
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:29 - loadList[0]: try to load list of entities from table Test_Entity:
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:32 - loadList[0]: Loading success!
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:75 - deleteRecord[0]: try to delete entity:class ru.sfedu.crm.lab2.model.TestEntity
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:78 - deleteRecord[1]: entity successfully deleted!
+02.20 11.39.39  INFO	ru.sfedu.crm.lab2.api.TestEntityProviderTest:37 - Before run:
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:47 - clearTable[0]: try to clear table Test_Entity:
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:50 - clearTable[0]: clearing table Test_Entity success!
+02.20 11.39.39  INFO	ru.sfedu.crm.lab2.api.TestEntityProviderTest:83 - deleteRecordNegative:
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:75 - deleteRecord[0]: try to delete entity:class ru.sfedu.crm.lab2.model.TestEntity
+02.20 11.39.39 ERROR	ru.sfedu.crm.lab2.api.TestEntityProvider:83 - deleteRecord[0] Record with id = 1 not found
+02.20 11.39.39 ERROR	ru.sfedu.crm.lab2.api.TestEntityProvider:84 - deleteRecord[1]:java.lang.IllegalArgumentException: attempt to create delete event with null entity
+02.20 11.39.39  INFO	ru.sfedu.crm.lab2.api.TestEntityProviderTest:37 - Before run:
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:47 - clearTable[0]: try to clear table Test_Entity:
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:50 - clearTable[0]: clearing table Test_Entity success!
+02.20 11.39.39  INFO	ru.sfedu.crm.lab2.api.TestEntityProviderTest:58 - receiveRecordByIdPositive:
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProviderTest:23 - initRecord[0]: Start initiate record
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:110 - addRecord[0]: try to save entity:TestEntity{id=1, name='john', description='any desc', dateCreated=null, control=true, embeddedEntity=EmbeddedEntity{text='Any embedded text'}}
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:112 - addRecord[1]: entity saved!
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:29 - loadList[0]: try to load list of entities from table Test_Entity:
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:32 - loadList[0]: Loading success!
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:59 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab2.model.TestEntity
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:61 - receiveRecordById[0]: Receiving complete
+02.20 11.39.39  INFO	ru.sfedu.crm.lab2.api.TestEntityProviderTest:62 - Optional[TestEntity{id=6, name='john', description='any desc', dateCreated=null, control=true, embeddedEntity=EmbeddedEntity{text='Any embedded text'}}]
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:29 - loadList[0]: try to load list of entities from table Test_Entity:
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:32 - loadList[0]: Loading success!
+02.20 11.39.39  INFO	ru.sfedu.crm.lab2.api.TestEntityProviderTest:63 - [TestEntity{id=6, name='john', description='any desc', dateCreated=null, control=true, embeddedEntity=EmbeddedEntity{text='Any embedded text'}}]
+02.20 11.39.39  INFO	ru.sfedu.crm.lab2.api.TestEntityProviderTest:37 - Before run:
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:47 - clearTable[0]: try to clear table Test_Entity:
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:50 - clearTable[0]: clearing table Test_Entity success!
+02.20 11.39.39  INFO	ru.sfedu.crm.lab2.api.TestEntityProviderTest:68 - receiveRecordByIdNegative:
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:59 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab2.model.TestEntity
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:61 - receiveRecordById[0]: Receiving complete
+02.20 11.39.39 ERROR	ru.sfedu.crm.lab2.api.TestEntityProvider:65 - receiveRecordById[0] Record with id = 1 not found
+02.20 11.39.39 ERROR	ru.sfedu.crm.lab2.api.TestEntityProvider:66 - receiveRecordById[1]:java.lang.NullPointerException: null
+02.20 11.39.39  INFO	ru.sfedu.crm.lab2.api.TestEntityProviderTest:37 - Before run:
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:47 - clearTable[0]: try to clear table Test_Entity:
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:50 - clearTable[0]: clearing table Test_Entity success!
+02.20 11.39.39  INFO	ru.sfedu.crm.lab2.api.TestEntityProviderTest:43 - loadListPositive:
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProviderTest:23 - initRecord[0]: Start initiate record
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:110 - addRecord[0]: try to save entity:TestEntity{id=1, name='john', description='any desc', dateCreated=null, control=true, embeddedEntity=EmbeddedEntity{text='Any embedded text'}}
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:112 - addRecord[1]: entity saved!
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:29 - loadList[0]: try to load list of entities from table Test_Entity:
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:32 - loadList[0]: Loading success!
+02.20 11.39.39  INFO	ru.sfedu.crm.lab2.api.TestEntityProviderTest:37 - Before run:
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:47 - clearTable[0]: try to clear table Test_Entity:
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:50 - clearTable[0]: clearing table Test_Entity success!
+02.20 11.39.39  INFO	ru.sfedu.crm.lab2.api.TestEntityProviderTest:51 - loadListNegative:
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:29 - loadList[0]: try to load list of entities from table Test_Entity:
+02.20 11.39.39 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:32 - loadList[0]: Loading success!
+02.20 11.57.47  INFO	ru.sfedu.crm.Main:20 - Main[0]: Start
+02.20 11.57.47 ERROR	ru.sfedu.crm.Main:32 - Illegal arguments, check input data
+02.20 11.57.48 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:110 - addRecord[0]: try to save entity:TestEntity{id=null, name='John', description='3123', dateCreated=null, control=true, embeddedEntity=null}
+02.20 11.57.48 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:112 - addRecord[1]: entity saved!
+02.20 11.57.48 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:59 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab2.model.TestEntity
+02.20 11.57.48 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:61 - receiveRecordById[0]: Receiving complete
+02.20 11.57.48  INFO	ru.sfedu.crm.Main:53 - Optional[TestEntity{id=1, name='John', description='3123', dateCreated=null, control=true, embeddedEntity=null}]
+02.20 11.57.48 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:93 - updateRecord[0]: try to merge(update) entity:TestEntity{id=1, name='UPDATED NAME', description='3123', dateCreated=null, control=true, embeddedEntity=null}
+02.20 11.57.48 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:95 - updateRecord[0]: entity updated!
+02.20 11.57.48 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:59 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab2.model.TestEntity
+02.20 11.57.48 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:61 - receiveRecordById[0]: Receiving complete
+02.20 11.57.48  INFO	ru.sfedu.crm.Main:56 - Optional[TestEntity{id=1, name='UPDATED NAME', description='3123', dateCreated=null, control=true, embeddedEntity=null}]
+02.20 11.57.48 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:75 - deleteRecord[0]: try to delete entity:class ru.sfedu.crm.lab2.model.TestEntity
+02.20 11.57.48 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:78 - deleteRecord[1]: entity successfully deleted!
+02.20 11.57.48 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:59 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab2.model.TestEntity
+02.20 11.57.48 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:61 - receiveRecordById[0]: Receiving complete
+02.20 11.57.48 ERROR	ru.sfedu.crm.lab2.api.TestEntityProvider:65 - receiveRecordById[0] Record with id = 1 not found
+02.20 11.57.48 ERROR	ru.sfedu.crm.lab2.api.TestEntityProvider:66 - receiveRecordById[1]:java.lang.NullPointerException: null
+02.20 11.57.48  INFO	ru.sfedu.crm.Main:58 - Optional.empty
+02.20 11.57.48 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:110 - addRecord[0]: try to save entity:TestEntity{id=1, name='UPDATED NAME', description='3123', dateCreated=null, control=true, embeddedEntity=null}
+02.20 11.57.48 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:112 - addRecord[1]: entity saved!
+02.20 11.57.48 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:29 - loadList[0]: try to load list of entities from table Test_Entity:
+02.20 11.57.48 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:32 - loadList[0]: Loading success!
+02.20 11.57.48  INFO	ru.sfedu.crm.Main:60 - [TestEntity{id=2, name='UPDATED NAME', description='3123', dateCreated=null, control=true, embeddedEntity=null}]
+02.20 11.57.48 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:47 - clearTable[0]: try to clear table Test_Entity:
+02.20 11.57.48 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:50 - clearTable[0]: clearing table Test_Entity success!
+02.20 11.57.48 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:29 - loadList[0]: try to load list of entities from table Test_Entity:
+02.20 11.57.48 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:32 - loadList[0]: Loading success!
+02.20 11.57.48  INFO	ru.sfedu.crm.Main:62 - []
+02.20 11.57.48  INFO	ru.sfedu.crm.Main:36 - Main[1]: End
+02.20 11.58.04  INFO	ru.sfedu.crm.Main:20 - Main[0]: Start
+02.20 11.58.04 ERROR	ru.sfedu.crm.Main:32 - Illegal arguments, check input data
+02.20 11.58.04  INFO	ru.sfedu.crm.Main:34 - Main[1]: End
+02.20 11.58.26  INFO	ru.sfedu.crm.Main:20 - Main[0]: Start
+02.20 11.58.26 ERROR	ru.sfedu.crm.Main:32 - Illegal arguments, check input data
+02.20 11.58.26  INFO	ru.sfedu.crm.Main:34 - Main[1]: End
+02.20 11.58.46  INFO	ru.sfedu.crm.Main:20 - Main[0]: Start
+02.20 11.58.47 DEBUG	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:38 - getRecords[]: resultList: [INFORMATION_SCHEMA, PUBLIC]
+02.20 11.58.47  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:50 - getSchemas[]: resultList: [INFORMATION_SCHEMA, PUBLIC]
+02.20 11.58.47 DEBUG	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:38 - getRecords[]: resultList: [USER]
+02.20 11.58.47  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:61 - getUsers[]: resultList: [USER]
+02.20 11.58.48 DEBUG	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:38 - getRecords[]: resultList: [TEST_ENTITY]
+02.20 11.58.48  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:73 - getTables[]: resultList: [TEST_ENTITY]
+02.20 11.58.48 DEBUG	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:38 - getRecords[]: resultList: [ID, CONTROL, DATECREATED, DESCRIPTION, TEXT, NAME]
+02.20 11.58.48  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:84 - getColumns[]: resultList: [ID, CONTROL, DATECREATED, DESCRIPTION, TEXT, NAME]
+02.20 11.58.48 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:110 - addRecord[0]: try to save entity:TestEntity{id=null, name='John', description='3123', dateCreated=null, control=true, embeddedEntity=null}
+02.20 11.58.48 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:112 - addRecord[1]: entity saved!
+02.20 11.58.48 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:59 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab2.model.TestEntity
+02.20 11.58.48 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:61 - receiveRecordById[0]: Receiving complete
+02.20 11.58.48  INFO	ru.sfedu.crm.Main:51 - Optional[TestEntity{id=1, name='John', description='3123', dateCreated=null, control=true, embeddedEntity=null}]
+02.20 11.58.48 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:93 - updateRecord[0]: try to merge(update) entity:TestEntity{id=1, name='UPDATED NAME', description='3123', dateCreated=null, control=true, embeddedEntity=null}
+02.20 11.58.48 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:95 - updateRecord[0]: entity updated!
+02.20 11.58.48 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:59 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab2.model.TestEntity
+02.20 11.58.48 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:61 - receiveRecordById[0]: Receiving complete
+02.20 11.58.48  INFO	ru.sfedu.crm.Main:54 - Optional[TestEntity{id=1, name='UPDATED NAME', description='3123', dateCreated=null, control=true, embeddedEntity=null}]
+02.20 11.58.48 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:75 - deleteRecord[0]: try to delete entity:class ru.sfedu.crm.lab2.model.TestEntity
+02.20 11.58.48 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:78 - deleteRecord[1]: entity successfully deleted!
+02.20 11.58.48 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:59 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab2.model.TestEntity
+02.20 11.58.48 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:61 - receiveRecordById[0]: Receiving complete
+02.20 11.58.48 ERROR	ru.sfedu.crm.lab2.api.TestEntityProvider:65 - receiveRecordById[0] Record with id = 1 not found
+02.20 11.58.48 ERROR	ru.sfedu.crm.lab2.api.TestEntityProvider:66 - receiveRecordById[1]:java.lang.NullPointerException: null
+02.20 11.58.48  INFO	ru.sfedu.crm.Main:56 - Optional.empty
+02.20 11.58.48 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:110 - addRecord[0]: try to save entity:TestEntity{id=1, name='UPDATED NAME', description='3123', dateCreated=null, control=true, embeddedEntity=null}
+02.20 11.58.48 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:112 - addRecord[1]: entity saved!
+02.20 11.58.48 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:29 - loadList[0]: try to load list of entities from table Test_Entity:
+02.20 11.58.48 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:32 - loadList[0]: Loading success!
+02.20 11.58.48  INFO	ru.sfedu.crm.Main:58 - [TestEntity{id=2, name='UPDATED NAME', description='3123', dateCreated=null, control=true, embeddedEntity=null}]
+02.20 11.58.48 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:47 - clearTable[0]: try to clear table Test_Entity:
+02.20 11.58.48 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:50 - clearTable[0]: clearing table Test_Entity success!
+02.20 11.58.48 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:29 - loadList[0]: try to load list of entities from table Test_Entity:
+02.20 11.58.48 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:32 - loadList[0]: Loading success!
+02.20 11.58.48  INFO	ru.sfedu.crm.Main:60 - []
+02.20 11.58.48  INFO	ru.sfedu.crm.Main:34 - Main[1]: End
+02.20 12.04.11  INFO	ru.sfedu.crm.Main:20 - Main[0]: Start
+02.20 12.04.13 DEBUG	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:38 - getRecords[]: resultList: [INFORMATION_SCHEMA, PUBLIC]
+02.20 12.04.13  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:50 - getSchemas[]: resultList: [INFORMATION_SCHEMA, PUBLIC]
+02.20 12.04.13 DEBUG	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:38 - getRecords[]: resultList: [USER]
+02.20 12.04.13  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:61 - getUsers[]: resultList: [USER]
+02.20 12.04.13 DEBUG	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:38 - getRecords[]: resultList: [TEST_ENTITY]
+02.20 12.04.13  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:73 - getTables[]: resultList: [TEST_ENTITY]
+02.20 12.04.13 DEBUG	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:38 - getRecords[]: resultList: [ID, CONTROL, DATECREATED, DESCRIPTION, TEXT, NAME]
+02.20 12.04.13  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:84 - getColumns[]: resultList: [ID, CONTROL, DATECREATED, DESCRIPTION, TEXT, NAME]
+02.20 12.04.13  INFO	ru.sfedu.crm.Main:22 - Command executed
+02.20 12.04.13  INFO	ru.sfedu.crm.Main:27 - Main[1]: End
+02.20 12.05.29  INFO	ru.sfedu.crm.Main:20 - Main[0]: Start
+02.20 12.05.30  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:50 - getSchemas[]: resultList: [INFORMATION_SCHEMA, PUBLIC]
+02.20 12.05.30  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:61 - getUsers[]: resultList: [USER]
+02.20 12.05.30  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:73 - getTables[]: resultList: [TEST_ENTITY]
+02.20 12.05.30  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:84 - getColumns[]: resultList: [ID, CONTROL, DATECREATED, DESCRIPTION, TEXT, NAME]
+02.20 12.05.30  INFO	ru.sfedu.crm.Main:22 - Command executed
+02.20 12.05.30  INFO	ru.sfedu.crm.Main:27 - Main[1]: End
+02.20 12.05.41  INFO	ru.sfedu.crm.Main:20 - Main[0]: Start
+02.20 12.05.43 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:110 - addRecord[0]: try to save entity:TestEntity{id=null, name='John', description='3123', dateCreated=null, control=true, embeddedEntity=null}
+02.20 12.05.43 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:112 - addRecord[1]: entity saved!
+02.20 12.05.43 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:59 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab2.model.TestEntity
+02.20 12.05.43 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:61 - receiveRecordById[0]: Receiving complete
+02.20 12.05.43  INFO	ru.sfedu.crm.Main:67 - Optional[TestEntity{id=1, name='John', description='3123', dateCreated=null, control=true, embeddedEntity=null}]
+02.20 12.05.43 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:93 - updateRecord[0]: try to merge(update) entity:TestEntity{id=1, name='UPDATED NAME', description='3123', dateCreated=null, control=true, embeddedEntity=null}
+02.20 12.05.43 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:95 - updateRecord[0]: entity updated!
+02.20 12.05.43 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:59 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab2.model.TestEntity
+02.20 12.05.43 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:61 - receiveRecordById[0]: Receiving complete
+02.20 12.05.43  INFO	ru.sfedu.crm.Main:70 - Optional[TestEntity{id=1, name='UPDATED NAME', description='3123', dateCreated=null, control=true, embeddedEntity=null}]
+02.20 12.05.43 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:75 - deleteRecord[0]: try to delete entity:class ru.sfedu.crm.lab2.model.TestEntity
+02.20 12.05.43 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:78 - deleteRecord[1]: entity successfully deleted!
+02.20 12.05.43 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:59 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab2.model.TestEntity
+02.20 12.05.43 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:61 - receiveRecordById[0]: Receiving complete
+02.20 12.05.43 ERROR	ru.sfedu.crm.lab2.api.TestEntityProvider:65 - receiveRecordById[0] Record with id = 1 not found
+02.20 12.05.43 ERROR	ru.sfedu.crm.lab2.api.TestEntityProvider:66 - receiveRecordById[1]:java.lang.NullPointerException: null
+02.20 12.05.43  INFO	ru.sfedu.crm.Main:72 - Optional.empty
+02.20 12.05.43 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:110 - addRecord[0]: try to save entity:TestEntity{id=1, name='UPDATED NAME', description='3123', dateCreated=null, control=true, embeddedEntity=null}
+02.20 12.05.43 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:112 - addRecord[1]: entity saved!
+02.20 12.05.43 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:29 - loadList[0]: try to load list of entities from table Test_Entity:
+02.20 12.05.43 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:32 - loadList[0]: Loading success!
+02.20 12.05.43  INFO	ru.sfedu.crm.Main:74 - [TestEntity{id=2, name='UPDATED NAME', description='3123', dateCreated=null, control=true, embeddedEntity=null}]
+02.20 12.05.43 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:47 - clearTable[0]: try to clear table Test_Entity:
+02.20 12.05.43 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:50 - clearTable[0]: clearing table Test_Entity success!
+02.20 12.05.43 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:29 - loadList[0]: try to load list of entities from table Test_Entity:
+02.20 12.05.43 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:32 - loadList[0]: Loading success!
+02.20 12.05.43  INFO	ru.sfedu.crm.Main:76 - []
+02.20 12.05.43  INFO	ru.sfedu.crm.Main:22 - Command executed
+02.20 12.05.43  INFO	ru.sfedu.crm.Main:27 - Main[1]: End
+02.20 12.39.44  INFO	ru.sfedu.crm.Main:23 - Main[0]: Start
+02.20 12.39.46  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:50 - getSchemas[]: resultList: [INFORMATION_SCHEMA, PUBLIC]
+02.20 12.39.46  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:61 - getUsers[]: resultList: [USER]
+02.20 12.39.46  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:73 - getTables[]: resultList: [TEST_ENTITY]
+02.20 12.39.46  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:84 - getColumns[]: resultList: [ID, CONTROL, DATECREATED, DESCRIPTION, TEXT, NAME]
+02.20 12.39.46  INFO	ru.sfedu.crm.Main:63 - OPT: false
+02.20 12.39.46  INFO	ru.sfedu.crm.Main:25 - Command executed
+02.20 12.39.46  INFO	ru.sfedu.crm.Main:30 - Main[1]: End
+02.20 12.56.48  INFO	ru.sfedu.crm.lab2.api.TestEntityProviderTest:37 - Before run:
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:47 - clearTable[0]: try to clear table Test_Entity:
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:50 - clearTable[0]: clearing table Test_Entity success!
+02.20 12.56.49  INFO	ru.sfedu.crm.lab2.api.TestEntityProviderTest:110 - addRecordPositive:
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:29 - loadList[0]: try to load list of entities from table Test_Entity:
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:32 - loadList[0]: Loading success!
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProviderTest:23 - initRecord[0]: Start initiate record
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:109 - addRecord[0]: try to save entity:TestEntity{id=1, name='john', description='any desc', dateCreated=null, control=true, embeddedEntity=EmbeddedEntity{text='Any embedded text'}}
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:111 - addRecord[1]: entity saved!
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:29 - loadList[0]: try to load list of entities from table Test_Entity:
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:32 - loadList[0]: Loading success!
+02.20 12.56.49  INFO	ru.sfedu.crm.lab2.api.TestEntityProviderTest:37 - Before run:
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:47 - clearTable[0]: try to clear table Test_Entity:
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:50 - clearTable[0]: clearing table Test_Entity success!
+02.20 12.56.49  INFO	ru.sfedu.crm.lab2.api.TestEntityProviderTest:89 - updateRecordPositive:
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProviderTest:23 - initRecord[0]: Start initiate record
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:109 - addRecord[0]: try to save entity:TestEntity{id=1, name='john', description='any desc', dateCreated=null, control=true, embeddedEntity=EmbeddedEntity{text='Any embedded text'}}
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:111 - addRecord[1]: entity saved!
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:29 - loadList[0]: try to load list of entities from table Test_Entity:
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:32 - loadList[0]: Loading success!
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:92 - updateRecord[0]: try to merge(update) entity:TestEntity{id=2, name='UPDATED NAME', description='any desc', dateCreated=null, control=true, embeddedEntity=EmbeddedEntity{text='Any embedded text'}}
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:94 - updateRecord[0]: entity updated!
+02.20 12.56.49  INFO	ru.sfedu.crm.lab2.api.TestEntityProviderTest:37 - Before run:
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:47 - clearTable[0]: try to clear table Test_Entity:
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:50 - clearTable[0]: clearing table Test_Entity success!
+02.20 12.56.49  INFO	ru.sfedu.crm.lab2.api.TestEntityProviderTest:99 - updateRecordNegative:
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProviderTest:23 - initRecord[0]: Start initiate record
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:109 - addRecord[0]: try to save entity:TestEntity{id=1, name='john', description='any desc', dateCreated=null, control=true, embeddedEntity=EmbeddedEntity{text='Any embedded text'}}
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:111 - addRecord[1]: entity saved!
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:58 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab2.model.TestEntity
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:60 - receiveRecordById[0]: Receiving complete
+02.20 12.56.49 ERROR	ru.sfedu.crm.lab2.api.TestEntityProvider:64 - receiveRecordById[0] Record with id = 200 not found
+02.20 12.56.49 ERROR	ru.sfedu.crm.lab2.api.TestEntityProvider:65 - receiveRecordById[1]:java.lang.NullPointerException: null
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:92 - updateRecord[0]: try to merge(update) entity:TestEntity{id=200, name='null', description='null', dateCreated=null, control=null, embeddedEntity=null}
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:94 - updateRecord[0]: entity updated!
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:58 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab2.model.TestEntity
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:60 - receiveRecordById[0]: Receiving complete
+02.20 12.56.49 ERROR	ru.sfedu.crm.lab2.api.TestEntityProvider:64 - receiveRecordById[0] Record with id = 200 not found
+02.20 12.56.49 ERROR	ru.sfedu.crm.lab2.api.TestEntityProvider:65 - receiveRecordById[1]:java.lang.NullPointerException: null
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:47 - clearTable[0]: try to clear table Test_Entity:
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:50 - clearTable[0]: clearing table Test_Entity success!
+02.20 12.56.49  INFO	ru.sfedu.crm.lab2.api.TestEntityProviderTest:37 - Before run:
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:47 - clearTable[0]: try to clear table Test_Entity:
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:50 - clearTable[0]: clearing table Test_Entity success!
+02.20 12.56.49  INFO	ru.sfedu.crm.lab2.api.TestEntityProviderTest:76 - deleteRecordPositive:
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProviderTest:23 - initRecord[0]: Start initiate record
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:109 - addRecord[0]: try to save entity:TestEntity{id=1, name='john', description='any desc', dateCreated=null, control=true, embeddedEntity=EmbeddedEntity{text='Any embedded text'}}
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:111 - addRecord[1]: entity saved!
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:29 - loadList[0]: try to load list of entities from table Test_Entity:
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:32 - loadList[0]: Loading success!
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:74 - deleteRecord[0]: try to delete entity:class ru.sfedu.crm.lab2.model.TestEntity
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:77 - deleteRecord[1]: entity successfully deleted!
+02.20 12.56.49  INFO	ru.sfedu.crm.lab2.api.TestEntityProviderTest:37 - Before run:
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:47 - clearTable[0]: try to clear table Test_Entity:
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:50 - clearTable[0]: clearing table Test_Entity success!
+02.20 12.56.49  INFO	ru.sfedu.crm.lab2.api.TestEntityProviderTest:83 - deleteRecordNegative:
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:74 - deleteRecord[0]: try to delete entity:class ru.sfedu.crm.lab2.model.TestEntity
+02.20 12.56.49 ERROR	ru.sfedu.crm.lab2.api.TestEntityProvider:82 - deleteRecord[0] Record with id = 1 not found
+02.20 12.56.49 ERROR	ru.sfedu.crm.lab2.api.TestEntityProvider:83 - deleteRecord[1]:java.lang.IllegalArgumentException: attempt to create delete event with null entity
+02.20 12.56.49  INFO	ru.sfedu.crm.lab2.api.TestEntityProviderTest:37 - Before run:
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:47 - clearTable[0]: try to clear table Test_Entity:
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:50 - clearTable[0]: clearing table Test_Entity success!
+02.20 12.56.49  INFO	ru.sfedu.crm.lab2.api.TestEntityProviderTest:58 - receiveRecordByIdPositive:
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProviderTest:23 - initRecord[0]: Start initiate record
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:109 - addRecord[0]: try to save entity:TestEntity{id=1, name='john', description='any desc', dateCreated=null, control=true, embeddedEntity=EmbeddedEntity{text='Any embedded text'}}
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:111 - addRecord[1]: entity saved!
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:29 - loadList[0]: try to load list of entities from table Test_Entity:
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:32 - loadList[0]: Loading success!
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:58 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab2.model.TestEntity
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:60 - receiveRecordById[0]: Receiving complete
+02.20 12.56.49  INFO	ru.sfedu.crm.lab2.api.TestEntityProviderTest:62 - Optional[TestEntity{id=6, name='john', description='any desc', dateCreated=null, control=true, embeddedEntity=EmbeddedEntity{text='Any embedded text'}}]
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:29 - loadList[0]: try to load list of entities from table Test_Entity:
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:32 - loadList[0]: Loading success!
+02.20 12.56.49  INFO	ru.sfedu.crm.lab2.api.TestEntityProviderTest:63 - [TestEntity{id=6, name='john', description='any desc', dateCreated=null, control=true, embeddedEntity=EmbeddedEntity{text='Any embedded text'}}]
+02.20 12.56.49  INFO	ru.sfedu.crm.lab2.api.TestEntityProviderTest:37 - Before run:
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:47 - clearTable[0]: try to clear table Test_Entity:
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:50 - clearTable[0]: clearing table Test_Entity success!
+02.20 12.56.49  INFO	ru.sfedu.crm.lab2.api.TestEntityProviderTest:68 - receiveRecordByIdNegative:
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:58 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab2.model.TestEntity
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:60 - receiveRecordById[0]: Receiving complete
+02.20 12.56.49 ERROR	ru.sfedu.crm.lab2.api.TestEntityProvider:64 - receiveRecordById[0] Record with id = 1 not found
+02.20 12.56.49 ERROR	ru.sfedu.crm.lab2.api.TestEntityProvider:65 - receiveRecordById[1]:java.lang.NullPointerException: null
+02.20 12.56.49  INFO	ru.sfedu.crm.lab2.api.TestEntityProviderTest:37 - Before run:
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:47 - clearTable[0]: try to clear table Test_Entity:
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:50 - clearTable[0]: clearing table Test_Entity success!
+02.20 12.56.49  INFO	ru.sfedu.crm.lab2.api.TestEntityProviderTest:43 - loadListPositive:
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProviderTest:23 - initRecord[0]: Start initiate record
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:109 - addRecord[0]: try to save entity:TestEntity{id=1, name='john', description='any desc', dateCreated=null, control=true, embeddedEntity=EmbeddedEntity{text='Any embedded text'}}
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:111 - addRecord[1]: entity saved!
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:29 - loadList[0]: try to load list of entities from table Test_Entity:
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:32 - loadList[0]: Loading success!
+02.20 12.56.49  INFO	ru.sfedu.crm.lab2.api.TestEntityProviderTest:37 - Before run:
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:47 - clearTable[0]: try to clear table Test_Entity:
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:50 - clearTable[0]: clearing table Test_Entity success!
+02.20 12.56.49  INFO	ru.sfedu.crm.lab2.api.TestEntityProviderTest:51 - loadListNegative:
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:29 - loadList[0]: try to load list of entities from table Test_Entity:
+02.20 12.56.49 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:32 - loadList[0]: Loading success!
+02.20 12.57.31  INFO	ru.sfedu.crm.Main:23 - Main[0]: Start
+02.20 12.57.31 ERROR	ru.sfedu.crm.Main:28 - Illegal arguments, check input data
+02.20 12.57.31  INFO	ru.sfedu.crm.Main:30 - Main[1]: End
+02.20 12.57.45  INFO	ru.sfedu.crm.Main:23 - Main[0]: Start
+02.20 12.57.46  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:50 - getSchemas[]: resultList: [INFORMATION_SCHEMA, PUBLIC]
+02.20 12.57.46  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:61 - getUsers[]: resultList: [USER]
+02.20 12.57.46  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:73 - getTables[]: resultList: [TEST_ENTITY]
+02.20 12.57.46  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:84 - getColumns[]: resultList: [ID, CONTROL, DATECREATED, DESCRIPTION, TEXT, NAME]
+02.20 12.57.46  INFO	ru.sfedu.crm.Main:25 - Command executed
+02.20 12.57.46  INFO	ru.sfedu.crm.Main:30 - Main[1]: End
+02.20 12.59.51  INFO	ru.sfedu.crm.Main:23 - Main[0]: Start
+02.20 12.59.52  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:50 - getSchemas[]: resultList: [INFORMATION_SCHEMA, PUBLIC]
+02.20 12.59.52  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:61 - getUsers[]: resultList: [USER]
+02.20 12.59.52  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:73 - getTables[]: resultList: [TEST_ENTITY]
+02.20 12.59.52  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:84 - getColumns[]: resultList: [ID, CONTROL, DATECREATED, DESCRIPTION, TEXT, NAME]
+02.20 12.59.52  INFO	ru.sfedu.crm.Main:25 - Command executed
+02.20 12.59.52  INFO	ru.sfedu.crm.Main:30 - Main[1]: End
+02.20 13.01.10  INFO	ru.sfedu.crm.Main:23 - Main[0]: Start
+02.20 13.01.10  INFO	ru.sfedu.crm.Main:25 - Illegal arguments!
+02.20 13.01.10  INFO	ru.sfedu.crm.Main:30 - Main[1]: End
+02.20 13.01.30  INFO	ru.sfedu.crm.Main:23 - Main[0]: Start
+02.20 13.01.31 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:29 - loadList[0]: try to load list of entities from table Test_Entity:
+02.20 13.01.31 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:32 - loadList[0]: Loading success!
+02.20 13.01.31  INFO	ru.sfedu.crm.Main:71 - []
+02.20 13.01.31  INFO	ru.sfedu.crm.Main:25 - Command executed
+02.20 13.01.31  INFO	ru.sfedu.crm.Main:30 - Main[1]: End
+02.20 13.01.57  INFO	ru.sfedu.crm.Main:23 - Main[0]: Start
+02.20 13.01.58 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:109 - addRecord[0]: try to save entity:TestEntity{id=null, name='samuel', description='garantos\', dateCreated=null, control=null, embeddedEntity=null}
+02.20 13.01.58 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:111 - addRecord[1]: entity saved!
+02.20 13.01.58 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:58 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab2.model.TestEntity
+02.20 13.01.58 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:60 - receiveRecordById[0]: Receiving complete
+02.20 13.01.58  INFO	ru.sfedu.crm.Main:94 - Optional[TestEntity{id=1, name='samuel', description='garantos\', dateCreated=null, control=null, embeddedEntity=null}]
+02.20 13.01.58  INFO	ru.sfedu.crm.Main:25 - Command executed
+02.20 13.01.58  INFO	ru.sfedu.crm.Main:30 - Main[1]: End
+02.20 13.02.02  INFO	ru.sfedu.crm.Main:23 - Main[0]: Start
+02.20 13.02.03 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:29 - loadList[0]: try to load list of entities from table Test_Entity:
+02.20 13.02.03 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:32 - loadList[0]: Loading success!
+02.20 13.02.03  INFO	ru.sfedu.crm.Main:71 - []
+02.20 13.02.03  INFO	ru.sfedu.crm.Main:25 - Command executed
+02.20 13.02.03  INFO	ru.sfedu.crm.Main:30 - Main[1]: End
+02.20 13.03.22  INFO	ru.sfedu.crm.Main:23 - Main[0]: Start
+02.20 13.03.23 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:109 - addRecord[0]: try to save entity:TestEntity{id=null, name='samuel', description='garantos', dateCreated=null, control=null, embeddedEntity=null}
+02.20 13.03.23 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:111 - addRecord[1]: entity saved!
+02.20 13.03.23 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:58 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab2.model.TestEntity
+02.20 13.03.23 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:60 - receiveRecordById[0]: Receiving complete
+02.20 13.03.23  INFO	ru.sfedu.crm.Main:94 - Optional[TestEntity{id=1, name='samuel', description='garantos', dateCreated=null, control=null, embeddedEntity=null}]
+02.20 13.03.23  INFO	ru.sfedu.crm.Main:25 - Command executed
+02.20 13.03.23  INFO	ru.sfedu.crm.Main:30 - Main[1]: End
+02.20 13.03.25  INFO	ru.sfedu.crm.Main:23 - Main[0]: Start
+02.20 13.03.25 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:109 - addRecord[0]: try to save entity:TestEntity{id=null, name='samuel', description='garantos', dateCreated=null, control=null, embeddedEntity=null}
+02.20 13.03.25 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:111 - addRecord[1]: entity saved!
+02.20 13.03.25 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:58 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab2.model.TestEntity
+02.20 13.03.25 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:60 - receiveRecordById[0]: Receiving complete
+02.20 13.03.25  INFO	ru.sfedu.crm.Main:94 - Optional[TestEntity{id=1, name='samuel', description='garantos', dateCreated=null, control=null, embeddedEntity=null}]
+02.20 13.03.25  INFO	ru.sfedu.crm.Main:25 - Command executed
+02.20 13.03.25  INFO	ru.sfedu.crm.Main:30 - Main[1]: End
+02.20 13.07.15  INFO	ru.sfedu.crm.Main:23 - Main[0]: Start
+02.20 13.07.16 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:109 - addRecord[0]: try to save entity:TestEntity{id=null, name='Any Name', description='Any Description', dateCreated=null, control=null, embeddedEntity=null}
+02.20 13.07.16 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:111 - addRecord[1]: entity saved!
+02.20 13.07.16 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:92 - updateRecord[0]: try to merge(update) entity:TestEntity{id=1, name='samvell', description='Any Description', dateCreated=null, control=null, embeddedEntity=null}
+02.20 13.07.16 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:94 - updateRecord[0]: entity updated!
+02.20 13.07.16 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:58 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab2.model.TestEntity
+02.20 13.07.16 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:60 - receiveRecordById[0]: Receiving complete
+02.20 13.07.16  INFO	ru.sfedu.crm.Main:88 - Optional[TestEntity{id=1, name='samvell', description='Any Description', dateCreated=null, control=null, embeddedEntity=null}]
+02.20 13.07.16  INFO	ru.sfedu.crm.Main:25 - Command executed
+02.20 13.07.16  INFO	ru.sfedu.crm.Main:30 - Main[1]: End
+02.20 13.08.04  INFO	ru.sfedu.crm.Main:23 - Main[0]: Start
+02.20 13.08.05 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:47 - clearTable[0]: try to clear table Test_Entity:
+02.20 13.08.05 DEBUG	ru.sfedu.crm.lab2.api.TestEntityProvider:50 - clearTable[0]: clearing table Test_Entity success!
+02.20 13.08.05  INFO	ru.sfedu.crm.Main:25 - Command executed
+02.20 13.08.05  INFO	ru.sfedu.crm.Main:30 - Main[1]: End
+02.20 13.20.48  INFO	ru.sfedu.crm.Main:25 - Main[0]: Start
+02.20 13.20.49 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:110 - addRecord[0]: try to save entity:User{id=0, name='sanya', birthDate=0, phoneNumber='null'}
+02.20 13.20.49 ERROR	ru.sfedu.crm.lab3.api.DataProviderLab3:117 - addRecord[0]: saving error!
+02.20 13.20.49 ERROR	ru.sfedu.crm.lab3.api.DataProviderLab3:118 - addRecord[1]:org.hibernate.MappingException: Unknown entity: ru.sfedu.crm.lab3.model.JoinedTable.User
+02.20 13.20.49 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:59 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab3.model.JoinedTable.User
+02.20 13.20.49  INFO	ru.sfedu.crm.Main:27 - Illegal arguments!
+02.20 13.20.49  INFO	ru.sfedu.crm.Main:32 - Main[1]: End
+02.20 13.21.27  INFO	ru.sfedu.crm.Main:25 - Main[0]: Start
+02.20 13.21.28 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:110 - addRecord[0]: try to save entity:User{id=0, name='sanya', birthDate=0, phoneNumber='null'}
+02.20 13.21.28 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:112 - addRecord[1]: entity saved!
+02.20 13.21.28 ERROR	ru.sfedu.crm.lab3.api.DataProviderLab3:117 - addRecord[0]: saving error!
+02.20 13.21.28 ERROR	ru.sfedu.crm.lab3.api.DataProviderLab3:118 - addRecord[1]:javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: could not prepare statement
+02.20 13.21.28 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:59 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab3.model.JoinedTable.User
+02.20 13.21.28  INFO	ru.sfedu.crm.Main:27 - Illegal arguments!
+02.20 13.21.28  INFO	ru.sfedu.crm.Main:32 - Main[1]: End
+02.20 13.22.58  INFO	ru.sfedu.crm.Main:25 - Main[0]: Start
+02.20 13.22.58 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:110 - addRecord[0]: try to save entity:User{id=0, name='sanya', birthDate=0, phoneNumber='null'}
+02.20 13.22.58 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:112 - addRecord[1]: entity saved!
+02.20 13.22.58 ERROR	ru.sfedu.crm.lab3.api.DataProviderLab3:117 - addRecord[0]: saving error!
+02.20 13.22.58 ERROR	ru.sfedu.crm.lab3.api.DataProviderLab3:118 - addRecord[1]:javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: could not prepare statement
+02.20 13.22.58 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:59 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab3.model.JoinedTable.User
+02.20 13.22.58  INFO	ru.sfedu.crm.Main:27 - Illegal arguments!
+02.20 13.22.58  INFO	ru.sfedu.crm.Main:32 - Main[1]: End
+02.20 13.41.14  INFO	ru.sfedu.crm.Main:26 - Main[0]: Start
+02.20 13.41.15 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:110 - addRecord[0]: try to save entity:Worker{id=0, name='PETER', birthDate=0, phoneNumber='+79885376988'position='CHIEF', employmentDate=0, leaveDate=0}
+02.20 13.41.15 ERROR	ru.sfedu.crm.lab3.api.DataProviderLab3:117 - addRecord[0]: saving error!
+02.20 13.41.15 ERROR	ru.sfedu.crm.lab3.api.DataProviderLab3:118 - addRecord[1]:org.hibernate.MappingException: Unknown entity: ru.sfedu.crm.lab3.model.MappedSuperclass.Worker
+02.20 13.41.15 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:59 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab3.model.MappedSuperclass.Worker
+02.20 13.41.15  INFO	ru.sfedu.crm.Main:28 - Illegal arguments!
+02.20 13.41.15  INFO	ru.sfedu.crm.Main:33 - Main[1]: End
+02.20 13.42.35  INFO	ru.sfedu.crm.Main:26 - Main[0]: Start
+02.20 13.42.36 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:110 - addRecord[0]: try to save entity:Worker{id=0, name='PETER', birthDate=0, phoneNumber='+79885376988'position='CHIEF', employmentDate=0, leaveDate=0}
+02.20 13.42.36 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:112 - addRecord[1]: entity saved!
+02.20 13.42.36 ERROR	ru.sfedu.crm.lab3.api.DataProviderLab3:117 - addRecord[0]: saving error!
+02.20 13.42.36 ERROR	ru.sfedu.crm.lab3.api.DataProviderLab3:118 - addRecord[1]:javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: could not prepare statement
+02.20 13.42.36 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:59 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab3.model.MappedSuperclass.Worker
+02.20 13.42.36  INFO	ru.sfedu.crm.Main:28 - Illegal arguments!
+02.20 13.42.36  INFO	ru.sfedu.crm.Main:33 - Main[1]: End
+02.20 13.44.39  INFO	ru.sfedu.crm.Main:26 - Main[0]: Start
+02.20 13.44.40 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:110 - addRecord[0]: try to save entity:Worker{id=0, name='PETER', birthDate=0, phoneNumber='+79885376988'position='CHIEF', employmentDate=0, leaveDate=0}
+02.20 13.44.40 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:112 - addRecord[1]: entity saved!
+02.20 13.44.40 ERROR	ru.sfedu.crm.lab3.api.DataProviderLab3:117 - addRecord[0]: saving error!
+02.20 13.44.40 ERROR	ru.sfedu.crm.lab3.api.DataProviderLab3:118 - addRecord[1]:javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: could not prepare statement
+02.20 13.44.40 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:59 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab3.model.MappedSuperclass.Worker
+02.20 13.44.40  INFO	ru.sfedu.crm.Main:28 - Illegal arguments!
+02.20 13.44.40  INFO	ru.sfedu.crm.Main:33 - Main[1]: End
+02.20 13.58.17  INFO	ru.sfedu.crm.Main:26 - Main[0]: Start
+02.20 13.58.19 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:110 - addRecord[0]: try to save entity:Worker{id=0, name='PETER', birthDate=0, phoneNumber='+79885376988'position='CHIEF', employmentDate=0, leaveDate=0}
+02.20 13.58.19 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:112 - addRecord[1]: entity saved!
+02.20 13.58.19 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:113 - addRecord[1]: record id = 1
+02.20 13.58.19 ERROR	ru.sfedu.crm.lab3.api.DataProviderLab3:118 - addRecord[0]: saving error!
+02.20 13.58.19 ERROR	ru.sfedu.crm.lab3.api.DataProviderLab3:119 - addRecord[1]:javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: could not prepare statement
+02.20 13.58.19 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:59 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab3.model.MappedSuperclass.Worker
+02.20 13.58.19  INFO	ru.sfedu.crm.Main:28 - Illegal arguments!
+02.20 13.58.19  INFO	ru.sfedu.crm.Main:33 - Main[1]: End
+02.20 13.58.47  INFO	ru.sfedu.crm.Main:26 - Main[0]: Start
+02.20 13.58.49 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:110 - addRecord[0]: try to save entity:Worker{id=0, name='PETER', birthDate=0, phoneNumber='+79885376988'position='CHIEF', employmentDate=0, leaveDate=0}
+02.20 13.58.49 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:112 - addRecord[1]: entity saved!
+02.20 13.58.49 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:113 - addRecord[1]: record id = 1
+02.20 13.58.49  INFO	ru.sfedu.crm.Main:28 - Illegal arguments!
+02.20 13.58.49  INFO	ru.sfedu.crm.Main:33 - Main[1]: End
+02.20 13.59.56  INFO	ru.sfedu.crm.Main:26 - Main[0]: Start
+02.20 13.59.57 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:110 - addRecord[0]: try to save entity:Worker{id=0, name='PETER', birthDate=0, phoneNumber='+79885376988'position='CHIEF', employmentDate=0, leaveDate=0}
+02.20 13.59.57 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:112 - addRecord[1]: entity saved!
+02.20 13.59.57 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:113 - addRecord[1]: record id = 1
+02.20 13.59.57 ERROR	ru.sfedu.crm.lab3.api.DataProviderLab3:118 - addRecord[0]: saving error!
+02.20 13.59.57 ERROR	ru.sfedu.crm.lab3.api.DataProviderLab3:119 - addRecord[1]:javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: could not prepare statement
+02.20 13.59.57 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:59 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab3.model.MappedSuperclass.Worker
+02.20 13.59.57  INFO	ru.sfedu.crm.Main:28 - Illegal arguments!
+02.20 13.59.57  INFO	ru.sfedu.crm.Main:33 - Main[1]: End
+02.20 14.01.26  INFO	ru.sfedu.crm.Main:26 - Main[0]: Start
+02.20 14.01.27 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:110 - addRecord[0]: try to save entity:Worker{id=0, name='PETER', birthDate=0, phoneNumber='+79885376988'position='CHIEF', employmentDate=0, leaveDate=0}
+02.20 14.01.27 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:112 - addRecord[1]: entity saved!
+02.20 14.01.27 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:113 - addRecord[1]: record id = 1
+02.20 14.01.27 ERROR	ru.sfedu.crm.lab3.api.DataProviderLab3:118 - addRecord[0]: saving error!
+02.20 14.01.27 ERROR	ru.sfedu.crm.lab3.api.DataProviderLab3:119 - addRecord[1]:javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: could not prepare statement
+02.20 14.01.27 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:59 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab3.model.MappedSuperclass.Worker
+02.20 14.01.27  INFO	ru.sfedu.crm.Main:28 - Illegal arguments!
+02.20 14.01.27  INFO	ru.sfedu.crm.Main:33 - Main[1]: End
+02.20 14.03.32  INFO	ru.sfedu.crm.Main:26 - Main[0]: Start
+02.20 14.03.33 ERROR	ru.sfedu.crm.lab3.api.DataProviderLab3:118 - addRecord[0]: saving error!
+02.20 14.03.33 ERROR	ru.sfedu.crm.lab3.api.DataProviderLab3:119 - addRecord[1]:org.hibernate.AnnotationException: An entity cannot be annotated with both @Entity and @MappedSuperclass: ru.sfedu.crm.lab3.model.MappedSuperclass.User
+02.20 14.03.33  INFO	ru.sfedu.crm.Main:28 - Illegal arguments!
+02.20 14.03.33  INFO	ru.sfedu.crm.Main:33 - Main[1]: End
+02.20 14.03.47  INFO	ru.sfedu.crm.Main:26 - Main[0]: Start
+02.20 14.03.48 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:110 - addRecord[0]: try to save entity:Worker{id=0, name='PETER', birthDate=0, phoneNumber='+79885376988'position='CHIEF', employmentDate=0, leaveDate=0}
+02.20 14.03.49 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:112 - addRecord[1]: entity saved!
+02.20 14.03.49 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:113 - addRecord[1]: record id = 1
+02.20 14.03.49 ERROR	ru.sfedu.crm.lab3.api.DataProviderLab3:118 - addRecord[0]: saving error!
+02.20 14.03.49 ERROR	ru.sfedu.crm.lab3.api.DataProviderLab3:119 - addRecord[1]:javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: could not prepare statement
+02.20 14.03.49 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:59 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab3.model.MappedSuperclass.Worker
+02.20 14.03.49  INFO	ru.sfedu.crm.Main:28 - Illegal arguments!
+02.20 14.03.49  INFO	ru.sfedu.crm.Main:33 - Main[1]: End
+02.20 14.04.43  INFO	ru.sfedu.crm.Main:26 - Main[0]: Start
+02.20 14.04.45 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:110 - addRecord[0]: try to save entity:Worker{id=0, name='PETER', birthDate=0, phoneNumber='+79885376988'position='CHIEF', employmentDate=0, leaveDate=0}
+02.20 14.04.45 ERROR	ru.sfedu.crm.lab3.api.DataProviderLab3:118 - addRecord[0]: saving error!
+02.20 14.04.45 ERROR	ru.sfedu.crm.lab3.api.DataProviderLab3:119 - addRecord[1]:javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: could not prepare statement
+02.20 14.04.45 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:59 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab3.model.MappedSuperclass.Worker
+02.20 14.04.45  INFO	ru.sfedu.crm.Main:28 - Illegal arguments!
+02.20 14.04.45  INFO	ru.sfedu.crm.Main:33 - Main[1]: End
+02.20 14.07.27  INFO	ru.sfedu.crm.Main:27 - Main[0]: Start
+02.20 14.07.28 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:110 - addRecord[0]: try to save entity:Client{id=0, name='PETER', birthDate=1123123, phoneNumber='3123123'inn=123123123, status=NEW}
+02.20 14.07.28 ERROR	ru.sfedu.crm.lab3.api.DataProviderLab3:118 - addRecord[0]: saving error!
+02.20 14.07.28 ERROR	ru.sfedu.crm.lab3.api.DataProviderLab3:119 - addRecord[1]:javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: could not prepare statement
+02.20 14.07.28 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:59 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab3.model.MappedSuperclass.Client
+02.20 14.07.28  INFO	ru.sfedu.crm.Main:29 - Illegal arguments!
+02.20 14.07.28  INFO	ru.sfedu.crm.Main:34 - Main[1]: End
+02.20 14.18.42  INFO	ru.sfedu.crm.Main:27 - Main[0]: Start
+02.20 14.18.43 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:110 - addRecord[0]: try to save entity:Client{id=1, name='PETER', birthDate=1123123, phoneNumber='3123123'inn=123123123, status=NEW}
+02.20 14.18.43 ERROR	ru.sfedu.crm.lab3.api.DataProviderLab3:118 - addRecord[0]: saving error!
+02.20 14.18.43 ERROR	ru.sfedu.crm.lab3.api.DataProviderLab3:119 - addRecord[1]:javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: could not prepare statement
+02.20 14.18.43 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:59 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab3.model.MappedSuperclass.Client
+02.20 14.18.43  INFO	ru.sfedu.crm.Main:29 - Illegal arguments!
+02.20 14.18.43  INFO	ru.sfedu.crm.Main:34 - Main[1]: End
+02.20 14.20.11  INFO	ru.sfedu.crm.Main:27 - Main[0]: Start
+02.20 14.20.12 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:111 - addRecord[0]: try to save entity:Client{id=0, name='PETER', birthDate=1123123, phoneNumber='3123123'inn=123123123, status=NEW}
+02.20 14.20.12 ERROR	ru.sfedu.crm.lab3.api.DataProviderLab3:119 - addRecord[0]: saving error!
+02.20 14.20.12 ERROR	ru.sfedu.crm.lab3.api.DataProviderLab3:120 - addRecord[1]:javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: could not prepare statement
+02.20 14.20.12 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:60 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab3.model.MappedSuperclass.Client
+02.20 14.20.12  INFO	ru.sfedu.crm.Main:29 - Illegal arguments!
+02.20 14.20.12  INFO	ru.sfedu.crm.Main:34 - Main[1]: End
+02.20 14.21.31  INFO	ru.sfedu.crm.Main:27 - Main[0]: Start
+02.20 14.21.33 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:110 - addRecord[0]: try to save entity:Client{id=0, name='PETER', birthDate=1123123, phoneNumber='3123123'inn=123123123, status=NEW}
+02.20 14.21.33 ERROR	ru.sfedu.crm.lab3.api.DataProviderLab3:118 - addRecord[0]: saving error!
+02.20 14.21.33 ERROR	ru.sfedu.crm.lab3.api.DataProviderLab3:119 - addRecord[1]:javax.persistence.PersistenceException: [Ljava.lang.StackTraceElement;@184823ed
+02.20 14.21.33 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:59 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab3.model.MappedSuperclass.Client
+02.20 14.21.33  INFO	ru.sfedu.crm.Main:29 - Illegal arguments!
+02.20 14.21.33  INFO	ru.sfedu.crm.Main:34 - Main[1]: End
+02.20 14.23.21  INFO	ru.sfedu.crm.Main:27 - Main[0]: Start
+02.20 14.23.23 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:110 - addRecord[0]: try to save entity:Client{id=0, name='PETER', birthDate=1123123, phoneNumber='3123123'inn=123123123, status=NEW}
+02.20 14.23.23 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:113 - addRecord[1]: entity saved!
+02.20 14.23.23 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:114 - addRecord[1]: record id = 1
+02.20 14.23.23 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:59 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab3.model.MappedSuperclass.Client
+02.20 14.23.23 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:61 - receiveRecordById[0]: Receiving complete
+02.20 14.23.23  INFO	ru.sfedu.crm.Main:126 - Optional[Client{id=1, name='PETER', birthDate=1123123, phoneNumber='3123123'inn=123123123, status=NEW}]
+02.20 14.23.23  INFO	ru.sfedu.crm.Main:29 - Command executed
+02.20 14.23.23  INFO	ru.sfedu.crm.Main:34 - Main[1]: End
+02.20 14.23.37  INFO	ru.sfedu.crm.Main:27 - Main[0]: Start
+02.20 14.23.39 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:110 - addRecord[0]: try to save entity:Client{id=0, name='PETER', birthDate=1123123, phoneNumber='3123123'inn=123123123, status=NEW}
+02.20 14.23.39 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:113 - addRecord[1]: entity saved!
+02.20 14.23.39 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:114 - addRecord[1]: record id = 1
+02.20 14.23.39 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:59 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab3.model.MappedSuperclass.Client
+02.20 14.23.39 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:61 - receiveRecordById[0]: Receiving complete
+02.20 14.23.39  INFO	ru.sfedu.crm.Main:126 - Optional[Client{id=1, name='PETER', birthDate=1123123, phoneNumber='3123123'inn=123123123, status=NEW}]
+02.20 14.23.39  INFO	ru.sfedu.crm.Main:29 - Command executed
+02.20 14.23.39  INFO	ru.sfedu.crm.Main:34 - Main[1]: End
+02.20 14.25.39  INFO	ru.sfedu.crm.Main:27 - Main[0]: Start
+02.20 14.25.40 TRACE	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:38 - getRecords[]: resultList: [INFORMATION_SCHEMA, PUBLIC]
+02.20 14.25.40  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:50 - getSchemas[]: resultList: [INFORMATION_SCHEMA, PUBLIC]
+02.20 14.25.40 TRACE	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:38 - getRecords[]: resultList: [USER]
+02.20 14.25.40  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:61 - getUsers[]: resultList: [USER]
+02.20 14.25.40 TRACE	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:38 - getRecords[]: resultList: [TEST_ENTITY, WORKER, CLIENT]
+02.20 14.25.40  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:73 - getTables[]: resultList: [TEST_ENTITY, WORKER, CLIENT]
+02.20 14.25.40 TRACE	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:38 - getRecords[]: resultList: [ID, CONTROL, DATECREATED, DESCRIPTION, TEXT, NAME, ID, BIRTHDATE, NAME, PHONENUMBER, EMPLOYMENTDATE, LEAVEDATE, POSITION, ID, BIRTHDATE, NAME, PHONENUMBER, INN, STATUS]
+02.20 14.25.40  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:84 - getColumns[]: resultList: [ID, CONTROL, DATECREATED, DESCRIPTION, TEXT, NAME, ID, BIRTHDATE, NAME, PHONENUMBER, EMPLOYMENTDATE, LEAVEDATE, POSITION, ID, BIRTHDATE, NAME, PHONENUMBER, INN, STATUS]
+02.20 14.25.40  INFO	ru.sfedu.crm.Main:29 - Command executed
+02.20 14.25.40  INFO	ru.sfedu.crm.Main:34 - Main[1]: End
+02.20 14.27.14  INFO	ru.sfedu.crm.Main:27 - Main[0]: Start
+02.20 14.27.16 TRACE	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:38 - getRecords[]: resultList: [INFORMATION_SCHEMA, PUBLIC]
+02.20 14.27.16  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:50 - getSchemas[]: resultList: [INFORMATION_SCHEMA, PUBLIC]
+02.20 14.27.16 TRACE	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:38 - getRecords[]: resultList: [USER]
+02.20 14.27.16  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:61 - getUsers[]: resultList: [USER]
+02.20 14.27.16 TRACE	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:38 - getRecords[]: resultList: [TEST_ENTITY]
+02.20 14.27.16  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:73 - getTables[]: resultList: [TEST_ENTITY]
+02.20 14.27.16 TRACE	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:38 - getRecords[]: resultList: [ID, CONTROL, DATECREATED, DESCRIPTION, TEXT, NAME]
+02.20 14.27.16  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:84 - getColumns[]: resultList: [ID, CONTROL, DATECREATED, DESCRIPTION, TEXT, NAME]
+02.20 14.27.16  INFO	ru.sfedu.crm.Main:29 - Command executed
+02.20 14.27.16  INFO	ru.sfedu.crm.Main:34 - Main[1]: End
+02.20 14.29.52  INFO	ru.sfedu.crm.Main:27 - Main[0]: Start
+02.20 14.29.55 TRACE	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:38 - getRecords[]: resultList: [INFORMATION_SCHEMA, PUBLIC]
+02.20 14.29.55  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:50 - getSchemas[]: resultList: [INFORMATION_SCHEMA, PUBLIC]
+02.20 14.29.55 TRACE	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:38 - getRecords[]: resultList: [USER]
+02.20 14.29.55  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:61 - getUsers[]: resultList: [USER]
+02.20 14.29.55 TRACE	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:38 - getRecords[]: resultList: [TEST_ENTITY]
+02.20 14.29.55  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:73 - getTables[]: resultList: [TEST_ENTITY]
+02.20 14.29.55 TRACE	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:38 - getRecords[]: resultList: [ID, CONTROL, DATECREATED, DESCRIPTION, TEXT, NAME]
+02.20 14.29.55  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:84 - getColumns[]: resultList: [ID, CONTROL, DATECREATED, DESCRIPTION, TEXT, NAME]
+02.20 14.29.55  INFO	ru.sfedu.crm.Main:29 - Command executed
+02.20 14.29.55  INFO	ru.sfedu.crm.Main:34 - Main[1]: End
+02.20 14.32.11  INFO	ru.sfedu.crm.Main:27 - Main[0]: Start
+02.20 14.32.13 TRACE	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:38 - getRecords[]: resultList: [INFORMATION_SCHEMA, PUBLIC]
+02.20 14.32.13  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:50 - getSchemas[]: resultList: [INFORMATION_SCHEMA, PUBLIC]
+02.20 14.32.13 TRACE	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:38 - getRecords[]: resultList: [USER]
+02.20 14.32.13  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:61 - getUsers[]: resultList: [USER]
+02.20 14.32.13 TRACE	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:38 - getRecords[]: resultList: [TEST_ENTITY]
+02.20 14.32.13  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:73 - getTables[]: resultList: [TEST_ENTITY]
+02.20 14.32.13 TRACE	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:38 - getRecords[]: resultList: [ID, CONTROL, DATECREATED, DESCRIPTION, TEXT, NAME]
+02.20 14.32.13  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:84 - getColumns[]: resultList: [ID, CONTROL, DATECREATED, DESCRIPTION, TEXT, NAME]
+02.20 14.32.13  INFO	ru.sfedu.crm.Main:29 - Command executed
+02.20 14.32.13  INFO	ru.sfedu.crm.Main:34 - Main[1]: End
+02.20 14.34.06  INFO	ru.sfedu.crm.Main:27 - Main[0]: Start
+02.20 14.34.07 TRACE	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:38 - getRecords[]: resultList: [INFORMATION_SCHEMA, PUBLIC]
+02.20 14.34.07  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:50 - getSchemas[]: resultList: [INFORMATION_SCHEMA, PUBLIC]
+02.20 14.34.07 TRACE	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:38 - getRecords[]: resultList: [USER]
+02.20 14.34.07  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:61 - getUsers[]: resultList: [USER]
+02.20 14.34.07 TRACE	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:38 - getRecords[]: resultList: [TEST_ENTITY]
+02.20 14.34.07  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:73 - getTables[]: resultList: [TEST_ENTITY]
+02.20 14.34.07 TRACE	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:38 - getRecords[]: resultList: [ID, CONTROL, DATECREATED, DESCRIPTION, TEXT, NAME]
+02.20 14.34.07  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:84 - getColumns[]: resultList: [ID, CONTROL, DATECREATED, DESCRIPTION, TEXT, NAME]
+02.20 14.34.07  INFO	ru.sfedu.crm.Main:29 - Command executed
+02.20 14.34.07  INFO	ru.sfedu.crm.Main:34 - Main[1]: End
+02.20 14.42.53  INFO	ru.sfedu.crm.Main:27 - Main[0]: Start
+02.20 14.42.54 TRACE	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:38 - getRecords[]: resultList: [INFORMATION_SCHEMA, PUBLIC]
+02.20 14.42.54  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:50 - getSchemas[]: resultList: [INFORMATION_SCHEMA, PUBLIC]
+02.20 14.42.54 TRACE	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:38 - getRecords[]: resultList: [USER]
+02.20 14.42.54  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:61 - getUsers[]: resultList: [USER]
+02.20 14.42.54 TRACE	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:38 - getRecords[]: resultList: [MSC_CLIENT, TEST_ENTITY, MSC_WORKER]
+02.20 14.42.54  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:73 - getTables[]: resultList: [MSC_CLIENT, TEST_ENTITY, MSC_WORKER]
+02.20 14.42.54 TRACE	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:38 - getRecords[]: resultList: [ID, BIRTHDATE, NAME, PHONENUMBER, INN, STATUS, ID, CONTROL, DATECREATED, DESCRIPTION, TEXT, NAME, ID, BIRTHDATE, NAME, PHONENUMBER, EMPLOYMENTDATE, LEAVEDATE, POSITION]
+02.20 14.42.54  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:84 - getColumns[]: resultList: [ID, BIRTHDATE, NAME, PHONENUMBER, INN, STATUS, ID, CONTROL, DATECREATED, DESCRIPTION, TEXT, NAME, ID, BIRTHDATE, NAME, PHONENUMBER, EMPLOYMENTDATE, LEAVEDATE, POSITION]
+02.20 14.42.54  INFO	ru.sfedu.crm.Main:29 - Command executed
+02.20 14.42.54  INFO	ru.sfedu.crm.Main:34 - Main[1]: End
+02.20 14.44.12  INFO	ru.sfedu.crm.Main:27 - Main[0]: Start
+02.20 14.44.13 TRACE	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:38 - getRecords[]: resultList: [INFORMATION_SCHEMA, PUBLIC]
+02.20 14.44.13  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:50 - getSchemas[]: resultList: [INFORMATION_SCHEMA, PUBLIC]
+02.20 14.44.13 TRACE	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:38 - getRecords[]: resultList: [USER]
+02.20 14.44.13  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:61 - getUsers[]: resultList: [USER]
+02.20 14.44.13 TRACE	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:38 - getRecords[]: resultList: [MSC_CLIENT, TEST_ENTITY, MSC_WORKER]
+02.20 14.44.13  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:73 - getTables[]: resultList: [MSC_CLIENT, TEST_ENTITY, MSC_WORKER]
+02.20 14.44.13 TRACE	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:38 - getRecords[]: resultList: [ID, BIRTHDATE, NAME, PHONENUMBER, INN, STATUS, ID, CONTROL, DATECREATED, DESCRIPTION, TEXT, NAME, ID, BIRTHDATE, NAME, PHONENUMBER, EMPLOYMENTDATE, LEAVEDATE, POSITION]
+02.20 14.44.13  INFO	ru.sfedu.crm.lab1.api.HibernateMetadataProvider:84 - getColumns[]: resultList: [ID, BIRTHDATE, NAME, PHONENUMBER, INN, STATUS, ID, CONTROL, DATECREATED, DESCRIPTION, TEXT, NAME, ID, BIRTHDATE, NAME, PHONENUMBER, EMPLOYMENTDATE, LEAVEDATE, POSITION]
+02.20 14.44.13  INFO	ru.sfedu.crm.Main:29 - Command executed
+02.20 14.44.13  INFO	ru.sfedu.crm.Main:34 - Main[1]: End
+02.20 14.47.10  INFO	ru.sfedu.crm.Main:27 - Main[0]: Start
+02.20 14.47.12 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:110 - addRecord[0]: try to save entity:Client{id=0, name='PETER', birthDate=1123123, phoneNumber='3123123'inn=123123123, status=NEW}
+02.20 14.47.12 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:113 - addRecord[1]: entity saved!
+02.20 14.47.12 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:114 - addRecord[1]: record id = 1
+02.20 14.47.12 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:59 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab3.model.MappedSuperclass.Client
+02.20 14.47.12 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:61 - receiveRecordById[0]: Receiving complete
+02.20 14.47.12  INFO	ru.sfedu.crm.Main:124 - Optional[Client{id=1, name='PETER', birthDate=1123123, phoneNumber='3123123'inn=123123123, status=NEW}]
+02.20 14.47.12  INFO	ru.sfedu.crm.Main:29 - Command executed
+02.20 14.47.12  INFO	ru.sfedu.crm.Main:34 - Main[1]: End
+02.20 14.48.43  INFO	ru.sfedu.crm.Main:27 - Main[0]: Start
+02.20 14.48.44 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:110 - addRecord[0]: try to save entity:Client{id=0, name='PETER', birthDate=1123123, phoneNumber='3123123'inn=123123123, status=NEW}
+02.20 14.48.44 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:113 - addRecord[1]: entity saved!
+02.20 14.48.44 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:114 - addRecord[1]: record id = 1
+02.20 14.48.44 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:59 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab3.model.MappedSuperclass.Client
+02.20 14.48.44 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:61 - receiveRecordById[0]: Receiving complete
+02.20 14.48.44  INFO	ru.sfedu.crm.Main:124 - Optional[Client{id=1, name='PETER', birthDate=1123123, phoneNumber='3123123'inn=123123123, status=NEW}]
+02.20 14.48.44  INFO	ru.sfedu.crm.Main:29 - Command executed
+02.20 14.48.44  INFO	ru.sfedu.crm.Main:34 - Main[1]: End
+02.20 14.55.10  INFO	ru.sfedu.crm.Main:18 - Main[0]: Start
+02.20 14.55.11 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:109 - addRecord[0]: try to save entity:Client{id=0, name='PETER', birthDate=1123123, phoneNumber='3123123'inn=123123123, status=NEW}
+02.20 14.55.11 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:112 - addRecord[1]: entity saved!
+02.20 14.55.11 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:113 - addRecord[1]: record id = 1
+02.20 14.55.11 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:58 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab3.model.MappedSuperclass.Client
+02.20 14.55.11 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:60 - receiveRecordById[0]: Receiving complete
+02.20 14.55.11  INFO	ru.sfedu.crm.Main:117 - Optional[Client{id=1, name='PETER', birthDate=1123123, phoneNumber='3123123'inn=123123123, status=NEW}]
+02.20 14.55.11  INFO	ru.sfedu.crm.Main:20 - Command executed
+02.20 14.55.11  INFO	ru.sfedu.crm.Main:25 - Main[1]: End
+02.20 15.09.21  INFO	ru.sfedu.crm.Main:18 - Main[0]: Start
+02.20 15.09.22 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:109 - addRecord[0]: try to save entity:Client{id=0, name='PETER', birthDate=1123123, phoneNumber='3123123'inn=123123123, status=NEW}
+02.20 15.09.22 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:112 - addRecord[1]: entity saved!
+02.20 15.09.22 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:113 - addRecord[1]: record id = 1
+02.20 15.09.22 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:58 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab3.model.MappedSuperclass.Client
+02.20 15.09.22 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:60 - receiveRecordById[0]: Receiving complete
+02.20 15.09.22  INFO	ru.sfedu.crm.Main:117 - Optional[Client{id=1, name='PETER', birthDate=1123123, phoneNumber='3123123'inn=123123123, status=NEW}]
+02.20 15.09.22  INFO	ru.sfedu.crm.Main:20 - Command executed
+02.20 15.09.22  INFO	ru.sfedu.crm.Main:25 - Main[1]: End
+02.20 15.09.52  INFO	ru.sfedu.crm.Main:18 - Main[0]: Start
+02.20 15.09.54 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:109 - addRecord[0]: try to save entity:User{id=0, name='Sanya', birthDate=123123312, phoneNumber='3123123'}
+02.20 15.09.54 ERROR	ru.sfedu.crm.lab3.api.DataProviderLab3:117 - addRecord[0]: saving error!
+02.20 15.09.54 ERROR	ru.sfedu.crm.lab3.api.DataProviderLab3:118 - addRecord[1]:org.hibernate.MappingException: Unknown entity: ru.sfedu.crm.lab3.model.MappedSuperclass.User
+02.20 15.09.54 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:58 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab3.model.MappedSuperclass.User
+02.20 15.09.54  INFO	ru.sfedu.crm.Main:20 - Illegal arguments!
+02.20 15.09.54  INFO	ru.sfedu.crm.Main:25 - Main[1]: End
+02.20 15.11.10  INFO	ru.sfedu.crm.Main:18 - Main[0]: Start
+02.20 15.11.11 ERROR	ru.sfedu.crm.lab3.api.DataProviderLab3:117 - addRecord[0]: saving error!
+02.20 15.11.11 ERROR	ru.sfedu.crm.lab3.api.DataProviderLab3:118 - addRecord[1]:org.hibernate.DuplicateMappingException: The [ru.sfedu.crm.lab3.model.MappedSuperclass.Worker] and [ru.sfedu.crm.lab3.model.JoinedTable.Worker] entities share the same JPA entity name: [Worker] which is not allowed!
+02.20 15.11.11  INFO	ru.sfedu.crm.Main:20 - Illegal arguments!
+02.20 15.11.11  INFO	ru.sfedu.crm.Main:25 - Main[1]: End
+02.20 15.13.01  INFO	ru.sfedu.crm.Main:18 - Main[0]: Start
+02.20 15.13.02 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:109 - addRecord[0]: try to save entity:User{id=0, name='Sanya', birthDate=123123312, phoneNumber='3123123'}
+02.20 15.13.02 ERROR	ru.sfedu.crm.lab3.api.DataProviderLab3:117 - addRecord[0]: saving error!
+02.20 15.13.02 ERROR	ru.sfedu.crm.lab3.api.DataProviderLab3:118 - addRecord[1]:org.hibernate.MappingException: Unknown entity: ru.sfedu.crm.lab3.model.MappedSuperclass.User
+02.20 15.13.02 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:58 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab3.model.MappedSuperclass.User
+02.20 15.13.02  INFO	ru.sfedu.crm.Main:20 - Illegal arguments!
+02.20 15.13.02  INFO	ru.sfedu.crm.Main:25 - Main[1]: End
+02.20 15.15.40  INFO	ru.sfedu.crm.Main:18 - Main[0]: Start
+02.20 15.15.42 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:109 - addRecord[0]: try to save entity:Client{id=0, name='PETER', birthDate=1123123, phoneNumber='3123123'inn=123123123, status=NEW}
+02.20 15.15.42 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:112 - addRecord[1]: entity saved!
+02.20 15.15.42 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:113 - addRecord[1]: record id = 1
+02.20 15.15.42 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:58 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab3.model.MappedSuperclass.Client
+02.20 15.15.42 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:60 - receiveRecordById[0]: Receiving complete
+02.20 15.15.42  INFO	ru.sfedu.crm.Main:117 - Optional[Client{id=1, name='PETER', birthDate=1123123, phoneNumber='3123123'inn=123123123, status=NEW}]
+02.20 15.15.42  INFO	ru.sfedu.crm.Main:20 - Command executed
+02.20 15.15.42  INFO	ru.sfedu.crm.Main:25 - Main[1]: End
+02.20 15.15.56  INFO	ru.sfedu.crm.Main:18 - Main[0]: Start
+02.20 15.15.58 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:109 - addRecord[0]: try to save entity:User{id=0, name='Sanya', birthDate=123123312, phoneNumber='3123123'}
+02.20 15.15.58 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:112 - addRecord[1]: entity saved!
+02.20 15.15.58 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:113 - addRecord[1]: record id = 1
+02.20 15.15.58 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:58 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab3.model.JoinedTable.User
+02.20 15.15.58 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:60 - receiveRecordById[0]: Receiving complete
+02.20 15.15.58  INFO	ru.sfedu.crm.Main:125 - Optional[User{id=1, name='Sanya', birthDate=123123312, phoneNumber='3123123'}]
+02.20 15.15.58  INFO	ru.sfedu.crm.Main:20 - Command executed
+02.20 15.15.58  INFO	ru.sfedu.crm.Main:25 - Main[1]: End
+02.20 15.26.25  INFO	ru.sfedu.crm.Main:18 - Main[0]: Start
+02.20 15.26.26 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:109 - addRecord[0]: try to save entity:User{id=0, name='Sanya', birthDate=123123312, phoneNumber='3123123'}
+02.20 15.26.26 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:112 - addRecord[1]: entity saved!
+02.20 15.26.26 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:113 - addRecord[1]: record id = 1
+02.20 15.26.26 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:58 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab3.model.JoinedTable.User
+02.20 15.26.26 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:60 - receiveRecordById[0]: Receiving complete
+02.20 15.26.26  INFO	ru.sfedu.crm.Main:125 - Optional[User{id=1, name='Sanya', birthDate=123123312, phoneNumber='3123123'}]
+02.20 15.26.26  INFO	ru.sfedu.crm.Main:20 - Command executed
+02.20 15.26.26  INFO	ru.sfedu.crm.Main:25 - Main[1]: End
+02.20 15.29.38  INFO	ru.sfedu.crm.Main:18 - Main[0]: Start
+02.20 15.29.40 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:109 - addRecord[0]: try to save entity:Client{id=0, name='PETER', birthDate=1123123, phoneNumber='3123123'inn=123123123, status=NEW}
+02.20 15.29.40 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:112 - addRecord[1]: entity saved!
+02.20 15.29.40 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:113 - addRecord[1]: record id = 1
+02.20 15.29.40 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:58 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab3.model.SingleTable.Client
+02.20 15.29.40 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:60 - receiveRecordById[0]: Receiving complete
+02.20 15.29.40  INFO	ru.sfedu.crm.Main:133 - Optional[Client{id=1, name='PETER', birthDate=1123123, phoneNumber='3123123'inn=123123123, status=NEW}]
+02.20 15.29.40  INFO	ru.sfedu.crm.Main:20 - Command executed
+02.20 15.29.40  INFO	ru.sfedu.crm.Main:25 - Main[1]: End
+02.20 15.30.48  INFO	ru.sfedu.crm.Main:18 - Main[0]: Start
+02.20 15.30.50 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:109 - addRecord[0]: try to save entity:Client{id=0, name='PETER', birthDate=1123123, phoneNumber='3123123'inn=123123123, status=NEW}
+02.20 15.30.50 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:112 - addRecord[1]: entity saved!
+02.20 15.30.50 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:113 - addRecord[1]: record id = 1
+02.20 15.30.50 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:58 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab3.model.TablePerClass.Client
+02.20 15.30.50 DEBUG	ru.sfedu.crm.lab3.api.DataProviderLab3:60 - receiveRecordById[0]: Receiving complete
+02.20 15.30.50  INFO	ru.sfedu.crm.Main:142 - Optional[Client{id=1, name='PETER', birthDate=1123123, phoneNumber='3123123'inn=123123123, status=NEW}]
+02.20 15.30.50  INFO	ru.sfedu.crm.Main:20 - Command executed
+02.20 15.30.50  INFO	ru.sfedu.crm.Main:25 - Main[1]: End

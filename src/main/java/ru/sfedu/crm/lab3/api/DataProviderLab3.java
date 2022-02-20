@@ -1,4 +1,4 @@
-package ru.sfedu.crm.lab2.api;
+package ru.sfedu.crm.lab3.api;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -7,22 +7,21 @@ import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.query.Query;
 import ru.sfedu.crm.Constants;
-import ru.sfedu.crm.lab2.model.TestEntity;
 import ru.sfedu.crm.utils.HibernateUtil;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-public class TestEntityProvider {
-    private static Logger log = LogManager.getLogger(TestEntityProvider.class);
+public class DataProviderLab3 {
+    private static Logger log = LogManager.getLogger(DataProviderLab3.class);
 
     private Session getSession(){
         SessionFactory sessionFactory = HibernateUtil.getSessionFactory();
         return sessionFactory.openSession();
     }
 
-    public List<TestEntity> loadList(Class<TestEntity> entity) {
+    public <T> List<T> loadList(Class<T> entity) {
         Session session = this.getSession();
         Transaction transaction = session.beginTransaction();
         try {
@@ -41,7 +40,7 @@ public class TestEntityProvider {
         return new ArrayList<>();
     }
 
-    public void clearTable(Class<TestEntity> entity) {
+    public <T> void clearTable(Class<T> entity) {
         Session session = this.getSession();
         Transaction transaction = session.beginTransaction();
         log.debug("clearTable[0]: try to clear table Test_Entity:");
@@ -50,16 +49,17 @@ public class TestEntityProvider {
         log.debug("clearTable[0]: clearing table Test_Entity success!");
         transaction.commit();
         session.close();
+        return ;
     }
 
-    public Optional<TestEntity> receiveRecordById(Class<TestEntity> entity, Long id) {
+    public <T> Optional<T> receiveRecordById(Class<T> entity, Long id) {
         Session session = this.getSession();
         try{
             log.debug("receiveRecordById[0]: try to receive entity by id:" + entity);
-            TestEntity testEntity = session.get(entity, id);
+            T requiredEntity = session.get(entity, id);
             log.debug("receiveRecordById[0]: Receiving complete");
             session.close();
-            return Optional.of(testEntity);
+            return Optional.of(requiredEntity);
         }catch (NullPointerException e){
             log.error("receiveRecordById[0] Record with id = "+id+" not found");
             log.error("receiveRecordById[1]:" + e.getClass().getName() + ": " + e.getMessage());
@@ -67,13 +67,13 @@ public class TestEntityProvider {
         }
     }
 
-    public Boolean deleteRecord(Class<TestEntity> entity, Long id) {
+    public <T> Boolean deleteRecord(Class<T> entity, Long id) {
         Session session = this.getSession();
         Transaction transaction = session.beginTransaction();
         try {
             log.debug("deleteRecord[0]: try to delete entity:" + entity);
-            TestEntity testEntity = session.get(entity, id);
-            session.delete(testEntity);
+            T requiredEntity = session.get(entity, id);
+            session.delete(requiredEntity);
             log.debug("deleteRecord[1]: entity successfully deleted!");
             transaction.commit();
             session.close();
@@ -85,15 +85,15 @@ public class TestEntityProvider {
         }
     }
 
-    public Boolean updateRecord(TestEntity entity) {
+    public <T> Boolean updateRecord(T entity) {
         try {
-        Session session = this.getSession();
-        Transaction transaction = session.beginTransaction();
-        log.debug("updateRecord[0]: try to merge(update) entity:" + entity);
-        session.merge(entity);
-        log.debug("updateRecord[0]: entity updated!");
-        transaction.commit();
-        session.close();
+            Session session = this.getSession();
+            Transaction transaction = session.beginTransaction();
+            log.debug("updateRecord[0]: try to merge(update) entity:" + entity);
+            session.merge(entity);
+            log.debug("updateRecord[0]: entity updated!");
+            transaction.commit();
+            session.close();
             return true;
         }catch(Exception e){
             log.error("updateRecord[0]: updating error!");
@@ -102,14 +102,15 @@ public class TestEntityProvider {
         }
     }
 
-    public Boolean addRecord(TestEntity entity) {
+    public <T> Boolean addRecord(T entity) {
         try {
             Session session = this.getSession();
             Transaction transaction = session.beginTransaction();
             log.debug("addRecord[0]: try to save entity:" + entity);
-            session.save(entity);
-            log.debug("addRecord[1]: entity saved!");
+            Long id = (Long) session.save(entity);
             transaction.commit();
+            log.debug("addRecord[1]: entity saved!");
+            log.debug("addRecord[1]: record id = " + id);
             session.close();
             return true;
         }catch(Exception e){

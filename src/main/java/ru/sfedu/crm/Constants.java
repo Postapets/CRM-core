@@ -17,8 +17,22 @@ public class Constants {
             "where TABLE_SCHEMA = 'PUBLIC'";
     public static final String SQL_ALL_USERS = "select name from information_schema.users";
 
+    //hql
     public static final String HQL_FROM = "from %s";
     public static final String HQL_DELETE_FROM = "delete from %s";
+
+    //labs
+    public static final String LAB1 = "lab1";
+    public static final String LAB2 = "lab2";
+    public static final String LAB3 = "lab3";
+
+    //methods
+    public static final String LOAD_LIST = "loadlist";
+    public static final String CLEAR_TABLE = "cleartable";
+    public static final String RECEIVE_RECORD_BY_ID = "receiverecordbyid";
+    public static final String DELETE_RECORD = "deleterecord";
+    public static final String UPDATE_RECORD = "updaterecord";
+    public static final String ADD_RECORD = "addrecord";
 
 
     //

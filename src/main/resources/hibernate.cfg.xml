@@ -15,9 +15,21 @@
         <!-- Включить автоматическое управление контекстом сессии -->
         <property name="current_session_context_class">thread</property>
         <!-- Вывод в консоль SQL-запросов -->
-        <property name="show_sql">false</property>
+        <property name="show_sql">true</property>
         <property name="hibernate.hbm2ddl.auto">create</property>
-        <mapping class="ru.sfedu.crm.lab2.model.TestEntity"/>
+
+        <mapping class="ru.sfedu.crm.lab3.model.MappedSuperclass.User"/>
+        <mapping class="ru.sfedu.crm.lab3.model.MappedSuperclass.Worker"/>
+        <mapping class="ru.sfedu.crm.lab3.model.MappedSuperclass.Client"/>
+        <mapping class="ru.sfedu.crm.lab3.model.JoinedTable.User"/>
+        <mapping class="ru.sfedu.crm.lab3.model.JoinedTable.Worker"/>
+        <mapping class="ru.sfedu.crm.lab3.model.JoinedTable.Client"/>
+        <mapping class="ru.sfedu.crm.lab3.model.SingleTable.User"/>
+        <mapping class="ru.sfedu.crm.lab3.model.SingleTable.Worker"/>
+        <mapping class="ru.sfedu.crm.lab3.model.SingleTable.Client"/>
+        <mapping class="ru.sfedu.crm.lab3.model.TablePerClass.User"/>
+        <mapping class="ru.sfedu.crm.lab3.model.TablePerClass.Worker"/>
+        <mapping class="ru.sfedu.crm.lab3.model.TablePerClass.Client"/>
 
     </session-factory>
 </hibernate-configuration>

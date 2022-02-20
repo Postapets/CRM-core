@@ -35,7 +35,7 @@ public class HibernateMetadataProvider implements IMetadataProvider {
         Session session = getSession();
         NativeQuery query = session.createSQLQuery(string);
         List resultList = query.getResultList();
-        log.debug("getRecords[]: resultList: " + resultList);
+        log.trace("getRecords[]: resultList: " + resultList);
         session.close();
         return resultList;
     }
