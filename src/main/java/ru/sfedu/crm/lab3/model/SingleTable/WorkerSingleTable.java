@@ -1,22 +1,22 @@
-package ru.sfedu.crm.lab3.model.JoinedTable;
+package ru.sfedu.crm.lab3.model.SingleTable;
 
-import javax.persistence.*;
-import java.io.Serializable;
+import javax.persistence.DiscriminatorValue;
+import javax.persistence.Entity;
+import javax.persistence.Table;
 import java.util.Objects;
 
 /**
  * Class Worker
  */
-
-@Entity(name = "JT_Worker")
-@Table(schema = "lab3", name ="JT_Worker" )
-@PrimaryKeyJoinColumn(name = "user_id")
-public class Worker extends User{
+@Entity(name = "WorkerSingleTable")
+@Table(schema = "lab3_st")
+@DiscriminatorValue("WorkerSingleTable")
+public class WorkerSingleTable extends UserSingleTable {
     private String position;
     private long employmentDate;
     private long leaveDate;
 
-    public Worker() {}
+    public WorkerSingleTable() {}
 
     public String getPosition() {
         return position;
@@ -47,8 +47,8 @@ public class Worker extends User{
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         if (!super.equals(o)) return false;
-        Worker worker = (Worker) o;
-        return employmentDate == worker.employmentDate && leaveDate == worker.leaveDate && Objects.equals(position, worker.position);
+        WorkerSingleTable workerSingleTable = (WorkerSingleTable) o;
+        return employmentDate == workerSingleTable.employmentDate && leaveDate == workerSingleTable.leaveDate && Objects.equals(position, workerSingleTable.position);
     }
 
     @Override

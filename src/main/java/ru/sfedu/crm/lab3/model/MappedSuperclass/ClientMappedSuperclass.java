@@ -1,8 +1,7 @@
-package ru.sfedu.crm.lab3.model.SingleTable;
+package ru.sfedu.crm.lab3.model.MappedSuperclass;
 
 import ru.sfedu.crm.enums.ClientStatus;
 
-import javax.persistence.DiscriminatorValue;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 import java.util.Objects;
@@ -10,15 +9,14 @@ import java.util.Objects;
 /**
  * Class Client
  */
-@Entity(name = "ST_Client")
-@Table(schema = "lab3", name = "ST_Client")
-@DiscriminatorValue("Client")
-public class Client extends User {
+
+@Entity(name = "ClientMappedSuperclass")
+@Table(schema = "lab3_msc")
+public class ClientMappedSuperclass extends UserMappedSuperclass {
     private long inn;
     private ClientStatus status;
 
-    public Client() {
-    }
+    public ClientMappedSuperclass() {}
 
     public long getInn() {
         return inn;
@@ -45,8 +43,8 @@ public class Client extends User {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         if (!super.equals(o)) return false;
-        Client client = (Client) o;
-        return inn == client.inn && status == client.status;
+        ClientMappedSuperclass ClientMappedSuperclass = (ClientMappedSuperclass) o;
+        return inn == ClientMappedSuperclass.inn && status == ClientMappedSuperclass.status;
     }
 
     @Override

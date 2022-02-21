@@ -1,4 +1,4 @@
-package ru.sfedu.crm.lab3.model.SingleTable;
+package ru.sfedu.crm.lab3.model.TablePerClass;
 
 import javax.persistence.*;
 import java.io.Serializable;
@@ -7,12 +7,10 @@ import java.util.Objects;
 /**
  * Class User
  */
-
-@Entity(name = "ST_USER")
-@Table(schema="lab3", name = "ST_USER")
-@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
-@DiscriminatorValue( "User" )
-public class User implements Serializable {
+@Entity(name = "UserTablePerClass")
+@Table(schema="lab3_tpc", name = "User_Table_Per_Class")
+@Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
+public class UserTablePerClass implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
@@ -20,7 +18,7 @@ public class User implements Serializable {
     private long birthDate;
     private String phoneNumber;
 
-    public User() {}
+    public UserTablePerClass() {}
 
     public long getId() {
         return id;
@@ -62,8 +60,8 @@ public class User implements Serializable {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        User user = (User) o;
-        return id == user.id && birthDate == user.birthDate && Objects.equals(name, user.name) && Objects.equals(phoneNumber, user.phoneNumber);
+        UserTablePerClass userTablePerClass = (UserTablePerClass) o;
+        return id == userTablePerClass.id && birthDate == userTablePerClass.birthDate && Objects.equals(name, userTablePerClass.name) && Objects.equals(phoneNumber, userTablePerClass.phoneNumber);
     }
 
     @Override

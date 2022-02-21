@@ -16,20 +16,24 @@
         <property name="current_session_context_class">thread</property>
         <!-- Вывод в консоль SQL-запросов -->
         <property name="show_sql">true</property>
-        <property name="hibernate.hbm2ddl.auto">create</property>
+        <property name="hibernate.hbm2ddl.auto">update</property>
+        <property name="hibernate.hbm2ddl.create_namespaces">true</property>
 
-        <mapping class="ru.sfedu.crm.lab3.model.MappedSuperclass.User"/>
-        <mapping class="ru.sfedu.crm.lab3.model.MappedSuperclass.Worker"/>
-        <mapping class="ru.sfedu.crm.lab3.model.MappedSuperclass.Client"/>
-        <mapping class="ru.sfedu.crm.lab3.model.JoinedTable.User"/>
-        <mapping class="ru.sfedu.crm.lab3.model.JoinedTable.Worker"/>
-        <mapping class="ru.sfedu.crm.lab3.model.JoinedTable.Client"/>
-        <mapping class="ru.sfedu.crm.lab3.model.SingleTable.User"/>
-        <mapping class="ru.sfedu.crm.lab3.model.SingleTable.Worker"/>
-        <mapping class="ru.sfedu.crm.lab3.model.SingleTable.Client"/>
-        <mapping class="ru.sfedu.crm.lab3.model.TablePerClass.User"/>
-        <mapping class="ru.sfedu.crm.lab3.model.TablePerClass.Worker"/>
-        <mapping class="ru.sfedu.crm.lab3.model.TablePerClass.Client"/>
+        <mapping class="ru.sfedu.crm.lab3.model.MappedSuperclass.UserMappedSuperclass"/>
+        <mapping class="ru.sfedu.crm.lab3.model.MappedSuperclass.WorkerMappedSuperclass"/>
+        <mapping class="ru.sfedu.crm.lab3.model.MappedSuperclass.ClientMappedSuperclass"/>
+
+        <mapping class="ru.sfedu.crm.lab3.model.SingleTable.UserSingleTable"/>
+        <mapping class="ru.sfedu.crm.lab3.model.SingleTable.ClientSingleTable"/>
+        <mapping class="ru.sfedu.crm.lab3.model.SingleTable.WorkerSingleTable"/>
+
+        <mapping class="ru.sfedu.crm.lab3.model.TablePerClass.UserTablePerClass"/>
+        <mapping class="ru.sfedu.crm.lab3.model.TablePerClass.ClientTablePerClass"/>
+        <mapping class="ru.sfedu.crm.lab3.model.TablePerClass.WorkerTablePerClass"/>
+
+        <mapping class="ru.sfedu.crm.lab3.model.JoinedTable.UserJoinedTable"/>
+        <mapping class="ru.sfedu.crm.lab3.model.JoinedTable.ClientJoinedTable"/>
+        <mapping class="ru.sfedu.crm.lab3.model.JoinedTable.WorkerJoinedTable"/>
 
     </session-factory>
 </hibernate-configuration>

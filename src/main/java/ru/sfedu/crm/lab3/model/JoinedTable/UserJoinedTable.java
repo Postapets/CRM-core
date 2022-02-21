@@ -7,10 +7,10 @@ import java.util.Objects;
 /**
  * Class User
  */
-@Entity(name = "JT_User")
-@Table(schema="lab3", name = "JT_User")
+@Entity(name = "UserJoinedTable")
+@Table(schema="lab3_jt", name = "User_Joined_Table")
 @Inheritance(strategy = InheritanceType.JOINED)
-public class User implements Serializable {
+public class UserJoinedTable implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
@@ -18,7 +18,7 @@ public class User implements Serializable {
     private long birthDate;
     private String phoneNumber;
 
-    public User() {}
+    public UserJoinedTable() {}
 
     public long getId() {
         return id;
@@ -60,8 +60,8 @@ public class User implements Serializable {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        User user = (User) o;
-        return id == user.id && birthDate == user.birthDate && Objects.equals(name, user.name) && Objects.equals(phoneNumber, user.phoneNumber);
+        UserJoinedTable userJoinedTable = (UserJoinedTable) o;
+        return id == userJoinedTable.id && birthDate == userJoinedTable.birthDate && Objects.equals(name, userJoinedTable.name) && Objects.equals(phoneNumber, userJoinedTable.phoneNumber);
     }
 
     @Override

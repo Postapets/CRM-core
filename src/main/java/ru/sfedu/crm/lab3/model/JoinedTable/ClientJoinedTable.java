@@ -1,22 +1,21 @@
-package ru.sfedu.crm.lab3.model.TablePerClass;
+package ru.sfedu.crm.lab3.model.JoinedTable;
 
 import ru.sfedu.crm.enums.ClientStatus;
 
-import javax.persistence.Entity;
-import javax.persistence.Table;
+import javax.persistence.*;
 import java.util.Objects;
 
 /**
  * Class Client
  */
-
-@Entity(name = "TPC_Client")
-@Table(schema = "lab3",name = "TPC_Client")
-public class Client extends User {
+@Entity(name = "ClientJoinedTable")
+@Table(schema = "lab3_jt", name ="Client_Joined_Table" )
+@PrimaryKeyJoinColumn(name = "user_id")
+public class ClientJoinedTable extends UserJoinedTable {
     private long inn;
     private ClientStatus status;
 
-    public Client() {}
+    public ClientJoinedTable() {}
 
     public long getInn() {
         return inn;
@@ -43,7 +42,7 @@ public class Client extends User {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         if (!super.equals(o)) return false;
-        Client client = (Client) o;
+        ClientJoinedTable client = (ClientJoinedTable) o;
         return inn == client.inn && status == client.status;
     }
 

@@ -25,7 +25,7 @@ public class DataProviderLab3 {
         Session session = this.getSession();
         Transaction transaction = session.beginTransaction();
         try {
-            log.debug("loadList[0]: try to load list of entities from table Test_Entity:");
+            log.debug("loadList[0]: try to load list of entities from table :" + entity.getSimpleName());
             Query query = session.createQuery(String.format(Constants.HQL_FROM, entity.getSimpleName()));
             List list = query.list();
             log.debug("loadList[0]: Loading success!");
@@ -34,7 +34,7 @@ public class DataProviderLab3 {
             session.close();
             return list;
         } catch (Exception e) {
-            log.error("loadBeanList[0]: Loading from table Test_Entity Error");
+            log.error("loadBeanList[0]: Loading from table "+entity.getSimpleName()+ " Error");
             log.error("loadBeanList[1]: " + e.getClass().getName() + ": " + e.getMessage());
         }
         return new ArrayList<>();
@@ -43,10 +43,10 @@ public class DataProviderLab3 {
     public <T> void clearTable(Class<T> entity) {
         Session session = this.getSession();
         Transaction transaction = session.beginTransaction();
-        log.debug("clearTable[0]: try to clear table Test_Entity:");
+        log.debug("clearTable[0]: try to clear table " + entity.getSimpleName());
         Query query = session.createQuery(String.format(Constants.HQL_DELETE_FROM,entity.getSimpleName()));
         query.executeUpdate();
-        log.debug("clearTable[0]: clearing table Test_Entity success!");
+        log.debug("clearTable[0]: clearing table " + entity.getSimpleName()+" success!");
         transaction.commit();
         session.close();
         return ;

@@ -1,4 +1,4 @@
-package ru.sfedu.crm.lab3.model.TablePerClass;
+package ru.sfedu.crm.lab3.model.MappedSuperclass;
 
 import javax.persistence.Entity;
 import javax.persistence.Table;
@@ -7,14 +7,14 @@ import java.util.Objects;
 /**
  * Class Worker
  */
-@Entity(name = "TPC_Worker")
-@Table(schema = "lab3", name = "TPC_Worker")
-public class Worker extends User {
+@Entity(name = "WorkerMappedSuperclass")
+@Table(schema = "lab3_msc")
+public class WorkerMappedSuperclass extends UserMappedSuperclass {
     private String position;
     private long employmentDate;
     private long leaveDate;
 
-    public Worker() {}
+    public WorkerMappedSuperclass() {}
 
     public String getPosition() {
         return position;
@@ -45,8 +45,8 @@ public class Worker extends User {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         if (!super.equals(o)) return false;
-        Worker worker = (Worker) o;
-        return employmentDate == worker.employmentDate && leaveDate == worker.leaveDate && Objects.equals(position, worker.position);
+        WorkerMappedSuperclass WorkerMappedSuperclass = (WorkerMappedSuperclass) o;
+        return employmentDate == WorkerMappedSuperclass.employmentDate && leaveDate == WorkerMappedSuperclass.leaveDate && Objects.equals(position, WorkerMappedSuperclass.position);
     }
 
     @Override

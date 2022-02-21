@@ -7,7 +7,10 @@ import ru.sfedu.crm.lab1.api.HibernateMetadataProvider;
 import ru.sfedu.crm.lab2.api.TestEntityProvider;
 import ru.sfedu.crm.lab2.model.TestEntity;
 import ru.sfedu.crm.lab3.api.DataProviderLab3;
+import ru.sfedu.crm.lab3.model.JoinedTable.UserJoinedTable;
 import ru.sfedu.crm.lab3.model.MappedSuperclass.*;
+import ru.sfedu.crm.lab3.model.SingleTable.ClientSingleTable;
+import ru.sfedu.crm.lab3.model.TablePerClass.ClientTablePerClass;
 
 import static ru.sfedu.crm.Constants.*;
 
@@ -109,37 +112,43 @@ public class Main {
         DataProviderLab3 dp = new DataProviderLab3();
         switch (args[1].toLowerCase()){
             case "mappedsuperclass" -> {
-                ru.sfedu.crm.lab3.model.MappedSuperclass.Client client = new ru.sfedu.crm.lab3.model.MappedSuperclass.Client();
-                client.setName("PETER");client.setBirthDate(1123123L);
-                client.setPhoneNumber("3123123");client.setStatus(ClientStatus.NEW);
-                client.setInn(123123123L);
-                dp.addRecord(client);
-                log.info(dp.receiveRecordById(ru.sfedu.crm.lab3.model.MappedSuperclass.Client.class,client.getId()));
+                ClientMappedSuperclass MSCClientMappedSuperclass = new ClientMappedSuperclass();
+                MSCClientMappedSuperclass.setName("PETER");
+                MSCClientMappedSuperclass.setBirthDate(1123123L);
+                MSCClientMappedSuperclass.setPhoneNumber("3123123");
+                MSCClientMappedSuperclass.setStatus(ClientStatus.NEW);
+                MSCClientMappedSuperclass.setInn(123123123L);
+                dp.addRecord(MSCClientMappedSuperclass);
+                log.info(dp.receiveRecordById(ClientMappedSuperclass.class, MSCClientMappedSuperclass.getId()));
             }
             case "joinedtable" -> {
-                ru.sfedu.crm.lab3.model.JoinedTable.User user = new ru.sfedu.crm.lab3.model.JoinedTable.User();
-                user.setName("Sanya");
-                user.setPhoneNumber("3123123");
-                user.setBirthDate(123123312L);
-                dp.addRecord(user);
-                log.info(dp.receiveRecordById(ru.sfedu.crm.lab3.model.JoinedTable.User.class,user.getId()));
+                UserJoinedTable userJoinedTable = new UserJoinedTable();
+                userJoinedTable.setName("Sanya");
+                userJoinedTable.setPhoneNumber("3123123");
+                userJoinedTable.setBirthDate(123123312L);
+                dp.addRecord(userJoinedTable);
+                log.info(dp.receiveRecordById(UserJoinedTable.class, userJoinedTable.getId()));
             }
             case "singletable" -> {
-                ru.sfedu.crm.lab3.model.SingleTable.Client client = new ru.sfedu.crm.lab3.model.SingleTable.Client();
-                client.setName("PETER");client.setBirthDate(1123123L);
-                client.setPhoneNumber("3123123");client.setStatus(ClientStatus.NEW);
-                client.setInn(123123123L);
-                dp.addRecord(client);
-                log.info(dp.receiveRecordById(ru.sfedu.crm.lab3.model.SingleTable.Client.class,client.getId()));
+                ClientSingleTable clientSingleTable = new ClientSingleTable();
+                clientSingleTable.setName("PETER");
+                clientSingleTable.setBirthDate(1123123L);
+                clientSingleTable.setPhoneNumber("3123123");
+                clientSingleTable.setStatus(ClientStatus.NEW);
+                clientSingleTable.setInn(123123123L);
+                dp.addRecord(clientSingleTable);
+                log.info(dp.receiveRecordById(ClientSingleTable.class, clientSingleTable.getId()));
 
             }
             case "tableperclass" -> {
-                ru.sfedu.crm.lab3.model.TablePerClass.Client client = new ru.sfedu.crm.lab3.model.TablePerClass.Client();
-                client.setName("PETER");client.setBirthDate(1123123L);
-                client.setPhoneNumber("3123123");client.setStatus(ClientStatus.NEW);
-                client.setInn(123123123L);
-                dp.addRecord(client);
-                log.info(dp.receiveRecordById(ru.sfedu.crm.lab3.model.TablePerClass.Client.class,client.getId()));
+                ClientTablePerClass clientTablePerClass = new ClientTablePerClass();
+                clientTablePerClass.setName("PETER");
+                clientTablePerClass.setBirthDate(1123123L);
+                clientTablePerClass.setPhoneNumber("3123123");
+                clientTablePerClass.setStatus(ClientStatus.NEW);
+                clientTablePerClass.setInn(123123123L);
+                dp.addRecord(clientTablePerClass);
+                log.info(dp.receiveRecordById(ClientTablePerClass.class, clientTablePerClass.getId()));
             }
         }
 //        dp.addRecord(user);

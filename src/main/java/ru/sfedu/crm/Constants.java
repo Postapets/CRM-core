@@ -68,7 +68,6 @@ public class Constants {
     public static final String SELECT_ALL_FROM = "select * from ";
     public static final String DROP_ALL_TABLES = "drop table if exists feedback, request, requestcategory, worker, client, user";
 
-
     //queries for entity User
     public static final String CREATE_TABLE_USER = "create table if not exists user" +
             "(id bigint primary key" +

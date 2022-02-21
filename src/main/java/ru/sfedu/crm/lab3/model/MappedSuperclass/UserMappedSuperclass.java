@@ -8,7 +8,7 @@ import java.util.Objects;
  * Class User
  */
 @MappedSuperclass
-public class User implements Serializable {
+public class UserMappedSuperclass implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
@@ -16,7 +16,7 @@ public class User implements Serializable {
     private long birthDate;
     private String phoneNumber;
 
-    public User() {}
+    public UserMappedSuperclass() {}
 
     public long getId() {
         return id;
@@ -58,8 +58,8 @@ public class User implements Serializable {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        User user = (User) o;
-        return id == user.id && birthDate == user.birthDate && Objects.equals(name, user.name) && Objects.equals(phoneNumber, user.phoneNumber);
+        UserMappedSuperclass UserMappedSuperclass = (UserMappedSuperclass) o;
+        return id == UserMappedSuperclass.id && birthDate == UserMappedSuperclass.birthDate && Objects.equals(name, UserMappedSuperclass.name) && Objects.equals(phoneNumber, UserMappedSuperclass.phoneNumber);
     }
 
     @Override

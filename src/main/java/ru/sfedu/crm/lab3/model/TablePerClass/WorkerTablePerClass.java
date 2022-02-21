@@ -1,22 +1,20 @@
-package ru.sfedu.crm.lab3.model.MappedSuperclass;
+package ru.sfedu.crm.lab3.model.TablePerClass;
 
 import javax.persistence.Entity;
-import javax.persistence.PrimaryKeyJoinColumn;
 import javax.persistence.Table;
-import java.io.Serializable;
 import java.util.Objects;
 
 /**
  * Class Worker
  */
-@Entity(name = "MSC_Worker")
-@Table(schema = "lab3", name = "MSC_Worker")
-public class Worker extends User {
+@Entity(name = "WorkerTablePerClass")
+@Table(schema = "lab3_tpc", name = "Worker_Table_Per_Class")
+public class WorkerTablePerClass extends UserTablePerClass {
     private String position;
     private long employmentDate;
     private long leaveDate;
 
-    public Worker() {}
+    public WorkerTablePerClass() {}
 
     public String getPosition() {
         return position;
@@ -47,8 +45,8 @@ public class Worker extends User {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         if (!super.equals(o)) return false;
-        Worker worker = (Worker) o;
-        return employmentDate == worker.employmentDate && leaveDate == worker.leaveDate && Objects.equals(position, worker.position);
+        WorkerTablePerClass workerTablePerClass = (WorkerTablePerClass) o;
+        return employmentDate == workerTablePerClass.employmentDate && leaveDate == workerTablePerClass.leaveDate && Objects.equals(position, workerTablePerClass.position);
     }
 
     @Override

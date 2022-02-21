@@ -33,7 +33,7 @@ public class TestEntityProviderTest {
     }
 
     @Before
-    public void beforeRun() throws InterruptedException {
+    public void beforeRun(){
         log.info("Before run:");
         tep.clearTable(TestEntity.class);
     }

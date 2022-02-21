@@ -28,7 +28,7 @@ public class TestEntityProvider {
         try {
             log.debug("loadList[0]: try to load list of entities from table Test_Entity:");
             Query query = session.createQuery(String.format(Constants.HQL_FROM, entity.getSimpleName()));
-            List list = query.list();
+            List<TestEntity> list = query.list();
             log.debug("loadList[0]: Loading success!");
             log.trace("List of records: " + list);
             transaction.commit();

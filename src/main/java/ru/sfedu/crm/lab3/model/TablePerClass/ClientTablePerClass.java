@@ -1,22 +1,22 @@
-package ru.sfedu.crm.lab3.model.JoinedTable;
+package ru.sfedu.crm.lab3.model.TablePerClass;
 
 import ru.sfedu.crm.enums.ClientStatus;
 
-import javax.persistence.*;
-import java.io.Serializable;
+import javax.persistence.Entity;
+import javax.persistence.Table;
 import java.util.Objects;
 
 /**
  * Class Client
  */
-@Entity(name = "JT_Client")
-@Table(schema = "lab3", name ="JT_Client" )
-@PrimaryKeyJoinColumn(name = "user_id")
-public class Client extends User implements Serializable {
+
+@Entity(name = "ClientTablePerClass")
+@Table(schema = "lab3_tpc",name = "Client_Table_Per_Class")
+public class ClientTablePerClass extends UserTablePerClass {
     private long inn;
     private ClientStatus status;
 
-    public Client() {}
+    public ClientTablePerClass() {}
 
     public long getInn() {
         return inn;
@@ -43,8 +43,8 @@ public class Client extends User implements Serializable {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         if (!super.equals(o)) return false;
-        Client client = (Client) o;
-        return inn == client.inn && status == client.status;
+        ClientTablePerClass clientTablePerClass = (ClientTablePerClass) o;
+        return inn == clientTablePerClass.inn && status == clientTablePerClass.status;
     }
 
     @Override
