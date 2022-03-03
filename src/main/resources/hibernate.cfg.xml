@@ -35,5 +35,10 @@
         <mapping class="ru.sfedu.crm.lab3.model.JoinedTable.ClientJoinedTable"/>
         <mapping class="ru.sfedu.crm.lab3.model.JoinedTable.WorkerJoinedTable"/>
 
+        <mapping class="ru.sfedu.crm.lab4.model.list.UserList"/>
+        <mapping class="ru.sfedu.crm.lab4.model.set.UserSet"/>
+        <mapping class="ru.sfedu.crm.lab4.model.map.UserMap"/>
+        <mapping class="ru.sfedu.crm.lab4.model.collection.UserCollection"/>
+
     </session-factory>
 </hibernate-configuration>

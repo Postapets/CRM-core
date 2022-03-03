@@ -14,6 +14,10 @@ import ru.sfedu.crm.lab3.model.JoinedTable.*;
 import ru.sfedu.crm.lab3.model.MappedSuperclass.*;
 import ru.sfedu.crm.lab3.model.SingleTable.*;
 import ru.sfedu.crm.lab3.model.TablePerClass.*;
+import ru.sfedu.crm.lab4.model.collection.UserCollection;
+import ru.sfedu.crm.lab4.model.list.UserList;
+import ru.sfedu.crm.lab4.model.map.UserMap;
+import ru.sfedu.crm.lab4.model.set.UserSet;
 
 import java.io.File;
 import java.io.IOException;
@@ -57,6 +61,11 @@ public class HibernateUtil {
         metadataSources.addAnnotatedClass(UserJoinedTable.class);
         metadataSources.addAnnotatedClass(ClientJoinedTable.class);
         metadataSources.addAnnotatedClass(WorkerJoinedTable.class);
+
+        metadataSources.addAnnotatedClass(UserList.class);
+        metadataSources.addAnnotatedClass(UserSet.class);
+        metadataSources.addAnnotatedClass(UserMap.class);
+        metadataSources.addAnnotatedClass(UserCollection.class);
     }
 
 }

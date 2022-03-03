@@ -20,6 +20,7 @@ public class Constants {
     //hql
     public static final String HQL_FROM = "from %s";
     public static final String HQL_DELETE_FROM = "delete from %s";
+    public static final String HQL_DROP_TABLE = "drop table %s";
 
     //labs
     public static final String LAB1 = "lab1";
