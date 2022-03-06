@@ -40,5 +40,8 @@
         <mapping class="ru.sfedu.crm.lab4.model.map.UserMap"/>
         <mapping class="ru.sfedu.crm.lab4.model.collection.UserCollection"/>
 
+        <mapping class="ru.sfedu.crm.lab5.model.one_to_one.Feedback"/>
+        <mapping class="ru.sfedu.crm.lab5.model.one_to_one.Request"/>
+
     </session-factory>
 </hibernate-configuration>

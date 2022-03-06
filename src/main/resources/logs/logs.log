@@ -1551,3 +1551,412 @@
 03.03 23.08.41  INFO	ru.sfedu.crm.lab4.api.UserCollectionTest:43 - loadListNegative:
 03.03 23.08.41 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:28 - loadList[0]: try to load list of entities from table :UserCollection
 03.03 23.08.41 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:31 - loadList[0]: Loading success!
+03.06 19.45.48  INFO	ru.sfedu.crm.lab4.api.UserCollectionTest:29 - Before run:
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:88 - clearTable[0]: try to clear table UserCollection
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:93 - clearTable[0]: clearing table UserCollection success!
+03.06 19.45.51  INFO	ru.sfedu.crm.lab4.api.UserCollectionTest:98 - addRecordPositive:
+03.06 19.45.51  INFO	ru.sfedu.crm.lab4.api.UserCollectionTest:99 - UserCollection
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:28 - loadList[0]: try to load list of entities from table :UserCollection
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:31 - loadList[0]: Loading success!
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.UserCollectionTest:22 - initRecord[0]: Start initiate record
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:153 - addRecord[0]: try to save entity:UserCollection{id=0, name='John Smith', order=[Order{orderType=CLASSIC, id=1}], phoneNumber='+78005553535'}
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:156 - addRecord[1]: entity saved!
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:157 - addRecord[1]: record id = 325
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:28 - loadList[0]: try to load list of entities from table :UserCollection
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:31 - loadList[0]: Loading success!
+03.06 19.45.51  INFO	ru.sfedu.crm.lab4.api.UserCollectionTest:29 - Before run:
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:88 - clearTable[0]: try to clear table UserCollection
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:93 - clearTable[0]: clearing table UserCollection success!
+03.06 19.45.51  INFO	ru.sfedu.crm.lab4.api.UserCollectionTest:78 - updateRecordPositive:
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.UserCollectionTest:22 - initRecord[0]: Start initiate record
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:153 - addRecord[0]: try to save entity:UserCollection{id=0, name='John Smith', order=[Order{orderType=CLASSIC, id=1}], phoneNumber='+78005553535'}
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:156 - addRecord[1]: entity saved!
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:157 - addRecord[1]: record id = 326
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:28 - loadList[0]: try to load list of entities from table :UserCollection
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:31 - loadList[0]: Loading success!
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:136 - updateRecord[0]: try to merge(update) entity:UserCollection{id=326, name='UPDATED NAME', order=[Order{orderType=CLASSIC, id=1}], phoneNumber='+78005553535'}
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:138 - updateRecord[0]: entity updated!
+03.06 19.45.51  INFO	ru.sfedu.crm.lab4.api.UserCollectionTest:29 - Before run:
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:88 - clearTable[0]: try to clear table UserCollection
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:93 - clearTable[0]: clearing table UserCollection success!
+03.06 19.45.51  INFO	ru.sfedu.crm.lab4.api.UserCollectionTest:87 - updateRecordNegative:
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.UserCollectionTest:22 - initRecord[0]: Start initiate record
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:153 - addRecord[0]: try to save entity:UserCollection{id=0, name='John Smith', order=[Order{orderType=CLASSIC, id=1}], phoneNumber='+78005553535'}
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:156 - addRecord[1]: entity saved!
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:157 - addRecord[1]: record id = 327
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:102 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab4.model.collection.UserCollection
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:104 - receiveRecordById[0]: Receiving complete
+03.06 19.45.51 ERROR	ru.sfedu.crm.lab4.api.DataProviderLab4:108 - receiveRecordById[0] Record with id = 200 not found
+03.06 19.45.51 ERROR	ru.sfedu.crm.lab4.api.DataProviderLab4:109 - receiveRecordById[1]:java.lang.NullPointerException: null
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:136 - updateRecord[0]: try to merge(update) entity:UserCollection{id=200, name='null', order=[], phoneNumber='null'}
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:138 - updateRecord[0]: entity updated!
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:102 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab4.model.collection.UserCollection
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:104 - receiveRecordById[0]: Receiving complete
+03.06 19.45.51 ERROR	ru.sfedu.crm.lab4.api.DataProviderLab4:108 - receiveRecordById[0] Record with id = 200 not found
+03.06 19.45.51 ERROR	ru.sfedu.crm.lab4.api.DataProviderLab4:109 - receiveRecordById[1]:java.lang.NullPointerException: null
+03.06 19.45.51  INFO	ru.sfedu.crm.lab4.api.UserCollectionTest:29 - Before run:
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:88 - clearTable[0]: try to clear table UserCollection
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:93 - clearTable[0]: clearing table UserCollection success!
+03.06 19.45.51  INFO	ru.sfedu.crm.lab4.api.UserCollectionTest:65 - deleteRecordPositive:
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.UserCollectionTest:22 - initRecord[0]: Start initiate record
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:153 - addRecord[0]: try to save entity:UserCollection{id=0, name='John Smith', order=[Order{orderType=CLASSIC, id=1}], phoneNumber='+78005553535'}
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:156 - addRecord[1]: entity saved!
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:157 - addRecord[1]: record id = 329
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:28 - loadList[0]: try to load list of entities from table :UserCollection
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:31 - loadList[0]: Loading success!
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:118 - deleteRecord[0]: try to delete entity:class ru.sfedu.crm.lab4.model.collection.UserCollection
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:121 - deleteRecord[1]: entity successfully deleted!
+03.06 19.45.51  INFO	ru.sfedu.crm.lab4.api.UserCollectionTest:29 - Before run:
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:88 - clearTable[0]: try to clear table UserCollection
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:93 - clearTable[0]: clearing table UserCollection success!
+03.06 19.45.51  INFO	ru.sfedu.crm.lab4.api.UserCollectionTest:72 - deleteRecordNegative:
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:118 - deleteRecord[0]: try to delete entity:class ru.sfedu.crm.lab4.model.collection.UserCollection
+03.06 19.45.51 ERROR	ru.sfedu.crm.lab4.api.DataProviderLab4:126 - deleteRecord[0] Record with id = 1 not found
+03.06 19.45.51 ERROR	ru.sfedu.crm.lab4.api.DataProviderLab4:127 - deleteRecord[1]:java.lang.IllegalArgumentException: attempt to create delete event with null entity
+03.06 19.45.51  INFO	ru.sfedu.crm.lab4.api.UserCollectionTest:29 - Before run:
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:88 - clearTable[0]: try to clear table UserCollection
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:93 - clearTable[0]: clearing table UserCollection success!
+03.06 19.45.51  INFO	ru.sfedu.crm.lab4.api.UserCollectionTest:50 - receiveRecordByIdPositive:
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.UserCollectionTest:22 - initRecord[0]: Start initiate record
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:153 - addRecord[0]: try to save entity:UserCollection{id=0, name='John Smith', order=[Order{orderType=CLASSIC, id=1}], phoneNumber='+78005553535'}
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:156 - addRecord[1]: entity saved!
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:157 - addRecord[1]: record id = 330
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:28 - loadList[0]: try to load list of entities from table :UserCollection
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:31 - loadList[0]: Loading success!
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:102 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab4.model.collection.UserCollection
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:104 - receiveRecordById[0]: Receiving complete
+03.06 19.45.51  INFO	ru.sfedu.crm.lab4.api.UserCollectionTest:29 - Before run:
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:88 - clearTable[0]: try to clear table UserCollection
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:93 - clearTable[0]: clearing table UserCollection success!
+03.06 19.45.51  INFO	ru.sfedu.crm.lab4.api.UserCollectionTest:58 - receiveRecordByIdNegative:
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:102 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab4.model.collection.UserCollection
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:104 - receiveRecordById[0]: Receiving complete
+03.06 19.45.51 ERROR	ru.sfedu.crm.lab4.api.DataProviderLab4:108 - receiveRecordById[0] Record with id = 1 not found
+03.06 19.45.51 ERROR	ru.sfedu.crm.lab4.api.DataProviderLab4:109 - receiveRecordById[1]:java.lang.NullPointerException: null
+03.06 19.45.51  INFO	ru.sfedu.crm.lab4.api.UserCollectionTest:29 - Before run:
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:88 - clearTable[0]: try to clear table UserCollection
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:93 - clearTable[0]: clearing table UserCollection success!
+03.06 19.45.51  INFO	ru.sfedu.crm.lab4.api.UserCollectionTest:35 - loadListPositive:
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.UserCollectionTest:22 - initRecord[0]: Start initiate record
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:153 - addRecord[0]: try to save entity:UserCollection{id=0, name='John Smith', order=[Order{orderType=CLASSIC, id=1}], phoneNumber='+78005553535'}
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:156 - addRecord[1]: entity saved!
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:157 - addRecord[1]: record id = 331
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:28 - loadList[0]: try to load list of entities from table :UserCollection
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:31 - loadList[0]: Loading success!
+03.06 19.45.51  INFO	ru.sfedu.crm.lab4.api.UserCollectionTest:29 - Before run:
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:88 - clearTable[0]: try to clear table UserCollection
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:93 - clearTable[0]: clearing table UserCollection success!
+03.06 19.45.51  INFO	ru.sfedu.crm.lab4.api.UserCollectionTest:43 - loadListNegative:
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:28 - loadList[0]: try to load list of entities from table :UserCollection
+03.06 19.45.51 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:31 - loadList[0]: Loading success!
+03.06 19.45.57  INFO	ru.sfedu.crm.lab4.api.UserListTest:29 - Before run:
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:46 - clearTable[0]: try to clear table UserList
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:51 - clearTable[0]: clearing table UserList success!
+03.06 19.45.59  INFO	ru.sfedu.crm.lab4.api.UserListTest:98 - addRecordPositive:
+03.06 19.45.59  INFO	ru.sfedu.crm.lab4.api.UserListTest:99 - UserList
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:28 - loadList[0]: try to load list of entities from table :UserList
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:31 - loadList[0]: Loading success!
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.UserListTest:22 - initRecord[0]: Start initiate record
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:153 - addRecord[0]: try to save entity:UserList{id=0, name='John Smith', OrdersId=[1, 2, 3], phoneNumber='+78005553535'}
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:156 - addRecord[1]: entity saved!
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:157 - addRecord[1]: record id = 332
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:28 - loadList[0]: try to load list of entities from table :UserList
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:31 - loadList[0]: Loading success!
+03.06 19.45.59  INFO	ru.sfedu.crm.lab4.api.UserListTest:29 - Before run:
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:46 - clearTable[0]: try to clear table UserList
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:51 - clearTable[0]: clearing table UserList success!
+03.06 19.45.59  INFO	ru.sfedu.crm.lab4.api.UserListTest:78 - updateRecordPositive:
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.UserListTest:22 - initRecord[0]: Start initiate record
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:153 - addRecord[0]: try to save entity:UserList{id=0, name='John Smith', OrdersId=[1, 2, 3], phoneNumber='+78005553535'}
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:156 - addRecord[1]: entity saved!
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:157 - addRecord[1]: record id = 333
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:28 - loadList[0]: try to load list of entities from table :UserList
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:31 - loadList[0]: Loading success!
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:136 - updateRecord[0]: try to merge(update) entity:UserList{id=333, name='UPDATED NAME', OrdersId=[1, 2, 3], phoneNumber='+78005553535'}
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:138 - updateRecord[0]: entity updated!
+03.06 19.45.59  INFO	ru.sfedu.crm.lab4.api.UserListTest:29 - Before run:
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:46 - clearTable[0]: try to clear table UserList
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:51 - clearTable[0]: clearing table UserList success!
+03.06 19.45.59  INFO	ru.sfedu.crm.lab4.api.UserListTest:87 - updateRecordNegative:
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.UserListTest:22 - initRecord[0]: Start initiate record
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:153 - addRecord[0]: try to save entity:UserList{id=0, name='John Smith', OrdersId=[1, 2, 3], phoneNumber='+78005553535'}
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:156 - addRecord[1]: entity saved!
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:157 - addRecord[1]: record id = 334
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:102 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab4.model.list.UserList
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:104 - receiveRecordById[0]: Receiving complete
+03.06 19.45.59 ERROR	ru.sfedu.crm.lab4.api.DataProviderLab4:108 - receiveRecordById[0] Record with id = 200 not found
+03.06 19.45.59 ERROR	ru.sfedu.crm.lab4.api.DataProviderLab4:109 - receiveRecordById[1]:java.lang.NullPointerException: null
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:136 - updateRecord[0]: try to merge(update) entity:UserList{id=200, name='null', OrdersId=[], phoneNumber='null'}
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:138 - updateRecord[0]: entity updated!
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:102 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab4.model.list.UserList
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:104 - receiveRecordById[0]: Receiving complete
+03.06 19.45.59 ERROR	ru.sfedu.crm.lab4.api.DataProviderLab4:108 - receiveRecordById[0] Record with id = 200 not found
+03.06 19.45.59 ERROR	ru.sfedu.crm.lab4.api.DataProviderLab4:109 - receiveRecordById[1]:java.lang.NullPointerException: null
+03.06 19.45.59  INFO	ru.sfedu.crm.lab4.api.UserListTest:29 - Before run:
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:46 - clearTable[0]: try to clear table UserList
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:51 - clearTable[0]: clearing table UserList success!
+03.06 19.45.59  INFO	ru.sfedu.crm.lab4.api.UserListTest:65 - deleteRecordPositive:
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.UserListTest:22 - initRecord[0]: Start initiate record
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:153 - addRecord[0]: try to save entity:UserList{id=0, name='John Smith', OrdersId=[1, 2, 3], phoneNumber='+78005553535'}
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:156 - addRecord[1]: entity saved!
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:157 - addRecord[1]: record id = 336
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:28 - loadList[0]: try to load list of entities from table :UserList
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:31 - loadList[0]: Loading success!
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:118 - deleteRecord[0]: try to delete entity:class ru.sfedu.crm.lab4.model.list.UserList
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:121 - deleteRecord[1]: entity successfully deleted!
+03.06 19.45.59  INFO	ru.sfedu.crm.lab4.api.UserListTest:29 - Before run:
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:46 - clearTable[0]: try to clear table UserList
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:51 - clearTable[0]: clearing table UserList success!
+03.06 19.45.59  INFO	ru.sfedu.crm.lab4.api.UserListTest:72 - deleteRecordNegative:
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:118 - deleteRecord[0]: try to delete entity:class ru.sfedu.crm.lab4.model.list.UserList
+03.06 19.45.59 ERROR	ru.sfedu.crm.lab4.api.DataProviderLab4:126 - deleteRecord[0] Record with id = 1 not found
+03.06 19.45.59 ERROR	ru.sfedu.crm.lab4.api.DataProviderLab4:127 - deleteRecord[1]:java.lang.IllegalArgumentException: attempt to create delete event with null entity
+03.06 19.45.59  INFO	ru.sfedu.crm.lab4.api.UserListTest:29 - Before run:
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:46 - clearTable[0]: try to clear table UserList
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:51 - clearTable[0]: clearing table UserList success!
+03.06 19.45.59  INFO	ru.sfedu.crm.lab4.api.UserListTest:50 - receiveRecordByIdPositive:
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.UserListTest:22 - initRecord[0]: Start initiate record
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:153 - addRecord[0]: try to save entity:UserList{id=0, name='John Smith', OrdersId=[1, 2, 3], phoneNumber='+78005553535'}
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:156 - addRecord[1]: entity saved!
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:157 - addRecord[1]: record id = 337
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:28 - loadList[0]: try to load list of entities from table :UserList
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:31 - loadList[0]: Loading success!
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:102 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab4.model.list.UserList
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:104 - receiveRecordById[0]: Receiving complete
+03.06 19.45.59  INFO	ru.sfedu.crm.lab4.api.UserListTest:29 - Before run:
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:46 - clearTable[0]: try to clear table UserList
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:51 - clearTable[0]: clearing table UserList success!
+03.06 19.45.59  INFO	ru.sfedu.crm.lab4.api.UserListTest:58 - receiveRecordByIdNegative:
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:102 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab4.model.list.UserList
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:104 - receiveRecordById[0]: Receiving complete
+03.06 19.45.59 ERROR	ru.sfedu.crm.lab4.api.DataProviderLab4:108 - receiveRecordById[0] Record with id = 1 not found
+03.06 19.45.59 ERROR	ru.sfedu.crm.lab4.api.DataProviderLab4:109 - receiveRecordById[1]:java.lang.NullPointerException: null
+03.06 19.45.59  INFO	ru.sfedu.crm.lab4.api.UserListTest:29 - Before run:
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:46 - clearTable[0]: try to clear table UserList
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:51 - clearTable[0]: clearing table UserList success!
+03.06 19.45.59  INFO	ru.sfedu.crm.lab4.api.UserListTest:35 - loadListPositive:
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.UserListTest:22 - initRecord[0]: Start initiate record
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:153 - addRecord[0]: try to save entity:UserList{id=0, name='John Smith', OrdersId=[1, 2, 3], phoneNumber='+78005553535'}
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:156 - addRecord[1]: entity saved!
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:157 - addRecord[1]: record id = 338
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:28 - loadList[0]: try to load list of entities from table :UserList
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:31 - loadList[0]: Loading success!
+03.06 19.45.59  INFO	ru.sfedu.crm.lab4.api.UserListTest:29 - Before run:
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:46 - clearTable[0]: try to clear table UserList
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:51 - clearTable[0]: clearing table UserList success!
+03.06 19.45.59  INFO	ru.sfedu.crm.lab4.api.UserListTest:43 - loadListNegative:
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:28 - loadList[0]: try to load list of entities from table :UserList
+03.06 19.45.59 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:31 - loadList[0]: Loading success!
+03.06 19.46.07  INFO	ru.sfedu.crm.lab4.api.UserMapTest:29 - Before run:
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:60 - clearTable[0]: try to clear table UserMap
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:65 - clearTable[0]: clearing table UserMap success!
+03.06 19.46.09  INFO	ru.sfedu.crm.lab4.api.UserMapTest:98 - addRecordPositive:
+03.06 19.46.09  INFO	ru.sfedu.crm.lab4.api.UserMapTest:99 - UserMap
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:28 - loadList[0]: try to load list of entities from table :UserMap
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:31 - loadList[0]: Loading success!
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.UserMapTest:22 - initRecord[0]: Start initiate record
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:153 - addRecord[0]: try to save entity:UserMap{id=0, name='John Smith', OrdersId={1=CLASSIC, 2=CLASSIC, 3=AMBIENT}, phoneNumber='+78005553535'}
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:156 - addRecord[1]: entity saved!
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:157 - addRecord[1]: record id = 339
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:28 - loadList[0]: try to load list of entities from table :UserMap
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:31 - loadList[0]: Loading success!
+03.06 19.46.09  INFO	ru.sfedu.crm.lab4.api.UserMapTest:29 - Before run:
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:60 - clearTable[0]: try to clear table UserMap
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:65 - clearTable[0]: clearing table UserMap success!
+03.06 19.46.09  INFO	ru.sfedu.crm.lab4.api.UserMapTest:78 - updateRecordPositive:
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.UserMapTest:22 - initRecord[0]: Start initiate record
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:153 - addRecord[0]: try to save entity:UserMap{id=0, name='John Smith', OrdersId={1=CLASSIC, 2=CLASSIC, 3=AMBIENT}, phoneNumber='+78005553535'}
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:156 - addRecord[1]: entity saved!
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:157 - addRecord[1]: record id = 340
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:28 - loadList[0]: try to load list of entities from table :UserMap
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:31 - loadList[0]: Loading success!
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:136 - updateRecord[0]: try to merge(update) entity:UserMap{id=340, name='UPDATED NAME', OrdersId={1=CLASSIC, 2=CLASSIC, 3=AMBIENT}, phoneNumber='+78005553535'}
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:138 - updateRecord[0]: entity updated!
+03.06 19.46.09  INFO	ru.sfedu.crm.lab4.api.UserMapTest:29 - Before run:
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:60 - clearTable[0]: try to clear table UserMap
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:65 - clearTable[0]: clearing table UserMap success!
+03.06 19.46.09  INFO	ru.sfedu.crm.lab4.api.UserMapTest:87 - updateRecordNegative:
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.UserMapTest:22 - initRecord[0]: Start initiate record
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:153 - addRecord[0]: try to save entity:UserMap{id=0, name='John Smith', OrdersId={1=CLASSIC, 2=CLASSIC, 3=AMBIENT}, phoneNumber='+78005553535'}
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:156 - addRecord[1]: entity saved!
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:157 - addRecord[1]: record id = 341
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:102 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab4.model.map.UserMap
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:104 - receiveRecordById[0]: Receiving complete
+03.06 19.46.09 ERROR	ru.sfedu.crm.lab4.api.DataProviderLab4:108 - receiveRecordById[0] Record with id = 200 not found
+03.06 19.46.09 ERROR	ru.sfedu.crm.lab4.api.DataProviderLab4:109 - receiveRecordById[1]:java.lang.NullPointerException: null
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:136 - updateRecord[0]: try to merge(update) entity:UserMap{id=200, name='null', OrdersId={}, phoneNumber='null'}
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:138 - updateRecord[0]: entity updated!
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:102 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab4.model.map.UserMap
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:104 - receiveRecordById[0]: Receiving complete
+03.06 19.46.09 ERROR	ru.sfedu.crm.lab4.api.DataProviderLab4:108 - receiveRecordById[0] Record with id = 200 not found
+03.06 19.46.09 ERROR	ru.sfedu.crm.lab4.api.DataProviderLab4:109 - receiveRecordById[1]:java.lang.NullPointerException: null
+03.06 19.46.09  INFO	ru.sfedu.crm.lab4.api.UserMapTest:29 - Before run:
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:60 - clearTable[0]: try to clear table UserMap
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:65 - clearTable[0]: clearing table UserMap success!
+03.06 19.46.09  INFO	ru.sfedu.crm.lab4.api.UserMapTest:65 - deleteRecordPositive:
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.UserMapTest:22 - initRecord[0]: Start initiate record
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:153 - addRecord[0]: try to save entity:UserMap{id=0, name='John Smith', OrdersId={1=CLASSIC, 2=CLASSIC, 3=AMBIENT}, phoneNumber='+78005553535'}
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:156 - addRecord[1]: entity saved!
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:157 - addRecord[1]: record id = 343
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:28 - loadList[0]: try to load list of entities from table :UserMap
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:31 - loadList[0]: Loading success!
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:118 - deleteRecord[0]: try to delete entity:class ru.sfedu.crm.lab4.model.map.UserMap
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:121 - deleteRecord[1]: entity successfully deleted!
+03.06 19.46.09  INFO	ru.sfedu.crm.lab4.api.UserMapTest:29 - Before run:
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:60 - clearTable[0]: try to clear table UserMap
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:65 - clearTable[0]: clearing table UserMap success!
+03.06 19.46.09  INFO	ru.sfedu.crm.lab4.api.UserMapTest:72 - deleteRecordNegative:
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:118 - deleteRecord[0]: try to delete entity:class ru.sfedu.crm.lab4.model.map.UserMap
+03.06 19.46.09 ERROR	ru.sfedu.crm.lab4.api.DataProviderLab4:126 - deleteRecord[0] Record with id = 1 not found
+03.06 19.46.09 ERROR	ru.sfedu.crm.lab4.api.DataProviderLab4:127 - deleteRecord[1]:java.lang.IllegalArgumentException: attempt to create delete event with null entity
+03.06 19.46.09  INFO	ru.sfedu.crm.lab4.api.UserMapTest:29 - Before run:
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:60 - clearTable[0]: try to clear table UserMap
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:65 - clearTable[0]: clearing table UserMap success!
+03.06 19.46.09  INFO	ru.sfedu.crm.lab4.api.UserMapTest:50 - receiveRecordByIdPositive:
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.UserMapTest:22 - initRecord[0]: Start initiate record
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:153 - addRecord[0]: try to save entity:UserMap{id=0, name='John Smith', OrdersId={1=CLASSIC, 2=CLASSIC, 3=AMBIENT}, phoneNumber='+78005553535'}
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:156 - addRecord[1]: entity saved!
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:157 - addRecord[1]: record id = 344
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:28 - loadList[0]: try to load list of entities from table :UserMap
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:31 - loadList[0]: Loading success!
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:102 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab4.model.map.UserMap
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:104 - receiveRecordById[0]: Receiving complete
+03.06 19.46.09  INFO	ru.sfedu.crm.lab4.api.UserMapTest:29 - Before run:
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:60 - clearTable[0]: try to clear table UserMap
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:65 - clearTable[0]: clearing table UserMap success!
+03.06 19.46.09  INFO	ru.sfedu.crm.lab4.api.UserMapTest:58 - receiveRecordByIdNegative:
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:102 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab4.model.map.UserMap
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:104 - receiveRecordById[0]: Receiving complete
+03.06 19.46.09 ERROR	ru.sfedu.crm.lab4.api.DataProviderLab4:108 - receiveRecordById[0] Record with id = 1 not found
+03.06 19.46.09 ERROR	ru.sfedu.crm.lab4.api.DataProviderLab4:109 - receiveRecordById[1]:java.lang.NullPointerException: null
+03.06 19.46.09  INFO	ru.sfedu.crm.lab4.api.UserMapTest:29 - Before run:
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:60 - clearTable[0]: try to clear table UserMap
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:65 - clearTable[0]: clearing table UserMap success!
+03.06 19.46.09  INFO	ru.sfedu.crm.lab4.api.UserMapTest:35 - loadListPositive:
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.UserMapTest:22 - initRecord[0]: Start initiate record
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:153 - addRecord[0]: try to save entity:UserMap{id=0, name='John Smith', OrdersId={1=CLASSIC, 2=CLASSIC, 3=AMBIENT}, phoneNumber='+78005553535'}
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:156 - addRecord[1]: entity saved!
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:157 - addRecord[1]: record id = 345
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:28 - loadList[0]: try to load list of entities from table :UserMap
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:31 - loadList[0]: Loading success!
+03.06 19.46.09  INFO	ru.sfedu.crm.lab4.api.UserMapTest:29 - Before run:
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:60 - clearTable[0]: try to clear table UserMap
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:65 - clearTable[0]: clearing table UserMap success!
+03.06 19.46.09  INFO	ru.sfedu.crm.lab4.api.UserMapTest:43 - loadListNegative:
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:28 - loadList[0]: try to load list of entities from table :UserMap
+03.06 19.46.09 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:31 - loadList[0]: Loading success!
+03.06 19.46.18  INFO	ru.sfedu.crm.lab4.api.UserSetTest:27 - Before run:
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:74 - clearTable[0]: try to clear table UserSet
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:79 - clearTable[0]: clearing table UserSet success!
+03.06 19.46.20  INFO	ru.sfedu.crm.lab4.api.UserSetTest:96 - addRecordPositive:
+03.06 19.46.20  INFO	ru.sfedu.crm.lab4.api.UserSetTest:97 - UserSet
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:28 - loadList[0]: try to load list of entities from table :UserSet
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:31 - loadList[0]: Loading success!
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.UserSetTest:20 - initRecord[0]: Start initiate record
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:153 - addRecord[0]: try to save entity:UserSet{id=0, name='John Smith', OrdersId=[1, 2, 3], phoneNumber='+78005553535'}
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:156 - addRecord[1]: entity saved!
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:157 - addRecord[1]: record id = 346
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:28 - loadList[0]: try to load list of entities from table :UserSet
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:31 - loadList[0]: Loading success!
+03.06 19.46.20  INFO	ru.sfedu.crm.lab4.api.UserSetTest:27 - Before run:
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:74 - clearTable[0]: try to clear table UserSet
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:79 - clearTable[0]: clearing table UserSet success!
+03.06 19.46.20  INFO	ru.sfedu.crm.lab4.api.UserSetTest:76 - updateRecordPositive:
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.UserSetTest:20 - initRecord[0]: Start initiate record
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:153 - addRecord[0]: try to save entity:UserSet{id=0, name='John Smith', OrdersId=[1, 2, 3], phoneNumber='+78005553535'}
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:156 - addRecord[1]: entity saved!
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:157 - addRecord[1]: record id = 347
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:28 - loadList[0]: try to load list of entities from table :UserSet
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:31 - loadList[0]: Loading success!
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:136 - updateRecord[0]: try to merge(update) entity:UserSet{id=347, name='UPDATED NAME', OrdersId=[1, 2, 3], phoneNumber='+78005553535'}
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:138 - updateRecord[0]: entity updated!
+03.06 19.46.20  INFO	ru.sfedu.crm.lab4.api.UserSetTest:27 - Before run:
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:74 - clearTable[0]: try to clear table UserSet
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:79 - clearTable[0]: clearing table UserSet success!
+03.06 19.46.20  INFO	ru.sfedu.crm.lab4.api.UserSetTest:85 - updateRecordNegative:
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.UserSetTest:20 - initRecord[0]: Start initiate record
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:153 - addRecord[0]: try to save entity:UserSet{id=0, name='John Smith', OrdersId=[1, 2, 3], phoneNumber='+78005553535'}
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:156 - addRecord[1]: entity saved!
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:157 - addRecord[1]: record id = 348
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:102 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab4.model.set.UserSet
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:104 - receiveRecordById[0]: Receiving complete
+03.06 19.46.20 ERROR	ru.sfedu.crm.lab4.api.DataProviderLab4:108 - receiveRecordById[0] Record with id = 200 not found
+03.06 19.46.20 ERROR	ru.sfedu.crm.lab4.api.DataProviderLab4:109 - receiveRecordById[1]:java.lang.NullPointerException: null
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:136 - updateRecord[0]: try to merge(update) entity:UserSet{id=200, name='null', OrdersId=[], phoneNumber='null'}
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:138 - updateRecord[0]: entity updated!
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:102 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab4.model.set.UserSet
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:104 - receiveRecordById[0]: Receiving complete
+03.06 19.46.20 ERROR	ru.sfedu.crm.lab4.api.DataProviderLab4:108 - receiveRecordById[0] Record with id = 200 not found
+03.06 19.46.20 ERROR	ru.sfedu.crm.lab4.api.DataProviderLab4:109 - receiveRecordById[1]:java.lang.NullPointerException: null
+03.06 19.46.20  INFO	ru.sfedu.crm.lab4.api.UserSetTest:27 - Before run:
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:74 - clearTable[0]: try to clear table UserSet
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:79 - clearTable[0]: clearing table UserSet success!
+03.06 19.46.20  INFO	ru.sfedu.crm.lab4.api.UserSetTest:63 - deleteRecordPositive:
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.UserSetTest:20 - initRecord[0]: Start initiate record
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:153 - addRecord[0]: try to save entity:UserSet{id=0, name='John Smith', OrdersId=[1, 2, 3], phoneNumber='+78005553535'}
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:156 - addRecord[1]: entity saved!
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:157 - addRecord[1]: record id = 350
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:28 - loadList[0]: try to load list of entities from table :UserSet
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:31 - loadList[0]: Loading success!
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:118 - deleteRecord[0]: try to delete entity:class ru.sfedu.crm.lab4.model.set.UserSet
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:121 - deleteRecord[1]: entity successfully deleted!
+03.06 19.46.20  INFO	ru.sfedu.crm.lab4.api.UserSetTest:27 - Before run:
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:74 - clearTable[0]: try to clear table UserSet
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:79 - clearTable[0]: clearing table UserSet success!
+03.06 19.46.20  INFO	ru.sfedu.crm.lab4.api.UserSetTest:70 - deleteRecordNegative:
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:118 - deleteRecord[0]: try to delete entity:class ru.sfedu.crm.lab4.model.set.UserSet
+03.06 19.46.20 ERROR	ru.sfedu.crm.lab4.api.DataProviderLab4:126 - deleteRecord[0] Record with id = 1 not found
+03.06 19.46.20 ERROR	ru.sfedu.crm.lab4.api.DataProviderLab4:127 - deleteRecord[1]:java.lang.IllegalArgumentException: attempt to create delete event with null entity
+03.06 19.46.20  INFO	ru.sfedu.crm.lab4.api.UserSetTest:27 - Before run:
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:74 - clearTable[0]: try to clear table UserSet
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:79 - clearTable[0]: clearing table UserSet success!
+03.06 19.46.20  INFO	ru.sfedu.crm.lab4.api.UserSetTest:48 - receiveRecordByIdPositive:
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.UserSetTest:20 - initRecord[0]: Start initiate record
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:153 - addRecord[0]: try to save entity:UserSet{id=0, name='John Smith', OrdersId=[1, 2, 3], phoneNumber='+78005553535'}
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:156 - addRecord[1]: entity saved!
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:157 - addRecord[1]: record id = 351
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:28 - loadList[0]: try to load list of entities from table :UserSet
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:31 - loadList[0]: Loading success!
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:102 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab4.model.set.UserSet
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:104 - receiveRecordById[0]: Receiving complete
+03.06 19.46.20  INFO	ru.sfedu.crm.lab4.api.UserSetTest:27 - Before run:
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:74 - clearTable[0]: try to clear table UserSet
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:79 - clearTable[0]: clearing table UserSet success!
+03.06 19.46.20  INFO	ru.sfedu.crm.lab4.api.UserSetTest:56 - receiveRecordByIdNegative:
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:102 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab4.model.set.UserSet
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:104 - receiveRecordById[0]: Receiving complete
+03.06 19.46.20 ERROR	ru.sfedu.crm.lab4.api.DataProviderLab4:108 - receiveRecordById[0] Record with id = 1 not found
+03.06 19.46.20 ERROR	ru.sfedu.crm.lab4.api.DataProviderLab4:109 - receiveRecordById[1]:java.lang.NullPointerException: null
+03.06 19.46.20  INFO	ru.sfedu.crm.lab4.api.UserSetTest:27 - Before run:
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:74 - clearTable[0]: try to clear table UserSet
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:79 - clearTable[0]: clearing table UserSet success!
+03.06 19.46.20  INFO	ru.sfedu.crm.lab4.api.UserSetTest:33 - loadListPositive:
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.UserSetTest:20 - initRecord[0]: Start initiate record
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:153 - addRecord[0]: try to save entity:UserSet{id=0, name='John Smith', OrdersId=[1, 2, 3], phoneNumber='+78005553535'}
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:156 - addRecord[1]: entity saved!
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:157 - addRecord[1]: record id = 352
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:28 - loadList[0]: try to load list of entities from table :UserSet
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:31 - loadList[0]: Loading success!
+03.06 19.46.20  INFO	ru.sfedu.crm.lab4.api.UserSetTest:27 - Before run:
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:74 - clearTable[0]: try to clear table UserSet
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:79 - clearTable[0]: clearing table UserSet success!
+03.06 19.46.20  INFO	ru.sfedu.crm.lab4.api.UserSetTest:41 - loadListNegative:
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:28 - loadList[0]: try to load list of entities from table :UserSet
+03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:31 - loadList[0]: Loading success!
+03.06 21.41.14  INFO	ru.sfedu.crm.lab5.api.OneToOneTest:33 - Before run:
+03.06 21.41.16 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Feedback
+03.06 21.41.16 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Feedback success!
+03.06 21.41.16 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Request
+03.06 21.41.16 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Request success!
+03.06 21.41.16  INFO	ru.sfedu.crm.lab5.api.OneToOneTest:40 - loadListPositive:
+03.06 21.41.16 DEBUG	ru.sfedu.crm.lab5.api.OneToOneTest:24 - initRecord[0]: Start initiate record
+03.06 21.41.16 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Request{id=null, date=1654434566, status=DONE, description='Default description'}
+03.06 21.41.16 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.06 21.41.16 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 1
+03.06 21.41.16 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Feedback{id=null, request=Request{id=1, date=1654434566, status=DONE, description='Default description'}, rate=AVERAGE, message='Default description'}
+03.06 21.41.16 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.06 21.41.16 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 1
+03.06 21.41.16 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Feedback
+03.06 21.41.16 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.06 21.41.16 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Request
+03.06 21.41.16 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!

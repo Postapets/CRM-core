@@ -183,6 +183,8 @@ public class Constants {
     public static final String DEFAULT_POSITION = "Chief";
     public static final long   DEFAULT_EMPLOYMENT_DATE = 1607126400;
     public static final long   DEFAULT_LEAVE_DATE = 9999999999L;
+    public static final long   DEFAULT_DATE = 1654434566L;
+    public static final String DEFAULT_DESCRIPTION = "Default description";
     public static final String DEFAULT_CATEGORY_NAME = "Repair";
 
     //methods
