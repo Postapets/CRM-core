@@ -1943,13 +1943,13 @@
 03.06 19.46.20  INFO	ru.sfedu.crm.lab4.api.UserSetTest:41 - loadListNegative:
 03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:28 - loadList[0]: try to load list of entities from table :UserSet
 03.06 19.46.20 DEBUG	ru.sfedu.crm.lab4.api.DataProviderLab4:31 - loadList[0]: Loading success!
-03.06 21.41.14  INFO	ru.sfedu.crm.lab5.api.OneToOneTest:33 - Before run:
+03.06 21.41.14  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:33 - Before run:
 03.06 21.41.16 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Feedback
 03.06 21.41.16 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Feedback success!
 03.06 21.41.16 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Request
 03.06 21.41.16 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Request success!
-03.06 21.41.16  INFO	ru.sfedu.crm.lab5.api.OneToOneTest:40 - loadListPositive:
-03.06 21.41.16 DEBUG	ru.sfedu.crm.lab5.api.OneToOneTest:24 - initRecord[0]: Start initiate record
+03.06 21.41.16  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:40 - loadListPositive:
+03.06 21.41.16 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5Test:24 - initRecord[0]: Start initiate record
 03.06 21.41.16 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Request{id=null, date=1654434566, status=DONE, description='Default description'}
 03.06 21.41.16 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
 03.06 21.41.16 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 1
@@ -1960,3 +1960,1476 @@
 03.06 21.41.16 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
 03.06 21.41.16 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Request
 03.06 21.41.16 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 17.28.30  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:32 - Before run:
+03.07 17.28.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Feedback
+03.07 17.28.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Feedback success!
+03.07 17.28.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Request
+03.07 17.28.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Request success!
+03.07 17.28.32  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:39 - loadListPositive:
+03.07 17.28.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5Test:23 - initRecord[0]: Start initiate record
+03.07 17.28.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Request{id=null, date=1654434566, status=DONE, description='Default description'}
+03.07 17.28.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 17.28.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 2
+03.07 17.28.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Feedback{id=null, request=Request{id=2, date=1654434566, status=DONE, description='Default description'}, rate=AVERAGE, message='Default description'}
+03.07 17.28.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 17.28.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 2
+03.07 17.28.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Feedback
+03.07 17.28.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 17.28.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Request
+03.07 17.28.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 17.28.35  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:32 - Before run:
+03.07 17.28.37 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Feedback
+03.07 17.28.37 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Feedback success!
+03.07 17.28.37 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Request
+03.07 17.28.37 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Request success!
+03.07 17.28.37  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:49 - loadListNegative:
+03.07 17.28.37 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Feedback
+03.07 17.28.37 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 17.28.37 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Request
+03.07 17.28.37 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 17.28.40  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:32 - Before run:
+03.07 17.28.42 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Feedback
+03.07 17.28.42 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Feedback success!
+03.07 17.28.42 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Request
+03.07 17.28.42 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Request success!
+03.07 17.28.42  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:58 - receiveRecordByIdPositive:
+03.07 17.28.42 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5Test:23 - initRecord[0]: Start initiate record
+03.07 17.28.42 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Request{id=null, date=1654434566, status=DONE, description='Default description'}
+03.07 17.28.42 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 17.28.42 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 3
+03.07 17.28.42 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Feedback{id=null, request=Request{id=3, date=1654434566, status=DONE, description='Default description'}, rate=AVERAGE, message='Default description'}
+03.07 17.28.42 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 17.28.42 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 3
+03.07 17.28.42 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Feedback
+03.07 17.28.42 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 17.28.42 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:114 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab5.model.Feedback
+03.07 17.28.42 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:116 - receiveRecordById[0]: Receiving complete
+03.07 17.28.42 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Request
+03.07 17.28.42 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 17.28.42 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:114 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab5.model.Request
+03.07 17.28.42 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:116 - receiveRecordById[0]: Receiving complete
+03.07 17.28.48  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:32 - Before run:
+03.07 17.28.51 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Feedback
+03.07 17.28.51 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Feedback success!
+03.07 17.28.51 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Request
+03.07 17.28.51 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Request success!
+03.07 17.28.51  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:68 - receiveRecordByIdNegative:
+03.07 17.28.51 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:114 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab5.model.Feedback
+03.07 17.28.51 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:116 - receiveRecordById[0]: Receiving complete
+03.07 17.28.51 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:120 - receiveRecordById[0] Record with id = 1 not found
+03.07 17.28.51 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:121 - receiveRecordById[1]:java.lang.NullPointerException: null
+03.07 17.28.51 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:114 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab5.model.Request
+03.07 17.28.51 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:116 - receiveRecordById[0]: Receiving complete
+03.07 17.28.51 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:120 - receiveRecordById[0] Record with id = 1 not found
+03.07 17.28.51 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:121 - receiveRecordById[1]:java.lang.NullPointerException: null
+03.07 17.28.54  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:32 - Before run:
+03.07 17.28.57 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Feedback
+03.07 17.28.57 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Feedback success!
+03.07 17.28.57 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Request
+03.07 17.28.57 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Request success!
+03.07 17.28.57  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:77 - deleteRecordPositive:
+03.07 17.28.57 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5Test:23 - initRecord[0]: Start initiate record
+03.07 17.28.57 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Request{id=null, date=1654434566, status=DONE, description='Default description'}
+03.07 17.28.58 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 17.28.58 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 4
+03.07 17.28.58 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Feedback{id=null, request=Request{id=4, date=1654434566, status=DONE, description='Default description'}, rate=AVERAGE, message='Default description'}
+03.07 17.28.58 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 17.28.58 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 4
+03.07 17.28.58 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Feedback
+03.07 17.28.58 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 17.28.58 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:130 - deleteRecord[0]: try to delete entity:class ru.sfedu.crm.lab5.model.Feedback
+03.07 17.28.58 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:133 - deleteRecord[1]: entity successfully deleted!
+03.07 17.28.58 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Request
+03.07 17.28.58 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 17.28.58 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:130 - deleteRecord[0]: try to delete entity:class ru.sfedu.crm.lab5.model.Request
+03.07 17.28.58 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:133 - deleteRecord[1]: entity successfully deleted!
+03.07 17.34.21  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:32 - Before run:
+03.07 17.34.23 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Feedback
+03.07 17.34.23 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Feedback success!
+03.07 17.34.23 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Request
+03.07 17.34.23 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Request success!
+03.07 17.34.23  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:85 - deleteRecordNegative:
+03.07 17.34.23 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:130 - deleteRecord[0]: try to delete entity:class ru.sfedu.crm.lab5.model.Feedback
+03.07 17.34.23 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:138 - deleteRecord[0] Record with id = 1 not found
+03.07 17.34.23 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:139 - deleteRecord[1]:java.lang.IllegalArgumentException: attempt to create delete event with null entity
+03.07 17.34.23 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:130 - deleteRecord[0]: try to delete entity:class ru.sfedu.crm.lab5.model.Request
+03.07 17.34.23 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:138 - deleteRecord[0] Record with id = 1 not found
+03.07 17.34.23 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:139 - deleteRecord[1]:java.lang.IllegalArgumentException: attempt to create delete event with null entity
+03.07 17.34.27  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:32 - Before run:
+03.07 17.34.29 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Feedback
+03.07 17.34.29 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Feedback success!
+03.07 17.34.29 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Request
+03.07 17.34.29 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Request success!
+03.07 17.34.29  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:92 - updateRecordPositive:
+03.07 17.34.29 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5Test:23 - initRecord[0]: Start initiate record
+03.07 17.34.29 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Request{id=null, date=1654434566, status=DONE, description='Default description'}
+03.07 17.34.29 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 17.34.29 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 5
+03.07 17.34.29 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Feedback{id=null, request=Request{id=5, date=1654434566, status=DONE, description='Default description'}, rate=AVERAGE, message='Default description'}
+03.07 17.34.29 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 17.34.29 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 5
+03.07 17.34.29 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Feedback
+03.07 17.34.29 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 17.34.29 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Request
+03.07 17.34.29 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 17.34.29 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:148 - updateRecord[0]: try to merge(update) entity:Feedback{id=5, request=Request{id=5, date=1654434566, status=DONE, description='Default description'}, rate=AVERAGE, message='UPDATED MESSAGE'}
+03.07 17.34.29 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:150 - updateRecord[0]: entity updated!
+03.07 17.34.29 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:148 - updateRecord[0]: try to merge(update) entity:Request{id=5, date=1654434566, status=DONE, description='UPDATED DESCRIPTION'}
+03.07 17.34.29 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:150 - updateRecord[0]: entity updated!
+03.07 17.34.32  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:32 - Before run:
+03.07 17.34.34 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Feedback
+03.07 17.34.34 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Feedback success!
+03.07 17.34.34 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Request
+03.07 17.34.34 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Request success!
+03.07 17.34.34  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:92 - updateRecordPositive:
+03.07 17.34.34 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5Test:23 - initRecord[0]: Start initiate record
+03.07 17.34.34 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Request{id=null, date=1654434566, status=DONE, description='Default description'}
+03.07 17.34.34 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 17.34.34 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 6
+03.07 17.34.34 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Feedback{id=null, request=Request{id=6, date=1654434566, status=DONE, description='Default description'}, rate=AVERAGE, message='Default description'}
+03.07 17.34.34 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 17.34.34 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 6
+03.07 17.34.34 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Feedback
+03.07 17.34.34 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 17.34.34 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Request
+03.07 17.34.34 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 17.34.34 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:148 - updateRecord[0]: try to merge(update) entity:Feedback{id=6, request=Request{id=6, date=1654434566, status=DONE, description='Default description'}, rate=AVERAGE, message='UPDATED MESSAGE'}
+03.07 17.34.34 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:150 - updateRecord[0]: entity updated!
+03.07 17.34.34 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:148 - updateRecord[0]: try to merge(update) entity:Request{id=6, date=1654434566, status=DONE, description='UPDATED DESCRIPTION'}
+03.07 17.34.34 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:150 - updateRecord[0]: entity updated!
+03.07 17.34.36  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:32 - Before run:
+03.07 17.34.38 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Feedback
+03.07 17.34.38 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Feedback success!
+03.07 17.34.38 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Request
+03.07 17.34.38 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Request success!
+03.07 17.34.38  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:105 - updateRecordNegative:
+03.07 17.34.38 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5Test:23 - initRecord[0]: Start initiate record
+03.07 17.34.38 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Request{id=null, date=1654434566, status=DONE, description='Default description'}
+03.07 17.34.38 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 17.34.38 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 7
+03.07 17.34.38 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Feedback{id=null, request=Request{id=7, date=1654434566, status=DONE, description='Default description'}, rate=AVERAGE, message='Default description'}
+03.07 17.34.38 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 17.34.38 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 7
+03.07 17.34.38 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:114 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab5.model.Feedback
+03.07 17.34.38 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:116 - receiveRecordById[0]: Receiving complete
+03.07 17.34.38 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:120 - receiveRecordById[0] Record with id = 200 not found
+03.07 17.34.38 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:121 - receiveRecordById[1]:java.lang.NullPointerException: null
+03.07 17.34.38 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:114 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab5.model.Request
+03.07 17.34.38 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:116 - receiveRecordById[0]: Receiving complete
+03.07 17.34.38 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:120 - receiveRecordById[0] Record with id = 200 not found
+03.07 17.34.38 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:121 - receiveRecordById[1]:java.lang.NullPointerException: null
+03.07 17.34.38 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:148 - updateRecord[0]: try to merge(update) entity:Feedback{id=200, request=null, rate=null, message='null'}
+03.07 17.34.38 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:155 - updateRecord[0]: updating error!
+03.07 17.34.38 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:156 - updateRecord[1]:javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value : ru.sfedu.crm.lab5.model.Feedback.request
+03.07 17.34.38 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:148 - updateRecord[0]: try to merge(update) entity:Request{id=200, date=null, status=null, description='null'}
+03.07 17.34.38 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:150 - updateRecord[0]: entity updated!
+03.07 17.34.38 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:114 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab5.model.Feedback
+03.07 17.34.38 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:116 - receiveRecordById[0]: Receiving complete
+03.07 17.34.38 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:120 - receiveRecordById[0] Record with id = 200 not found
+03.07 17.34.38 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:121 - receiveRecordById[1]:java.lang.NullPointerException: null
+03.07 17.34.38 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:114 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab5.model.Request
+03.07 17.34.38 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:116 - receiveRecordById[0]: Receiving complete
+03.07 17.34.38 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:120 - receiveRecordById[0] Record with id = 200 not found
+03.07 17.34.38 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:121 - receiveRecordById[1]:java.lang.NullPointerException: null
+03.07 17.34.41  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:32 - Before run:
+03.07 17.34.43 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Feedback
+03.07 17.34.43 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Feedback success!
+03.07 17.34.43 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Request
+03.07 17.34.43 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Request success!
+03.07 17.34.43  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:121 - addRecordPositive:
+03.07 17.34.43 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Feedback
+03.07 17.34.43 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 17.34.43 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Request
+03.07 17.34.43 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 17.34.43 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5Test:23 - initRecord[0]: Start initiate record
+03.07 17.34.43 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Request{id=null, date=1654434566, status=DONE, description='Default description'}
+03.07 17.34.43 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 17.34.43 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 9
+03.07 17.34.43 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Feedback{id=null, request=Request{id=9, date=1654434566, status=DONE, description='Default description'}, rate=AVERAGE, message='Default description'}
+03.07 17.34.43 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 17.34.43 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 8
+03.07 17.34.43 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Feedback
+03.07 17.34.43 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 17.34.43 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Request
+03.07 17.34.43 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 17.34.48  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:32 - Before run:
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Feedback
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Feedback success!
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Request
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Request success!
+03.07 17.34.49  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:121 - addRecordPositive:
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Feedback
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Request
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5Test:23 - initRecord[0]: Start initiate record
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Request{id=null, date=1654434566, status=DONE, description='Default description'}
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 10
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Feedback{id=null, request=Request{id=10, date=1654434566, status=DONE, description='Default description'}, rate=AVERAGE, message='Default description'}
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 9
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Feedback
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Request
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 17.34.49  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:32 - Before run:
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Feedback
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Feedback success!
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Request
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Request success!
+03.07 17.34.49  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:92 - updateRecordPositive:
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5Test:23 - initRecord[0]: Start initiate record
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Request{id=null, date=1654434566, status=DONE, description='Default description'}
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 11
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Feedback{id=null, request=Request{id=11, date=1654434566, status=DONE, description='Default description'}, rate=AVERAGE, message='Default description'}
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 10
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Feedback
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Request
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:148 - updateRecord[0]: try to merge(update) entity:Feedback{id=10, request=Request{id=11, date=1654434566, status=DONE, description='Default description'}, rate=AVERAGE, message='UPDATED MESSAGE'}
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:150 - updateRecord[0]: entity updated!
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:148 - updateRecord[0]: try to merge(update) entity:Request{id=11, date=1654434566, status=DONE, description='UPDATED DESCRIPTION'}
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:150 - updateRecord[0]: entity updated!
+03.07 17.34.49  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:32 - Before run:
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Feedback
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Feedback success!
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Request
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Request success!
+03.07 17.34.49  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:105 - updateRecordNegative:
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5Test:23 - initRecord[0]: Start initiate record
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Request{id=null, date=1654434566, status=DONE, description='Default description'}
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 12
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Feedback{id=null, request=Request{id=12, date=1654434566, status=DONE, description='Default description'}, rate=AVERAGE, message='Default description'}
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 11
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:114 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab5.model.Feedback
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:116 - receiveRecordById[0]: Receiving complete
+03.07 17.34.49 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:120 - receiveRecordById[0] Record with id = 200 not found
+03.07 17.34.49 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:121 - receiveRecordById[1]:java.lang.NullPointerException: null
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:114 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab5.model.Request
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:116 - receiveRecordById[0]: Receiving complete
+03.07 17.34.49 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:120 - receiveRecordById[0] Record with id = 200 not found
+03.07 17.34.49 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:121 - receiveRecordById[1]:java.lang.NullPointerException: null
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:148 - updateRecord[0]: try to merge(update) entity:Feedback{id=200, request=null, rate=null, message='null'}
+03.07 17.34.49 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:155 - updateRecord[0]: updating error!
+03.07 17.34.49 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:156 - updateRecord[1]:javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value : ru.sfedu.crm.lab5.model.Feedback.request
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:148 - updateRecord[0]: try to merge(update) entity:Request{id=200, date=null, status=null, description='null'}
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:150 - updateRecord[0]: entity updated!
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:114 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab5.model.Feedback
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:116 - receiveRecordById[0]: Receiving complete
+03.07 17.34.49 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:120 - receiveRecordById[0] Record with id = 200 not found
+03.07 17.34.49 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:121 - receiveRecordById[1]:java.lang.NullPointerException: null
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:114 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab5.model.Request
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:116 - receiveRecordById[0]: Receiving complete
+03.07 17.34.49 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:120 - receiveRecordById[0] Record with id = 200 not found
+03.07 17.34.49 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:121 - receiveRecordById[1]:java.lang.NullPointerException: null
+03.07 17.34.49  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:32 - Before run:
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Feedback
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Feedback success!
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Request
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Request success!
+03.07 17.34.49  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:77 - deleteRecordPositive:
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5Test:23 - initRecord[0]: Start initiate record
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Request{id=null, date=1654434566, status=DONE, description='Default description'}
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 14
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Feedback{id=null, request=Request{id=14, date=1654434566, status=DONE, description='Default description'}, rate=AVERAGE, message='Default description'}
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 12
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Feedback
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:130 - deleteRecord[0]: try to delete entity:class ru.sfedu.crm.lab5.model.Feedback
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:133 - deleteRecord[1]: entity successfully deleted!
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Request
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:130 - deleteRecord[0]: try to delete entity:class ru.sfedu.crm.lab5.model.Request
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:133 - deleteRecord[1]: entity successfully deleted!
+03.07 17.34.49  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:32 - Before run:
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Feedback
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Feedback success!
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Request
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Request success!
+03.07 17.34.49  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:85 - deleteRecordNegative:
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:130 - deleteRecord[0]: try to delete entity:class ru.sfedu.crm.lab5.model.Feedback
+03.07 17.34.49 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:138 - deleteRecord[0] Record with id = 1 not found
+03.07 17.34.49 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:139 - deleteRecord[1]:java.lang.IllegalArgumentException: attempt to create delete event with null entity
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:130 - deleteRecord[0]: try to delete entity:class ru.sfedu.crm.lab5.model.Request
+03.07 17.34.49 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:138 - deleteRecord[0] Record with id = 1 not found
+03.07 17.34.49 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:139 - deleteRecord[1]:java.lang.IllegalArgumentException: attempt to create delete event with null entity
+03.07 17.34.49  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:32 - Before run:
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Feedback
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Feedback success!
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Request
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Request success!
+03.07 17.34.49  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:58 - receiveRecordByIdPositive:
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5Test:23 - initRecord[0]: Start initiate record
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Request{id=null, date=1654434566, status=DONE, description='Default description'}
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 15
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Feedback{id=null, request=Request{id=15, date=1654434566, status=DONE, description='Default description'}, rate=AVERAGE, message='Default description'}
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 13
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Feedback
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:114 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab5.model.Feedback
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:116 - receiveRecordById[0]: Receiving complete
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Request
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:114 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab5.model.Request
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:116 - receiveRecordById[0]: Receiving complete
+03.07 17.34.49  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:32 - Before run:
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Feedback
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Feedback success!
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Request
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Request success!
+03.07 17.34.49  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:68 - receiveRecordByIdNegative:
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:114 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab5.model.Feedback
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:116 - receiveRecordById[0]: Receiving complete
+03.07 17.34.49 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:120 - receiveRecordById[0] Record with id = 1 not found
+03.07 17.34.49 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:121 - receiveRecordById[1]:java.lang.NullPointerException: null
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:114 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab5.model.Request
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:116 - receiveRecordById[0]: Receiving complete
+03.07 17.34.49 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:120 - receiveRecordById[0] Record with id = 1 not found
+03.07 17.34.49 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:121 - receiveRecordById[1]:java.lang.NullPointerException: null
+03.07 17.34.49  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:32 - Before run:
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Feedback
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Feedback success!
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Request
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Request success!
+03.07 17.34.49  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:39 - loadListPositive:
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5Test:23 - initRecord[0]: Start initiate record
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Request{id=null, date=1654434566, status=DONE, description='Default description'}
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 16
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Feedback{id=null, request=Request{id=16, date=1654434566, status=DONE, description='Default description'}, rate=AVERAGE, message='Default description'}
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 14
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Feedback
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Request
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 17.34.49  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:32 - Before run:
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Feedback
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Feedback success!
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Request
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Request success!
+03.07 17.34.49  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:49 - loadListNegative:
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Feedback
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Request
+03.07 17.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 17.48.30  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:32 - Before run:
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Feedback
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Feedback success!
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Request
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Request success!
+03.07 17.48.32  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:121 - addRecordPositive:
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Feedback
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Request
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5Test:23 - initRecord[0]: Start initiate record
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Request{id=null, date=1654434566, status=DONE, description='Default description'}
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 1
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Feedback{id=null, request=Request{id=1, date=1654434566, status=DONE, description='Default description'}, rate=AVERAGE, message='Default description'}
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 1
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Feedback
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Request
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 17.48.32  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:32 - Before run:
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Feedback
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Feedback success!
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Request
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Request success!
+03.07 17.48.32  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:92 - updateRecordPositive:
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5Test:23 - initRecord[0]: Start initiate record
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Request{id=null, date=1654434566, status=DONE, description='Default description'}
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 2
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Feedback{id=null, request=Request{id=2, date=1654434566, status=DONE, description='Default description'}, rate=AVERAGE, message='Default description'}
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 2
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Feedback
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Request
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:148 - updateRecord[0]: try to merge(update) entity:Feedback{id=2, request=Request{id=2, date=1654434566, status=DONE, description='Default description'}, rate=AVERAGE, message='UPDATED MESSAGE'}
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:150 - updateRecord[0]: entity updated!
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:148 - updateRecord[0]: try to merge(update) entity:Request{id=2, date=1654434566, status=DONE, description='UPDATED DESCRIPTION'}
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:150 - updateRecord[0]: entity updated!
+03.07 17.48.32  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:32 - Before run:
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Feedback
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Feedback success!
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Request
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Request success!
+03.07 17.48.32  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:105 - updateRecordNegative:
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5Test:23 - initRecord[0]: Start initiate record
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Request{id=null, date=1654434566, status=DONE, description='Default description'}
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 3
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Feedback{id=null, request=Request{id=3, date=1654434566, status=DONE, description='Default description'}, rate=AVERAGE, message='Default description'}
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 3
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:114 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab5.model.Feedback
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:116 - receiveRecordById[0]: Receiving complete
+03.07 17.48.32 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:120 - receiveRecordById[0] Record with id = 200 not found
+03.07 17.48.32 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:121 - receiveRecordById[1]:java.lang.NullPointerException: null
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:114 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab5.model.Request
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:116 - receiveRecordById[0]: Receiving complete
+03.07 17.48.32 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:120 - receiveRecordById[0] Record with id = 200 not found
+03.07 17.48.32 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:121 - receiveRecordById[1]:java.lang.NullPointerException: null
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:148 - updateRecord[0]: try to merge(update) entity:Feedback{id=200, request=null, rate=null, message='null'}
+03.07 17.48.32 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:155 - updateRecord[0]: updating error!
+03.07 17.48.32 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:156 - updateRecord[1]:javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value : ru.sfedu.crm.lab5.model.Feedback.request
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:148 - updateRecord[0]: try to merge(update) entity:Request{id=200, date=null, status=null, description='null'}
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:150 - updateRecord[0]: entity updated!
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:114 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab5.model.Feedback
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:116 - receiveRecordById[0]: Receiving complete
+03.07 17.48.32 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:120 - receiveRecordById[0] Record with id = 200 not found
+03.07 17.48.32 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:121 - receiveRecordById[1]:java.lang.NullPointerException: null
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:114 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab5.model.Request
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:116 - receiveRecordById[0]: Receiving complete
+03.07 17.48.32 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:120 - receiveRecordById[0] Record with id = 200 not found
+03.07 17.48.32 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:121 - receiveRecordById[1]:java.lang.NullPointerException: null
+03.07 17.48.32  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:32 - Before run:
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Feedback
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Feedback success!
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Request
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Request success!
+03.07 17.48.32  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:77 - deleteRecordPositive:
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5Test:23 - initRecord[0]: Start initiate record
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Request{id=null, date=1654434566, status=DONE, description='Default description'}
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 5
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Feedback{id=null, request=Request{id=5, date=1654434566, status=DONE, description='Default description'}, rate=AVERAGE, message='Default description'}
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 4
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Feedback
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:130 - deleteRecord[0]: try to delete entity:class ru.sfedu.crm.lab5.model.Feedback
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:133 - deleteRecord[1]: entity successfully deleted!
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Request
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:130 - deleteRecord[0]: try to delete entity:class ru.sfedu.crm.lab5.model.Request
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:133 - deleteRecord[1]: entity successfully deleted!
+03.07 17.48.32  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:32 - Before run:
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Feedback
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Feedback success!
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Request
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Request success!
+03.07 17.48.32  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:85 - deleteRecordNegative:
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:130 - deleteRecord[0]: try to delete entity:class ru.sfedu.crm.lab5.model.Feedback
+03.07 17.48.32 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:138 - deleteRecord[0] Record with id = 1 not found
+03.07 17.48.32 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:139 - deleteRecord[1]:java.lang.IllegalArgumentException: attempt to create delete event with null entity
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:130 - deleteRecord[0]: try to delete entity:class ru.sfedu.crm.lab5.model.Request
+03.07 17.48.32 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:138 - deleteRecord[0] Record with id = 1 not found
+03.07 17.48.32 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:139 - deleteRecord[1]:java.lang.IllegalArgumentException: attempt to create delete event with null entity
+03.07 17.48.32  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:32 - Before run:
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Feedback
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Feedback success!
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Request
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Request success!
+03.07 17.48.32  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:58 - receiveRecordByIdPositive:
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5Test:23 - initRecord[0]: Start initiate record
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Request{id=null, date=1654434566, status=DONE, description='Default description'}
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 6
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Feedback{id=null, request=Request{id=6, date=1654434566, status=DONE, description='Default description'}, rate=AVERAGE, message='Default description'}
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 5
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Feedback
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:114 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab5.model.Feedback
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:116 - receiveRecordById[0]: Receiving complete
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Request
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:114 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab5.model.Request
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:116 - receiveRecordById[0]: Receiving complete
+03.07 17.48.32  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:32 - Before run:
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Feedback
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Feedback success!
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Request
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Request success!
+03.07 17.48.32  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:68 - receiveRecordByIdNegative:
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:114 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab5.model.Feedback
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:116 - receiveRecordById[0]: Receiving complete
+03.07 17.48.32 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:120 - receiveRecordById[0] Record with id = 1 not found
+03.07 17.48.32 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:121 - receiveRecordById[1]:java.lang.NullPointerException: null
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:114 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab5.model.Request
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:116 - receiveRecordById[0]: Receiving complete
+03.07 17.48.32 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:120 - receiveRecordById[0] Record with id = 1 not found
+03.07 17.48.32 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:121 - receiveRecordById[1]:java.lang.NullPointerException: null
+03.07 17.48.32  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:32 - Before run:
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Feedback
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Feedback success!
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Request
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Request success!
+03.07 17.48.32  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:39 - loadListPositive:
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5Test:23 - initRecord[0]: Start initiate record
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Request{id=null, date=1654434566, status=DONE, description='Default description'}
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 7
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Feedback{id=null, request=Request{id=7, date=1654434566, status=DONE, description='Default description'}, rate=AVERAGE, message='Default description'}
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 6
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Feedback
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Request
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 17.48.32  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:32 - Before run:
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Feedback
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Feedback success!
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Request
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Request success!
+03.07 17.48.32  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:49 - loadListNegative:
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Feedback
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Request
+03.07 17.48.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 18.44.30  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:35 - Before run:
+03.07 18.44.31 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Feedback
+03.07 18.44.31 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Feedback success!
+03.07 18.44.31 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Request
+03.07 18.44.31 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Request success!
+03.07 18.44.31 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table User
+03.07 18.44.31 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table User success!
+03.07 18.44.31  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:53 - loadListNegative:
+03.07 18.44.31 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Feedback
+03.07 18.44.31 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 18.44.31 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Request
+03.07 18.44.31 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 18.47.19  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:35 - Before run:
+03.07 18.47.21 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Feedback
+03.07 18.47.21 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Feedback success!
+03.07 18.47.21 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Request
+03.07 18.47.21 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Request success!
+03.07 18.47.21 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table User
+03.07 18.47.21 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table User success!
+03.07 18.47.21  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:43 - loadListPositive:
+03.07 18.47.21 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5Test:24 - initRecord[0]: Start initiate record
+03.07 18.47.21 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:User{id=null, name='John Smith', phoneNumber='+78005553535', requests=[]}
+03.07 18.47.21 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 18.47.21 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 1
+03.07 18.47.21 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Request{id=null, date=1654434566, user=User{id=1, name='John Smith', phoneNumber='+78005553535', requests=[]}, status=DONE, description='Default description'}
+03.07 18.47.21 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 18.47.21 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 8
+03.07 18.47.21 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Feedback{id=null, request=Request{id=8, date=1654434566, user=User{id=1, name='John Smith', phoneNumber='+78005553535', requests=[]}, status=DONE, description='Default description'}, rate=AVERAGE, message='Default description'}
+03.07 18.47.21 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 18.47.21 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 7
+03.07 18.47.21 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :User
+03.07 18.51.16  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:35 - Before run:
+03.07 18.51.19 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Feedback
+03.07 18.51.19 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Feedback success!
+03.07 18.51.19 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Request
+03.07 18.51.19 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Request success!
+03.07 18.51.19 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table User
+03.07 18.51.19 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table User success!
+03.07 18.51.19  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:43 - loadListPositive:
+03.07 18.51.19 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5Test:24 - initRecord[0]: Start initiate record
+03.07 18.51.19 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:User{id=null, name='John Smith', phoneNumber='+78005553535', requests=[]}
+03.07 18.51.19 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 18.51.19 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 2
+03.07 18.51.19 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Request{id=null, date=1654434566, user=User{id=2, name='John Smith', phoneNumber='+78005553535', requests=[]}, status=DONE, description='Default description'}
+03.07 18.51.19 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 18.51.19 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 9
+03.07 18.51.19 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Feedback{id=null, request=Request{id=9, date=1654434566, user=User{id=2, name='John Smith', phoneNumber='+78005553535', requests=[]}, status=DONE, description='Default description'}, rate=AVERAGE, message='Default description'}
+03.07 18.51.19 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 18.51.19 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 8
+03.07 18.51.19 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :User
+03.07 19.17.57  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:35 - Before run:
+03.07 19.17.59 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Feedback
+03.07 19.17.59 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Feedback success!
+03.07 19.17.59 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Request
+03.07 19.17.59 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Request success!
+03.07 19.17.59 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table User
+03.07 19.17.59 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table User success!
+03.07 19.17.59  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:43 - loadListPositive:
+03.07 19.17.59 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5Test:24 - initRecord[0]: Start initiate record
+03.07 19.17.59 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:User{id=null, name='John Smith', phoneNumber='+78005553535', requests=[]}
+03.07 19.17.59 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 19.17.59 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 3
+03.07 19.17.59 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Request{id=null, date=1654434566, user=User{id=3, name='John Smith', phoneNumber='+78005553535', requests=[]}, status=DONE, description='Default description'}
+03.07 19.17.59 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 19.17.59 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 10
+03.07 19.17.59 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Feedback{id=null, request=Request{id=10, date=1654434566, user=User{id=3, name='John Smith', phoneNumber='+78005553535', requests=[]}, status=DONE, description='Default description'}, rate=AVERAGE, message='Default description'}
+03.07 19.17.59 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 19.17.59 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 9
+03.07 19.17.59 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :User
+03.07 19.24.37  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:35 - Before run:
+03.07 19.24.39 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Feedback
+03.07 19.24.39 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Feedback success!
+03.07 19.24.39 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Request
+03.07 19.24.39 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Request success!
+03.07 19.24.39 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table User
+03.07 19.24.39 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table User success!
+03.07 19.24.39  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:43 - loadListPositive:
+03.07 19.24.39 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5Test:24 - initRecord[0]: Start initiate record
+03.07 19.24.39 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:User{id=null, name='John Smith', phoneNumber='+78005553535', requests=[]}
+03.07 19.24.39 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 19.24.39 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 1
+03.07 19.24.39 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Request{id=null, date=1654434566, user=User{id=1, name='John Smith', phoneNumber='+78005553535', requests=[]}, status=DONE, description='Default description'}
+03.07 19.24.39 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 19.24.39 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 1
+03.07 19.24.39 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Feedback{id=null, request=Request{id=1, date=1654434566, user=User{id=1, name='John Smith', phoneNumber='+78005553535', requests=[]}, status=DONE, description='Default description'}, rate=AVERAGE, message='Default description'}
+03.07 19.24.39 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 19.24.39 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 1
+03.07 19.24.39 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :User
+03.07 19.27.10  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:35 - Before run:
+03.07 19.27.12 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Feedback
+03.07 19.27.12 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Feedback success!
+03.07 19.27.12 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Request
+03.07 19.27.12 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Request success!
+03.07 19.27.12 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table User
+03.07 19.27.12 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table User success!
+03.07 19.27.12  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:43 - loadListPositive:
+03.07 19.27.12 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5Test:24 - initRecord[0]: Start initiate record
+03.07 19.27.12 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:User{id=null, name='John Smith', phoneNumber='+78005553535', requests=[]}
+03.07 19.27.12 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 19.27.12 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 1
+03.07 19.27.12 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Request{id=null, date=1654434566, user=User{id=1, name='John Smith', phoneNumber='+78005553535', requests=[]}, status=DONE, description='Default description'}
+03.07 19.27.12 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 19.27.12 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 1
+03.07 19.27.12 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Feedback{id=null, request=Request{id=1, date=1654434566, user=User{id=1, name='John Smith', phoneNumber='+78005553535', requests=[]}, status=DONE, description='Default description'}, rate=AVERAGE, message='Default description'}
+03.07 19.27.12 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 19.27.12 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 1
+03.07 19.27.12 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Feedback
+03.07 19.27.12 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 19.27.33  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:35 - Before run:
+03.07 19.27.36 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Feedback
+03.07 19.27.36 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Feedback success!
+03.07 19.27.36 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Request
+03.07 19.27.36 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Request success!
+03.07 19.27.36 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table User
+03.07 19.27.36 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table User success!
+03.07 19.27.36  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:43 - loadListPositive:
+03.07 19.27.36 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5Test:24 - initRecord[0]: Start initiate record
+03.07 19.27.36 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:User{id=null, name='John Smith', phoneNumber='+78005553535', requests=[]}
+03.07 19.27.36 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 19.27.36 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 2
+03.07 19.27.36 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Request{id=null, date=1654434566, user=User{id=2, name='John Smith', phoneNumber='+78005553535', requests=[]}, status=DONE, description='Default description'}
+03.07 19.27.36 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 19.27.36 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 2
+03.07 19.27.36 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Feedback{id=null, request=Request{id=2, date=1654434566, user=User{id=2, name='John Smith', phoneNumber='+78005553535', requests=[]}, status=DONE, description='Default description'}, rate=AVERAGE, message='Default description'}
+03.07 19.27.36 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 19.27.36 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 2
+03.07 19.27.36 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :User
+03.07 19.28.39  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:35 - Before run:
+03.07 19.28.41 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Feedback
+03.07 19.28.41 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Feedback success!
+03.07 19.28.41 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Request
+03.07 19.28.41 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Request success!
+03.07 19.28.41 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table User
+03.07 19.28.41 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table User success!
+03.07 19.28.41  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:43 - loadListPositive:
+03.07 19.29.29 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5Test:24 - initRecord[0]: Start initiate record
+03.07 19.33.39 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:User{id=null, name='John Smith', phoneNumber='+78005553535', requests=[]}
+03.07 19.33.49  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:35 - Before run:
+03.07 19.33.51 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Feedback
+03.07 19.33.51 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Feedback success!
+03.07 19.33.51 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Request
+03.07 19.33.51 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Request success!
+03.07 19.33.51 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table User
+03.07 19.33.51 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table User success!
+03.07 19.33.51  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:43 - loadListPositive:
+03.07 19.33.52 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5Test:24 - initRecord[0]: Start initiate record
+03.07 19.33.52 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:User{id=null, name='John Smith', phoneNumber='+78005553535', requests=[]}
+03.07 19.33.52 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 19.33.52 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 3
+03.07 19.33.52 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Request{id=null, date=1654434566, user=User{id=3, name='John Smith', phoneNumber='+78005553535', requests=[]}, status=DONE, description='Default description'}
+03.07 19.33.52 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 19.33.52 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 3
+03.07 19.33.52 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Feedback{id=null, request=Request{id=3, date=1654434566, user=User{id=3, name='John Smith', phoneNumber='+78005553535', requests=[]}, status=DONE, description='Default description'}, rate=AVERAGE, message='Default description'}
+03.07 19.33.52 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 19.33.52 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 3
+03.07 19.33.52 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :User
+03.07 19.34.19  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:35 - Before run:
+03.07 19.34.21 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Feedback
+03.07 19.34.21 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Feedback success!
+03.07 19.34.21 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Request
+03.07 19.34.21 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Request success!
+03.07 19.34.21 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table User
+03.07 19.34.21 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table User success!
+03.07 19.34.21  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:43 - loadListPositive:
+03.07 19.34.22 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5Test:24 - initRecord[0]: Start initiate record
+03.07 19.34.22 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:User{id=null, name='John Smith', phoneNumber='+78005553535', requests=[]}
+03.07 19.34.22 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 19.34.22 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 4
+03.07 19.34.22 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Request{id=null, date=1654434566, user=User{id=4, name='John Smith', phoneNumber='+78005553535', requests=[]}, status=DONE, description='Default description'}
+03.07 19.34.22 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 19.34.22 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 4
+03.07 19.34.22 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Feedback{id=null, request=Request{id=4, date=1654434566, user=User{id=4, name='John Smith', phoneNumber='+78005553535', requests=[]}, status=DONE, description='Default description'}, rate=AVERAGE, message='Default description'}
+03.07 19.34.22 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 19.34.22 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 4
+03.07 19.34.23 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :User
+03.07 19.34.39  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:35 - Before run:
+03.07 19.34.40 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Feedback
+03.07 19.34.40 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Feedback success!
+03.07 19.34.40 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Request
+03.07 19.34.40 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Request success!
+03.07 19.34.40 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table User
+03.07 19.34.40 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table User success!
+03.07 19.34.40  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:43 - loadListPositive:
+03.07 19.34.40 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5Test:24 - initRecord[0]: Start initiate record
+03.07 19.34.40 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:User{id=null, name='John Smith', phoneNumber='+78005553535', requests=[]}
+03.07 19.34.40 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 19.34.40 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 5
+03.07 19.34.40 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Request{id=null, date=1654434566, user=User{id=5, name='John Smith', phoneNumber='+78005553535', requests=[]}, status=DONE, description='Default description'}
+03.07 19.34.40 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 19.34.40 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 5
+03.07 19.34.40 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Feedback{id=null, request=Request{id=5, date=1654434566, user=User{id=5, name='John Smith', phoneNumber='+78005553535', requests=[]}, status=DONE, description='Default description'}, rate=AVERAGE, message='Default description'}
+03.07 19.34.40 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 19.34.40 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 5
+03.07 19.34.40 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :User
+03.07 19.34.45  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:35 - Before run:
+03.07 19.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Feedback
+03.07 19.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Feedback success!
+03.07 19.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Request
+03.07 19.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Request success!
+03.07 19.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table User
+03.07 19.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table User success!
+03.07 19.34.49  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:43 - loadListPositive:
+03.07 19.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5Test:24 - initRecord[0]: Start initiate record
+03.07 19.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:User{id=null, name='John Smith', phoneNumber='+78005553535', requests=[]}
+03.07 19.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 19.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 6
+03.07 19.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Request{id=null, date=1654434566, user=User{id=6, name='John Smith', phoneNumber='+78005553535', requests=[]}, status=DONE, description='Default description'}
+03.07 19.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 19.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 6
+03.07 19.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Feedback{id=null, request=Request{id=6, date=1654434566, user=User{id=6, name='John Smith', phoneNumber='+78005553535', requests=[]}, status=DONE, description='Default description'}, rate=AVERAGE, message='Default description'}
+03.07 19.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 19.34.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 6
+03.07 19.39.00 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :User
+03.07 19.40.53  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:35 - Before run:
+03.07 19.40.55 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Feedback
+03.07 19.40.55 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Feedback success!
+03.07 19.40.55 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Request
+03.07 19.40.55 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Request success!
+03.07 19.40.55 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table User
+03.07 19.40.55 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table User success!
+03.07 19.40.55  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:43 - loadListPositive:
+03.07 19.40.55 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5Test:24 - initRecord[0]: Start initiate record
+03.07 19.40.55 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:User{id=null, name='John Smith', phoneNumber='+78005553535', requests=[]}
+03.07 19.40.55 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 19.40.55 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 7
+03.07 19.40.55 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Request{id=null, date=1654434566, user=User{id=7, name='John Smith', phoneNumber='+78005553535', requests=[]}, status=DONE, description='Default description'}
+03.07 19.40.55 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 19.40.55 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 7
+03.07 19.40.55 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Feedback{id=null, request=Request{id=7, date=1654434566, user=User{id=7, name='John Smith', phoneNumber='+78005553535', requests=[]}, status=DONE, description='Default description'}, rate=AVERAGE, message='Default description'}
+03.07 19.40.55 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 19.40.55 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 7
+03.07 19.40.58 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Feedback
+03.07 19.41.06 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 19.41.30  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:35 - Before run:
+03.07 19.41.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Feedback
+03.07 19.41.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Feedback success!
+03.07 19.41.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Request
+03.07 19.41.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Request success!
+03.07 19.41.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table User
+03.07 19.41.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table User success!
+03.07 19.41.32  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:43 - loadListPositive:
+03.07 19.41.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5Test:24 - initRecord[0]: Start initiate record
+03.07 19.41.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:User{id=null, name='John Smith', phoneNumber='+78005553535', requests=[]}
+03.07 19.41.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 19.41.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 8
+03.07 19.41.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Request{id=null, date=1654434566, user=User{id=8, name='John Smith', phoneNumber='+78005553535', requests=[]}, status=DONE, description='Default description'}
+03.07 19.41.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 19.41.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 8
+03.07 19.41.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Feedback{id=null, request=Request{id=8, date=1654434566, user=User{id=8, name='John Smith', phoneNumber='+78005553535', requests=[]}, status=DONE, description='Default description'}, rate=AVERAGE, message='Default description'}
+03.07 19.41.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 19.41.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 8
+03.07 19.41.36 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Feedback
+03.07 19.41.38 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 19.42.23  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:35 - Before run:
+03.07 19.42.25 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Feedback
+03.07 19.42.25 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Feedback success!
+03.07 19.42.25 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Request
+03.07 19.42.25 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Request success!
+03.07 19.42.25 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table User
+03.07 19.42.25 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table User success!
+03.07 19.42.25  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:43 - loadListPositive:
+03.07 19.42.25 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5Test:24 - initRecord[0]: Start initiate record
+03.07 19.42.25 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:User{id=null, name='John Smith', phoneNumber='+78005553535', requests=[]}
+03.07 19.42.25 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 19.42.25 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 9
+03.07 19.42.25 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Request{id=null, date=1654434566, user=User{id=9, name='John Smith', phoneNumber='+78005553535', requests=[]}, status=DONE, description='Default description'}
+03.07 19.42.25 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 19.42.25 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 9
+03.07 19.42.25 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Feedback{id=null, request=Request{id=9, date=1654434566, user=User{id=9, name='John Smith', phoneNumber='+78005553535', requests=[]}, status=DONE, description='Default description'}, rate=AVERAGE, message='Default description'}
+03.07 19.42.25 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 19.42.25 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 9
+03.07 19.42.25 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Feedback
+03.07 19.42.27 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 19.43.21  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:35 - Before run:
+03.07 19.43.24 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Feedback
+03.07 19.43.24 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Feedback success!
+03.07 19.43.24 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Request
+03.07 19.43.24 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Request success!
+03.07 19.43.24 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table User
+03.07 19.43.24 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table User success!
+03.07 19.43.24  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:43 - loadListPositive:
+03.07 19.43.24 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5Test:24 - initRecord[0]: Start initiate record
+03.07 19.43.24 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:User{id=null, name='John Smith', phoneNumber='+78005553535', requests=[]}
+03.07 19.43.24 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 19.43.24 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 10
+03.07 19.43.24 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Request{id=null, date=1654434566, user=User{id=10, name='John Smith', phoneNumber='+78005553535', requests=[]}, status=DONE, description='Default description'}
+03.07 19.43.24 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 19.43.24 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 10
+03.07 19.43.24 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Feedback{id=null, request=Request{id=10, date=1654434566, user=User{id=10, name='John Smith', phoneNumber='+78005553535', requests=[]}, status=DONE, description='Default description'}, rate=AVERAGE, message='Default description'}
+03.07 19.43.24 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 19.43.24 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 10
+03.07 19.43.25 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Feedback
+03.07 19.43.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 19.47.09  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:35 - Before run:
+03.07 19.47.11 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Feedback
+03.07 19.47.11 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Feedback success!
+03.07 19.47.11 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Request
+03.07 19.47.11 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Request success!
+03.07 19.47.11 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table User
+03.07 19.47.11 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table User success!
+03.07 19.47.11  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:43 - loadListPositive:
+03.07 19.47.11 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5Test:24 - initRecord[0]: Start initiate record
+03.07 19.47.11 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:User{id=null, name='John Smith', phoneNumber='+78005553535'}
+03.07 19.47.11 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 19.47.11 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 1
+03.07 19.47.11 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Request{id=null, date=1654434566, user=User{id=1, name='John Smith', phoneNumber='+78005553535'}, status=DONE, description='Default description'}
+03.07 19.47.11 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 19.47.11 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 1
+03.07 19.47.11 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Feedback{id=null, request=Request{id=1, date=1654434566, user=User{id=1, name='John Smith', phoneNumber='+78005553535'}, status=DONE, description='Default description'}, rate=AVERAGE, message='Default description'}
+03.07 19.47.11 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 19.47.11 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 1
+03.07 19.47.11 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :User
+03.07 19.47.11 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 19.47.35  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:35 - Before run:
+03.07 19.47.37 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Feedback
+03.07 19.47.37 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Feedback success!
+03.07 19.47.37 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table Request
+03.07 19.47.37 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table Request success!
+03.07 19.47.37 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:46 - clearTable[0]: try to clear table User
+03.07 19.47.37 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:49 - clearTable[0]: clearing table User success!
+03.07 19.47.37  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:43 - loadListPositive:
+03.07 19.47.37 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5Test:24 - initRecord[0]: Start initiate record
+03.07 19.47.37 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:User{id=null, name='John Smith', phoneNumber='+78005553535'}
+03.07 19.47.37 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 19.47.37 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 2
+03.07 19.47.37 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Request{id=null, date=1654434566, user=User{id=2, name='John Smith', phoneNumber='+78005553535'}, status=DONE, description='Default description'}
+03.07 19.47.37 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 19.47.37 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 2
+03.07 19.47.37 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:165 - addRecord[0]: try to save entity:Feedback{id=null, request=Request{id=2, date=1654434566, user=User{id=2, name='John Smith', phoneNumber='+78005553535'}, status=DONE, description='Default description'}, rate=AVERAGE, message='Default description'}
+03.07 19.47.37 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:168 - addRecord[1]: entity saved!
+03.07 19.47.37 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: record id = 2
+03.07 19.47.37 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :User
+03.07 19.47.37 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 19.47.37 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Feedback
+03.07 19.47.37 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 19.47.37 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Request
+03.07 19.47.37 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 19.59.42  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:33 - Before run:
+03.07 19.59.43 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table Feedback
+03.07 19.59.43 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table Feedback success!
+03.07 19.59.43 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table Request
+03.07 19.59.43 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table Request success!
+03.07 19.59.43 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table User
+03.07 19.59.43 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table User success!
+03.07 19.59.43  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:41 - loadListPositive:
+03.07 19.59.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5Test:24 - initRecord[0]: Start initiate record
+03.07 20.00.15  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:33 - Before run:
+03.07 20.00.18 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table Feedback
+03.07 20.00.18 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table Feedback success!
+03.07 20.00.18 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table Request
+03.07 20.00.18 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table Request success!
+03.07 20.00.18 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table User
+03.07 20.00.18 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table User success!
+03.07 20.00.18  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:41 - loadListPositive:
+03.07 20.00.20 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5Test:24 - initRecord[0]: Start initiate record
+03.07 20.01.14  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:33 - Before run:
+03.07 20.01.16 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table Feedback
+03.07 20.01.16 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table Feedback success!
+03.07 20.01.16 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table Request
+03.07 20.01.16 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table Request success!
+03.07 20.01.16 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table User
+03.07 20.01.16 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table User success!
+03.07 20.01.16  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:41 - loadListPositive:
+03.07 20.01.16 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5Test:24 - initRecord[0]: Start initiate record
+03.07 20.03.53  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:33 - Before run:
+03.07 20.03.54 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table Feedback
+03.07 20.03.54 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table Feedback success!
+03.07 20.03.54 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table Request
+03.07 20.03.54 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table Request success!
+03.07 20.03.54 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table User
+03.07 20.03.54 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table User success!
+03.07 20.03.54  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:41 - loadListPositive:
+03.07 20.03.54 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5Test:24 - initRecord[0]: Start initiate record
+03.07 20.03.54  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:135 - updateRecordNegative:
+03.07 20.03.54  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:140 - updateRecordNegative:
+03.07 20.03.54  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:145 - updateRecordNegative:
+03.07 20.06.36  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:33 - Before run:
+03.07 20.06.38 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table Feedback
+03.07 20.06.38 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table Feedback success!
+03.07 20.06.38 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table Request
+03.07 20.06.38 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table Request success!
+03.07 20.06.38 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table User
+03.07 20.06.38 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table User success!
+03.07 20.06.38  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:41 - loadListPositive:
+03.07 20.06.38 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5Test:24 - initRecord[0]: Start initiate record
+03.07 20.06.38  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:135 - updateRecordNegative:
+03.07 20.06.38  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:140 - updateRecordNegative:
+03.07 20.06.38  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:145 - updateRecordNegative:
+03.07 20.07.39  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:33 - Before run:
+03.07 20.07.40 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table Feedback
+03.07 20.07.40 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table Feedback success!
+03.07 20.07.40 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table Request
+03.07 20.07.40 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table Request success!
+03.07 20.07.40 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table User
+03.07 20.07.40 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table User success!
+03.07 20.07.40  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:41 - loadListPositive:
+03.07 20.07.40 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5Test:24 - initRecord[0]: Start initiate record
+03.07 20.07.40  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:142 - User{id=null, name='John Smith', phoneNumber='+78005553535', requests=[]} Request{id=null, date=1654434566, user=User{id=null, name='John Smith', phoneNumber='+78005553535', requests=[]}, status=DONE, description='Default description'}
+03.07 20.07.40  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:144 - User{id=null, name='John Smith', phoneNumber='+78005553535', requests=[]} Request{id=null, date=1654434566, user=User{id=null, name='John Smith', phoneNumber='+78005553535', requests=[]}, status=DONE, description='Default description'}
+03.07 20.07.40  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:146 - User{id=null, name='John Smith', phoneNumber='+78005553535', requests=[]} Request{id=null, date=1654434566, user=User{id=null, name='John Smith', phoneNumber='+78005553535', requests=[]}, status=DONE, description='Default description'}
+03.07 20.12.56  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:33 - Before run:
+03.07 20.12.57 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table Feedback
+03.07 20.12.57 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table Feedback success!
+03.07 20.12.57 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table Request
+03.07 20.12.57 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table Request success!
+03.07 20.12.57 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table User
+03.07 20.12.57 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table User success!
+03.07 20.12.57  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:41 - loadListPositive:
+03.07 20.12.57 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5Test:24 - initRecord[0]: Start initiate record
+03.07 20.12.57  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:142 - User{id=null, name='John Smith', phoneNumber='+78005553535', requests=[]} Request{id=null, date=1654434566, user=User{id=null, name='John Smith', phoneNumber='+78005553535', requests=[]}, status=DONE, description='Default description'}
+03.07 20.12.57  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:144 - User{id=null, name='John Smith', phoneNumber='+78005553535', requests=[]} Request{id=null, date=1654434566, user=User{id=null, name='John Smith', phoneNumber='+78005553535', requests=[]}, status=DONE, description='Default description'}
+03.07 20.12.57  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:146 - User{id=null, name='John Smith', phoneNumber='+78005553535', requests=[]} Request{id=null, date=1654434566, user=User{id=null, name='John Smith', phoneNumber='+78005553535', requests=[]}, status=DONE, description='Default description'}
+03.07 20.22.54  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:33 - Before run:
+03.07 20.22.56 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table Feedback
+03.07 20.22.56 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table Feedback success!
+03.07 20.22.56 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table Request
+03.07 20.22.56 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table Request success!
+03.07 20.22.56 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table User
+03.07 20.22.56 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table User success!
+03.07 20.22.56  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:41 - loadListPositive:
+03.07 20.22.56 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5Test:24 - initRecord[0]: Start initiate record
+03.07 20.22.56  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:142 - User{id=null, name='John Smith', phoneNumber='+78005553535', count requests=0} Request{id=null, date=1654434566, user=null, status=DONE, description='Default description'}
+03.07 20.22.56  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:144 - User{id=null, name='John Smith', phoneNumber='+78005553535', count requests=0} Request{id=null, date=1654434566, user=null, status=DONE, description='Default description'}
+03.07 20.22.56  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:146 - User{id=null, name='John Smith', phoneNumber='+78005553535', count requests=0} Request{id=null, date=1654434566, user=null, status=DONE, description='Default description'}
+03.07 20.22.56  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:148 - User{id=null, name='John Smith', phoneNumber='+78005553535', count requests=1} Request{id=null, date=1654434566, user=null, status=DONE, description='Default description'}
+03.07 20.22.56 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:166 - addRecord[0]: try to save entity:User{id=null, name='John Smith', phoneNumber='+78005553535', count requests=1}
+03.07 20.24.11  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:33 - Before run:
+03.07 20.24.14 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table Feedback
+03.07 20.24.14 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table Feedback success!
+03.07 20.24.14 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table Request
+03.07 20.24.14 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table Request success!
+03.07 20.24.14 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table User
+03.07 20.24.14 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table User success!
+03.07 20.24.14  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:41 - loadListPositive:
+03.07 20.24.14 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5Test:24 - initRecord[0]: Start initiate record
+03.07 20.24.14  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:142 - User{id=null, name='John Smith', phoneNumber='+78005553535', count requests=0} Request{id=null, date=1654434566, user=null, status=DONE, description='Default description'}
+03.07 20.24.14  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:144 - User{id=null, name='John Smith', phoneNumber='+78005553535', count requests=0} Request{id=null, date=1654434566, user=null, status=DONE, description='Default description'}
+03.07 20.24.14  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:146 - User{id=null, name='John Smith', phoneNumber='+78005553535', count requests=0} Request{id=null, date=1654434566, user=null, status=DONE, description='Default description'}
+03.07 20.24.14  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:148 - User{id=null, name='John Smith', phoneNumber='+78005553535', count requests=1} Request{id=null, date=1654434566, user=null, status=DONE, description='Default description'}
+03.07 20.24.14 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:166 - addRecord[0]: try to save entity:User{id=null, name='John Smith', phoneNumber='+78005553535', count requests=1}
+03.07 20.24.14 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: entity saved!
+03.07 20.24.14 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:170 - addRecord[1]: record id = 3
+03.07 20.24.14 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:166 - addRecord[0]: try to save entity:Feedback{id=null, request=Request{id=null, date=1654434566, user=3, status=DONE, description='Default description'}, rate=AVERAGE, message='Default description'}
+03.07 20.24.14 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:174 - addRecord[0]: saving error!
+03.07 20.24.14 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:175 - addRecord[1]:org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : ru.sfedu.crm.lab5.model.Feedback.request -> ru.sfedu.crm.lab5.model.Request
+03.07 20.24.14 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :User
+03.07 20.24.14 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 20.24.14 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Feedback
+03.07 20.24.14 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 20.26.25  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:35 - Before run:
+03.07 20.26.27 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table Feedback
+03.07 20.26.27 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table Feedback success!
+03.07 20.26.27 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table Request
+03.07 20.26.27 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table Request success!
+03.07 20.26.27 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table User
+03.07 20.26.27 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table User success!
+03.07 20.26.27  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:43 - loadListPositive:
+03.07 20.26.27 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5Test:24 - initRecord[0]: Start initiate record
+03.07 20.26.27 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:166 - addRecord[0]: try to save entity:User{id=null, name='John Smith', phoneNumber='+78005553535', count requests=0}
+03.07 20.26.27 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: entity saved!
+03.07 20.26.27 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:170 - addRecord[1]: record id = 4
+03.07 20.26.27 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:166 - addRecord[0]: try to save entity:Request{id=null, date=1654434566, user=4, status=DONE, description='Default description'}
+03.07 20.26.27 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: entity saved!
+03.07 20.26.27 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:170 - addRecord[1]: record id = 3
+03.07 20.26.27 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:166 - addRecord[0]: try to save entity:Feedback{id=null, request=Request{id=3, date=1654434566, user=4, status=DONE, description='Default description'}, rate=AVERAGE, message='Default description'}
+03.07 20.26.27 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: entity saved!
+03.07 20.26.27 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:170 - addRecord[1]: record id = 3
+03.07 20.26.27 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :User
+03.07 20.26.27 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 20.26.27 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Request
+03.07 20.26.27 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 20.26.27 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Feedback
+03.07 20.26.27 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 20.30.00  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:35 - Before run:
+03.07 20.30.01 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table Feedback
+03.07 20.30.01 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table Feedback success!
+03.07 20.30.01 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table Request
+03.07 20.30.01 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table Request success!
+03.07 20.30.01 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table User
+03.07 20.30.01 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table User success!
+03.07 20.30.01  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:55 - loadListNegative:
+03.07 20.30.01 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :User
+03.07 20.30.01 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 20.30.01 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Request
+03.07 20.30.01 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 20.30.01 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Feedback
+03.07 20.30.01 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 20.30.48  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:35 - Before run:
+03.07 20.30.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table Feedback
+03.07 20.30.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table Feedback success!
+03.07 20.30.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table Request
+03.07 20.30.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table Request success!
+03.07 20.30.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table User
+03.07 20.30.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table User success!
+03.07 20.30.49  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:66 - receiveRecordByIdPositive:
+03.07 20.30.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5Test:24 - initRecord[0]: Start initiate record
+03.07 20.30.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:166 - addRecord[0]: try to save entity:User{id=null, name='John Smith', phoneNumber='+78005553535', count requests=0}
+03.07 20.30.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: entity saved!
+03.07 20.30.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:170 - addRecord[1]: record id = 5
+03.07 20.30.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:166 - addRecord[0]: try to save entity:Request{id=null, date=1654434566, user=5, status=DONE, description='Default description'}
+03.07 20.30.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: entity saved!
+03.07 20.30.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:170 - addRecord[1]: record id = 4
+03.07 20.30.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:166 - addRecord[0]: try to save entity:Feedback{id=null, request=Request{id=4, date=1654434566, user=5, status=DONE, description='Default description'}, rate=AVERAGE, message='Default description'}
+03.07 20.30.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: entity saved!
+03.07 20.30.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:170 - addRecord[1]: record id = 4
+03.07 20.30.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :User
+03.07 20.30.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 20.30.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:115 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab5.model.User
+03.07 20.30.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:117 - receiveRecordById[0]: Receiving complete
+03.07 20.30.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Request
+03.07 20.30.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 20.30.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:115 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab5.model.Request
+03.07 20.30.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:117 - receiveRecordById[0]: Receiving complete
+03.07 20.30.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Feedback
+03.07 20.30.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 20.30.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:115 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab5.model.Feedback
+03.07 20.30.49 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:117 - receiveRecordById[0]: Receiving complete
+03.07 20.31.24  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:35 - Before run:
+03.07 20.31.25 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table Feedback
+03.07 20.31.25 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table Feedback success!
+03.07 20.31.25 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table Request
+03.07 20.31.25 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table Request success!
+03.07 20.31.25 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table User
+03.07 20.31.25 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table User success!
+03.07 20.31.25  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:78 - receiveRecordByIdNegative:
+03.07 20.31.25 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:115 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab5.model.User
+03.07 20.31.25 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:117 - receiveRecordById[0]: Receiving complete
+03.07 20.31.25 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:121 - receiveRecordById[0] Record with id = 1 not found
+03.07 20.31.25 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:122 - receiveRecordById[1]:java.lang.NullPointerException: null
+03.07 20.31.25 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:115 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab5.model.Request
+03.07 20.31.25 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:117 - receiveRecordById[0]: Receiving complete
+03.07 20.31.25 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:121 - receiveRecordById[0] Record with id = 1 not found
+03.07 20.31.25 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:122 - receiveRecordById[1]:java.lang.NullPointerException: null
+03.07 20.31.25 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:115 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab5.model.Feedback
+03.07 20.31.25 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:117 - receiveRecordById[0]: Receiving complete
+03.07 20.31.25 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:121 - receiveRecordById[0] Record with id = 1 not found
+03.07 20.31.25 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:122 - receiveRecordById[1]:java.lang.NullPointerException: null
+03.07 20.34.02  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:35 - Before run:
+03.07 20.34.04 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table Feedback
+03.07 20.34.04 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table Feedback success!
+03.07 20.34.04 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table Request
+03.07 20.34.04 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table Request success!
+03.07 20.34.04 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table User
+03.07 20.34.04 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table User success!
+03.07 20.34.04  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:89 - deleteRecordPositive:
+03.07 20.34.04 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5Test:24 - initRecord[0]: Start initiate record
+03.07 20.34.04 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:166 - addRecord[0]: try to save entity:User{id=null, name='John Smith', phoneNumber='+78005553535', count requests=0}
+03.07 20.34.04 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: entity saved!
+03.07 20.34.04 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:170 - addRecord[1]: record id = 6
+03.07 20.34.04 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:166 - addRecord[0]: try to save entity:Request{id=null, date=1654434566, user=6, status=DONE, description='Default description'}
+03.07 20.34.04 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: entity saved!
+03.07 20.34.04 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:170 - addRecord[1]: record id = 5
+03.07 20.34.04 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:166 - addRecord[0]: try to save entity:Feedback{id=null, request=Request{id=5, date=1654434566, user=6, status=DONE, description='Default description'}, rate=AVERAGE, message='Default description'}
+03.07 20.34.04 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: entity saved!
+03.07 20.34.04 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:170 - addRecord[1]: record id = 5
+03.07 20.34.04 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Feedback
+03.07 20.34.04 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 20.34.04 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:131 - deleteRecord[0]: try to delete entity:class ru.sfedu.crm.lab5.model.Feedback
+03.07 20.34.04 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:134 - deleteRecord[1]: entity successfully deleted!
+03.07 20.34.04 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Request
+03.07 20.34.04 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 20.34.04 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:131 - deleteRecord[0]: try to delete entity:class ru.sfedu.crm.lab5.model.Request
+03.07 20.34.04 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:134 - deleteRecord[1]: entity successfully deleted!
+03.07 20.34.04 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :User
+03.07 20.34.04 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 20.34.04 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:131 - deleteRecord[0]: try to delete entity:class ru.sfedu.crm.lab5.model.User
+03.07 20.34.04 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:134 - deleteRecord[1]: entity successfully deleted!
+03.07 20.34.15  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:35 - Before run:
+03.07 20.34.17 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table Feedback
+03.07 20.34.17 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table Feedback success!
+03.07 20.34.17 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table Request
+03.07 20.34.17 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table Request success!
+03.07 20.34.17 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table User
+03.07 20.34.17 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table User success!
+03.07 20.34.17  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:98 - deleteRecordNegative:
+03.07 20.34.17 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:131 - deleteRecord[0]: try to delete entity:class ru.sfedu.crm.lab5.model.Feedback
+03.07 20.34.17 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:139 - deleteRecord[0] Record with id = 1 not found
+03.07 20.34.17 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:140 - deleteRecord[1]:java.lang.IllegalArgumentException: attempt to create delete event with null entity
+03.07 20.34.17 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:131 - deleteRecord[0]: try to delete entity:class ru.sfedu.crm.lab5.model.Request
+03.07 20.34.17 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:139 - deleteRecord[0] Record with id = 1 not found
+03.07 20.34.17 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:140 - deleteRecord[1]:java.lang.IllegalArgumentException: attempt to create delete event with null entity
+03.07 20.34.17 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:131 - deleteRecord[0]: try to delete entity:class ru.sfedu.crm.lab5.model.User
+03.07 20.34.17 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:139 - deleteRecord[0] Record with id = 1 not found
+03.07 20.34.17 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:140 - deleteRecord[1]:java.lang.IllegalArgumentException: attempt to create delete event with null entity
+03.07 20.35.24  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:35 - Before run:
+03.07 20.35.26 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table Feedback
+03.07 20.35.26 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table Feedback success!
+03.07 20.35.26 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table Request
+03.07 20.35.26 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table Request success!
+03.07 20.35.26 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table User
+03.07 20.35.26 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table User success!
+03.07 20.35.26  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:106 - updateRecordPositive:
+03.07 20.35.26 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5Test:24 - initRecord[0]: Start initiate record
+03.07 20.35.26 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:166 - addRecord[0]: try to save entity:User{id=null, name='John Smith', phoneNumber='+78005553535', count requests=0}
+03.07 20.35.26 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: entity saved!
+03.07 20.35.26 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:170 - addRecord[1]: record id = 7
+03.07 20.35.26 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:166 - addRecord[0]: try to save entity:Request{id=null, date=1654434566, user=7, status=DONE, description='Default description'}
+03.07 20.35.26 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: entity saved!
+03.07 20.35.26 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:170 - addRecord[1]: record id = 6
+03.07 20.35.26 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:166 - addRecord[0]: try to save entity:Feedback{id=null, request=Request{id=6, date=1654434566, user=7, status=DONE, description='Default description'}, rate=AVERAGE, message='Default description'}
+03.07 20.35.26 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: entity saved!
+03.07 20.35.26 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:170 - addRecord[1]: record id = 6
+03.07 20.35.26 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :User
+03.07 20.35.26 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 20.35.26 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Feedback
+03.07 20.35.26 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 20.35.26 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Request
+03.07 20.35.26 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 20.35.26 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:149 - updateRecord[0]: try to merge(update) entity:User{id=7, name='UPDATED NAME', phoneNumber='+78005553535', count requests=1}
+03.07 20.35.26 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:151 - updateRecord[0]: entity updated!
+03.07 20.35.26 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:149 - updateRecord[0]: try to merge(update) entity:Feedback{id=6, request=Request{id=6, date=1654434566, user=7, status=DONE, description='Default description'}, rate=AVERAGE, message='UPDATED MESSAGE'}
+03.07 20.35.26 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:151 - updateRecord[0]: entity updated!
+03.07 20.35.26 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:149 - updateRecord[0]: try to merge(update) entity:Request{id=6, date=1654434566, user=7, status=DONE, description='UPDATED DESCRIPTION'}
+03.07 20.35.26 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:151 - updateRecord[0]: entity updated!
+03.07 20.36.30  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:35 - Before run:
+03.07 20.36.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table Feedback
+03.07 20.36.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table Feedback success!
+03.07 20.36.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table Request
+03.07 20.36.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table Request success!
+03.07 20.36.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table User
+03.07 20.36.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table User success!
+03.07 20.36.32  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:123 - updateRecordNegative:
+03.07 20.36.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5Test:24 - initRecord[0]: Start initiate record
+03.07 20.36.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:166 - addRecord[0]: try to save entity:User{id=null, name='John Smith', phoneNumber='+78005553535', count requests=0}
+03.07 20.36.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: entity saved!
+03.07 20.36.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:170 - addRecord[1]: record id = 8
+03.07 20.36.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:166 - addRecord[0]: try to save entity:Request{id=null, date=1654434566, user=8, status=DONE, description='Default description'}
+03.07 20.36.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: entity saved!
+03.07 20.36.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:170 - addRecord[1]: record id = 7
+03.07 20.36.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:166 - addRecord[0]: try to save entity:Feedback{id=null, request=Request{id=7, date=1654434566, user=8, status=DONE, description='Default description'}, rate=AVERAGE, message='Default description'}
+03.07 20.36.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: entity saved!
+03.07 20.36.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:170 - addRecord[1]: record id = 7
+03.07 20.36.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:115 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab5.model.User
+03.07 20.36.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:117 - receiveRecordById[0]: Receiving complete
+03.07 20.36.32 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:121 - receiveRecordById[0] Record with id = 200 not found
+03.07 20.36.32 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:122 - receiveRecordById[1]:java.lang.NullPointerException: null
+03.07 20.36.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:115 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab5.model.Feedback
+03.07 20.36.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:117 - receiveRecordById[0]: Receiving complete
+03.07 20.36.32 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:121 - receiveRecordById[0] Record with id = 200 not found
+03.07 20.36.32 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:122 - receiveRecordById[1]:java.lang.NullPointerException: null
+03.07 20.36.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:115 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab5.model.Request
+03.07 20.36.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:117 - receiveRecordById[0]: Receiving complete
+03.07 20.36.32 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:121 - receiveRecordById[0] Record with id = 200 not found
+03.07 20.36.32 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:122 - receiveRecordById[1]:java.lang.NullPointerException: null
+03.07 20.36.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:149 - updateRecord[0]: try to merge(update) entity:User{id=200, name='null', phoneNumber='null', count requests=0}
+03.07 20.36.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:151 - updateRecord[0]: entity updated!
+03.07 20.36.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:149 - updateRecord[0]: try to merge(update) entity:Feedback{id=200, request=null, rate=null, message='null'}
+03.07 20.36.32 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:156 - updateRecord[0]: updating error!
+03.07 20.36.32 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:157 - updateRecord[1]:javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value : ru.sfedu.crm.lab5.model.Feedback.request
+03.07 20.36.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:149 - updateRecord[0]: try to merge(update) entity:Request{id=200, date=null,user=null, status=null, description='null'}
+03.07 20.36.32 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:156 - updateRecord[0]: updating error!
+03.07 20.36.32 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:157 - updateRecord[1]:javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value : ru.sfedu.crm.lab5.model.Request.user
+03.07 20.36.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:115 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab5.model.User
+03.07 20.36.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:117 - receiveRecordById[0]: Receiving complete
+03.07 20.36.32 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:121 - receiveRecordById[0] Record with id = 200 not found
+03.07 20.36.32 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:122 - receiveRecordById[1]:java.lang.NullPointerException: null
+03.07 20.36.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:115 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab5.model.Feedback
+03.07 20.36.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:117 - receiveRecordById[0]: Receiving complete
+03.07 20.36.32 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:121 - receiveRecordById[0] Record with id = 200 not found
+03.07 20.36.32 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:122 - receiveRecordById[1]:java.lang.NullPointerException: null
+03.07 20.36.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:115 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab5.model.Request
+03.07 20.36.32 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:117 - receiveRecordById[0]: Receiving complete
+03.07 20.36.32 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:121 - receiveRecordById[0] Record with id = 200 not found
+03.07 20.36.32 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:122 - receiveRecordById[1]:java.lang.NullPointerException: null
+03.07 20.37.22  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:35 - Before run:
+03.07 20.37.23 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table Feedback
+03.07 20.37.23 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table Feedback success!
+03.07 20.37.23 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table Request
+03.07 20.37.23 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table Request success!
+03.07 20.37.23 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table User
+03.07 20.37.23 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table User success!
+03.07 20.37.23  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:144 - addRecordPositive:
+03.07 20.37.23 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :User
+03.07 20.37.23 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 20.37.23 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Feedback
+03.07 20.37.23 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 20.37.23 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Request
+03.07 20.37.23 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 20.37.23 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5Test:24 - initRecord[0]: Start initiate record
+03.07 20.37.23 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:166 - addRecord[0]: try to save entity:User{id=null, name='John Smith', phoneNumber='+78005553535', count requests=0}
+03.07 20.37.23 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: entity saved!
+03.07 20.37.23 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:170 - addRecord[1]: record id = 10
+03.07 20.37.23 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:166 - addRecord[0]: try to save entity:Request{id=null, date=1654434566, user=10, status=DONE, description='Default description'}
+03.07 20.37.23 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: entity saved!
+03.07 20.37.23 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:170 - addRecord[1]: record id = 8
+03.07 20.37.23 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:166 - addRecord[0]: try to save entity:Feedback{id=null, request=Request{id=8, date=1654434566, user=10, status=DONE, description='Default description'}, rate=AVERAGE, message='Default description'}
+03.07 20.37.23 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: entity saved!
+03.07 20.37.23 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:170 - addRecord[1]: record id = 8
+03.07 20.37.23 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :User
+03.07 20.37.23 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 20.37.23 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Feedback
+03.07 20.37.23 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 20.37.23 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Request
+03.07 20.37.23 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 20.37.31  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:35 - Before run:
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table Feedback
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table Feedback success!
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table Request
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table Request success!
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table User
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table User success!
+03.07 20.37.33  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:144 - addRecordPositive:
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :User
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Feedback
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Request
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5Test:24 - initRecord[0]: Start initiate record
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:166 - addRecord[0]: try to save entity:User{id=null, name='John Smith', phoneNumber='+78005553535', count requests=0}
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: entity saved!
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:170 - addRecord[1]: record id = 11
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:166 - addRecord[0]: try to save entity:Request{id=null, date=1654434566, user=11, status=DONE, description='Default description'}
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: entity saved!
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:170 - addRecord[1]: record id = 9
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:166 - addRecord[0]: try to save entity:Feedback{id=null, request=Request{id=9, date=1654434566, user=11, status=DONE, description='Default description'}, rate=AVERAGE, message='Default description'}
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: entity saved!
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:170 - addRecord[1]: record id = 9
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :User
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Feedback
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Request
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 20.37.33  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:35 - Before run:
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table Feedback
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table Feedback success!
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table Request
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table Request success!
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table User
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table User success!
+03.07 20.37.33  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:106 - updateRecordPositive:
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5Test:24 - initRecord[0]: Start initiate record
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:166 - addRecord[0]: try to save entity:User{id=null, name='John Smith', phoneNumber='+78005553535', count requests=0}
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: entity saved!
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:170 - addRecord[1]: record id = 12
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:166 - addRecord[0]: try to save entity:Request{id=null, date=1654434566, user=12, status=DONE, description='Default description'}
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: entity saved!
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:170 - addRecord[1]: record id = 10
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:166 - addRecord[0]: try to save entity:Feedback{id=null, request=Request{id=10, date=1654434566, user=12, status=DONE, description='Default description'}, rate=AVERAGE, message='Default description'}
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: entity saved!
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:170 - addRecord[1]: record id = 10
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :User
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Feedback
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Request
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:149 - updateRecord[0]: try to merge(update) entity:User{id=12, name='UPDATED NAME', phoneNumber='+78005553535', count requests=1}
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:151 - updateRecord[0]: entity updated!
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:149 - updateRecord[0]: try to merge(update) entity:Feedback{id=10, request=Request{id=10, date=1654434566, user=12, status=DONE, description='Default description'}, rate=AVERAGE, message='UPDATED MESSAGE'}
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:151 - updateRecord[0]: entity updated!
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:149 - updateRecord[0]: try to merge(update) entity:Request{id=10, date=1654434566, user=12, status=DONE, description='UPDATED DESCRIPTION'}
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:151 - updateRecord[0]: entity updated!
+03.07 20.37.33  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:35 - Before run:
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table Feedback
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table Feedback success!
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table Request
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table Request success!
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table User
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table User success!
+03.07 20.37.33  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:123 - updateRecordNegative:
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5Test:24 - initRecord[0]: Start initiate record
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:166 - addRecord[0]: try to save entity:User{id=null, name='John Smith', phoneNumber='+78005553535', count requests=0}
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: entity saved!
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:170 - addRecord[1]: record id = 13
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:166 - addRecord[0]: try to save entity:Request{id=null, date=1654434566, user=13, status=DONE, description='Default description'}
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: entity saved!
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:170 - addRecord[1]: record id = 11
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:166 - addRecord[0]: try to save entity:Feedback{id=null, request=Request{id=11, date=1654434566, user=13, status=DONE, description='Default description'}, rate=AVERAGE, message='Default description'}
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: entity saved!
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:170 - addRecord[1]: record id = 11
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:115 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab5.model.User
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:117 - receiveRecordById[0]: Receiving complete
+03.07 20.37.33 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:121 - receiveRecordById[0] Record with id = 200 not found
+03.07 20.37.33 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:122 - receiveRecordById[1]:java.lang.NullPointerException: null
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:115 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab5.model.Feedback
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:117 - receiveRecordById[0]: Receiving complete
+03.07 20.37.33 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:121 - receiveRecordById[0] Record with id = 200 not found
+03.07 20.37.33 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:122 - receiveRecordById[1]:java.lang.NullPointerException: null
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:115 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab5.model.Request
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:117 - receiveRecordById[0]: Receiving complete
+03.07 20.37.33 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:121 - receiveRecordById[0] Record with id = 200 not found
+03.07 20.37.33 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:122 - receiveRecordById[1]:java.lang.NullPointerException: null
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:149 - updateRecord[0]: try to merge(update) entity:User{id=200, name='null', phoneNumber='null', count requests=0}
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:151 - updateRecord[0]: entity updated!
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:149 - updateRecord[0]: try to merge(update) entity:Feedback{id=200, request=null, rate=null, message='null'}
+03.07 20.37.33 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:156 - updateRecord[0]: updating error!
+03.07 20.37.33 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:157 - updateRecord[1]:javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value : ru.sfedu.crm.lab5.model.Feedback.request
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:149 - updateRecord[0]: try to merge(update) entity:Request{id=200, date=null,user=null, status=null, description='null'}
+03.07 20.37.33 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:156 - updateRecord[0]: updating error!
+03.07 20.37.33 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:157 - updateRecord[1]:javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value : ru.sfedu.crm.lab5.model.Request.user
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:115 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab5.model.User
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:117 - receiveRecordById[0]: Receiving complete
+03.07 20.37.33 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:121 - receiveRecordById[0] Record with id = 200 not found
+03.07 20.37.33 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:122 - receiveRecordById[1]:java.lang.NullPointerException: null
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:115 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab5.model.Feedback
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:117 - receiveRecordById[0]: Receiving complete
+03.07 20.37.33 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:121 - receiveRecordById[0] Record with id = 200 not found
+03.07 20.37.33 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:122 - receiveRecordById[1]:java.lang.NullPointerException: null
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:115 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab5.model.Request
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:117 - receiveRecordById[0]: Receiving complete
+03.07 20.37.33 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:121 - receiveRecordById[0] Record with id = 200 not found
+03.07 20.37.33 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:122 - receiveRecordById[1]:java.lang.NullPointerException: null
+03.07 20.37.33  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:35 - Before run:
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table Feedback
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table Feedback success!
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table Request
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table Request success!
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table User
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table User success!
+03.07 20.37.33  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:89 - deleteRecordPositive:
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5Test:24 - initRecord[0]: Start initiate record
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:166 - addRecord[0]: try to save entity:User{id=null, name='John Smith', phoneNumber='+78005553535', count requests=0}
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: entity saved!
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:170 - addRecord[1]: record id = 15
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:166 - addRecord[0]: try to save entity:Request{id=null, date=1654434566, user=15, status=DONE, description='Default description'}
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: entity saved!
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:170 - addRecord[1]: record id = 12
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:166 - addRecord[0]: try to save entity:Feedback{id=null, request=Request{id=12, date=1654434566, user=15, status=DONE, description='Default description'}, rate=AVERAGE, message='Default description'}
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: entity saved!
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:170 - addRecord[1]: record id = 12
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Feedback
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:131 - deleteRecord[0]: try to delete entity:class ru.sfedu.crm.lab5.model.Feedback
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:134 - deleteRecord[1]: entity successfully deleted!
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Request
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:131 - deleteRecord[0]: try to delete entity:class ru.sfedu.crm.lab5.model.Request
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:134 - deleteRecord[1]: entity successfully deleted!
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :User
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:131 - deleteRecord[0]: try to delete entity:class ru.sfedu.crm.lab5.model.User
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:134 - deleteRecord[1]: entity successfully deleted!
+03.07 20.37.33  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:35 - Before run:
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table Feedback
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table Feedback success!
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table Request
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table Request success!
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table User
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table User success!
+03.07 20.37.33  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:98 - deleteRecordNegative:
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:131 - deleteRecord[0]: try to delete entity:class ru.sfedu.crm.lab5.model.Feedback
+03.07 20.37.33 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:139 - deleteRecord[0] Record with id = 1 not found
+03.07 20.37.33 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:140 - deleteRecord[1]:java.lang.IllegalArgumentException: attempt to create delete event with null entity
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:131 - deleteRecord[0]: try to delete entity:class ru.sfedu.crm.lab5.model.Request
+03.07 20.37.33 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:139 - deleteRecord[0] Record with id = 1 not found
+03.07 20.37.33 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:140 - deleteRecord[1]:java.lang.IllegalArgumentException: attempt to create delete event with null entity
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:131 - deleteRecord[0]: try to delete entity:class ru.sfedu.crm.lab5.model.User
+03.07 20.37.33 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:139 - deleteRecord[0] Record with id = 1 not found
+03.07 20.37.33 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:140 - deleteRecord[1]:java.lang.IllegalArgumentException: attempt to create delete event with null entity
+03.07 20.37.33  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:35 - Before run:
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table Feedback
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table Feedback success!
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table Request
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table Request success!
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table User
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table User success!
+03.07 20.37.33  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:66 - receiveRecordByIdPositive:
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5Test:24 - initRecord[0]: Start initiate record
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:166 - addRecord[0]: try to save entity:User{id=null, name='John Smith', phoneNumber='+78005553535', count requests=0}
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: entity saved!
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:170 - addRecord[1]: record id = 16
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:166 - addRecord[0]: try to save entity:Request{id=null, date=1654434566, user=16, status=DONE, description='Default description'}
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: entity saved!
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:170 - addRecord[1]: record id = 13
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:166 - addRecord[0]: try to save entity:Feedback{id=null, request=Request{id=13, date=1654434566, user=16, status=DONE, description='Default description'}, rate=AVERAGE, message='Default description'}
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: entity saved!
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:170 - addRecord[1]: record id = 13
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :User
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:115 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab5.model.User
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:117 - receiveRecordById[0]: Receiving complete
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Request
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:115 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab5.model.Request
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:117 - receiveRecordById[0]: Receiving complete
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Feedback
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:115 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab5.model.Feedback
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:117 - receiveRecordById[0]: Receiving complete
+03.07 20.37.33  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:35 - Before run:
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table Feedback
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table Feedback success!
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table Request
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table Request success!
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table User
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table User success!
+03.07 20.37.33  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:78 - receiveRecordByIdNegative:
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:115 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab5.model.User
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:117 - receiveRecordById[0]: Receiving complete
+03.07 20.37.33 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:121 - receiveRecordById[0] Record with id = 1 not found
+03.07 20.37.33 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:122 - receiveRecordById[1]:java.lang.NullPointerException: null
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:115 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab5.model.Request
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:117 - receiveRecordById[0]: Receiving complete
+03.07 20.37.33 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:121 - receiveRecordById[0] Record with id = 1 not found
+03.07 20.37.33 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:122 - receiveRecordById[1]:java.lang.NullPointerException: null
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:115 - receiveRecordById[0]: try to receive entity by id:class ru.sfedu.crm.lab5.model.Feedback
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:117 - receiveRecordById[0]: Receiving complete
+03.07 20.37.33 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:121 - receiveRecordById[0] Record with id = 1 not found
+03.07 20.37.33 ERROR	ru.sfedu.crm.lab5.api.DataProviderLab5:122 - receiveRecordById[1]:java.lang.NullPointerException: null
+03.07 20.37.33  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:35 - Before run:
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table Feedback
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table Feedback success!
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table Request
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table Request success!
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table User
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table User success!
+03.07 20.37.33  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:43 - loadListPositive:
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5Test:24 - initRecord[0]: Start initiate record
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:166 - addRecord[0]: try to save entity:User{id=null, name='John Smith', phoneNumber='+78005553535', count requests=0}
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: entity saved!
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:170 - addRecord[1]: record id = 17
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:166 - addRecord[0]: try to save entity:Request{id=null, date=1654434566, user=17, status=DONE, description='Default description'}
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: entity saved!
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:170 - addRecord[1]: record id = 14
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:166 - addRecord[0]: try to save entity:Feedback{id=null, request=Request{id=14, date=1654434566, user=17, status=DONE, description='Default description'}, rate=AVERAGE, message='Default description'}
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:169 - addRecord[1]: entity saved!
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:170 - addRecord[1]: record id = 14
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :User
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Request
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Feedback
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 20.37.33  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:35 - Before run:
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table Feedback
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table Feedback success!
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table Request
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table Request success!
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:47 - clearTable[0]: try to clear table User
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:50 - clearTable[0]: clearing table User success!
+03.07 20.37.33  INFO	ru.sfedu.crm.lab5.api.DataProviderLab5Test:55 - loadListNegative:
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :User
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Request
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:28 - loadList[0]: try to load list of entities from table :Feedback
+03.07 20.37.33 DEBUG	ru.sfedu.crm.lab5.api.DataProviderLab5:31 - loadList[0]: Loading success!

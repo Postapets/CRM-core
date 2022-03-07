@@ -1,13 +1,14 @@
-package ru.sfedu.crm.lab5.model.one_to_one;
+package ru.sfedu.crm.lab5.model;
 
 import ru.sfedu.crm.enums.Rate;
 
 import javax.persistence.*;
+import java.io.Serializable;
 import java.util.Objects;
 
 @Entity(name = "Feedback")
-@Table(schema = "lab5_one_to_one", name = "Feedback")
-public class Feedback {
+@Table(schema = "lab5", name = "Feedback")
+public class Feedback implements Serializable {
     @Id
     @Column
     @GeneratedValue(strategy = GenerationType.IDENTITY)

@@ -18,8 +18,7 @@ import ru.sfedu.crm.lab4.model.collection.UserCollection;
 import ru.sfedu.crm.lab4.model.list.UserList;
 import ru.sfedu.crm.lab4.model.map.UserMap;
 import ru.sfedu.crm.lab4.model.set.UserSet;
-import ru.sfedu.crm.lab5.model.one_to_one.Feedback;
-import ru.sfedu.crm.lab5.model.one_to_one.Request;
+import ru.sfedu.crm.lab5.model.*;
 
 import java.io.File;
 import java.io.IOException;
@@ -71,6 +70,7 @@ public class HibernateUtil {
 
         metadataSources.addAnnotatedClass(Feedback.class);
         metadataSources.addAnnotatedClass(Request.class);
+        metadataSources.addAnnotatedClass(User.class);
     }
 
 }

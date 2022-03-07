@@ -30,6 +30,7 @@ public class DataProviderLab5 {
             List list = query.list();
             log.debug("loadList[0]: Loading success!");
             log.trace("List of records: " + list);
+
             transaction.commit();
             session.close();
             return list;

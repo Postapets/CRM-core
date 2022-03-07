@@ -1,22 +1,35 @@
-package ru.sfedu.crm.lab5.model.one_to_one;
+package ru.sfedu.crm.lab5.model;
 
 import ru.sfedu.crm.enums.RequestStatus;
+import ru.sfedu.crm.lab5.model.*;
 
 import javax.persistence.*;
+import java.io.Serializable;
 import java.util.Objects;
 
 @Entity(name = "Request")
-@Table(schema = "lab5_one_to_one", name = "Request")
-public class Request {
+@Table(schema = "lab5", name = "Request")
+public class Request implements Serializable {
     @Id
     @Column
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private Long date;
+    @ManyToOne(fetch = FetchType.EAGER)
+    @JoinColumn(name ="user_id", nullable = false)
+    private User user;
     private RequestStatus status;
     private String description;
 
     public Request() {
+    }
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
     }
 
     public Long getId() {
@@ -56,21 +69,27 @@ public class Request {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Request request = (Request) o;
-        return Objects.equals(id, request.id) && Objects.equals(date, request.date) && status == request.status && Objects.equals(description, request.description);
+        return Objects.equals(id, request.id) && Objects.equals(date, request.date) && Objects.equals(user, request.user) && status == request.status && Objects.equals(description, request.description);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, date, status, description);
+        return Objects.hash(id, date, user, status, description);
     }
 
     @Override
     public String toString() {
-        return "Request{" +
+        String str = "Request{" +
                 "id=" + id +
-                ", date=" + date +
-                ", status=" + status +
+                ", date=" + date;
+        try {
+            str += ", user=" + user.getId();
+        } catch (Exception e) {
+            str +=",user=null";
+        }
+        str+= ", status=" + status +
                 ", description='" + description + '\'' +
                 '}';
+        return str;
     }
 }
