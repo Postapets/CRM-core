@@ -71,6 +71,7 @@ public class HibernateUtil {
         metadataSources.addAnnotatedClass(Feedback.class);
         metadataSources.addAnnotatedClass(Request.class);
         metadataSources.addAnnotatedClass(User.class);
+        metadataSources.addAnnotatedClass(Privilege.class);
     }
 
 }

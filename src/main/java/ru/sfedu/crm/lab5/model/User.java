@@ -22,7 +22,19 @@ public class User implements Serializable {
     )
     protected Set<Request> requests = new HashSet<>();
 
+    @ManyToMany(fetch = FetchType.EAGER, cascade = {CascadeType.PERSIST, CascadeType.REMOVE})
+    @JoinTable(schema = "lab5")
+    protected Set<Privilege> privilege = new HashSet<>();
+
     public User() {
+    }
+
+    public Set<Privilege> getUserPrivilege() {
+        return privilege;
+    }
+
+    public void setUserPrivilege(Set<Privilege> userPrivilege) {
+        this.privilege = userPrivilege;
     }
 
     public Long getId() {

@@ -5,10 +5,15 @@ import org.apache.logging.log4j.Logger;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
+import org.hibernate.query.NativeQuery;
 import org.hibernate.query.Query;
 import ru.sfedu.crm.Constants;
 import ru.sfedu.crm.utils.HibernateUtil;
 
+import javax.persistence.TypedQuery;
+import javax.persistence.criteria.CriteriaBuilder;
+import javax.persistence.criteria.CriteriaQuery;
+import javax.persistence.criteria.Root;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
@@ -41,6 +46,49 @@ public class DataProviderLab5 {
         return new ArrayList<>();
     }
 
+    public <T> List<T> loadListNativeSql(Class<T> entity) {
+        Session session = this.getSession();
+        Transaction transaction = session.beginTransaction();
+        try {
+            log.debug("loadListNativeSql[0]: try to load list of entities from table :" + entity.getSimpleName());
+            NativeQuery<T> query = session.createNativeQuery(String.format(Constants.NATIVE_QUERY, entity.getSimpleName()), entity);
+            List<T> list = query.getResultList();
+            log.debug("loadListNativeSql[0]: Loading success!");
+            log.trace("List of records: " + list);
+            transaction.commit();
+            session.close();
+            return list;
+        } catch (Exception e) {
+            log.error("loadListNativeSql[0]: Loading from table "+entity.getSimpleName()+ " Error");
+            log.error("loadListNativeSql[1]: " + e.getClass().getName() + ": " + e.getMessage());
+        }
+        return new ArrayList<>();
+    }
+
+    public <T> List<T> loadListCriteria(Class<T> entity) {
+        Session session = this.getSession();
+        Transaction transaction = session.beginTransaction();
+        try {
+            log.debug("loadListCriteria[0]: try to load list of entities from table :" + entity.getSimpleName());
+            CriteriaBuilder builder = session.getCriteriaBuilder();
+            CriteriaQuery<T> query = builder.createQuery(entity);
+            Root<T> root = query.from(entity);
+            CriteriaQuery<T> select = query.select(root);
+            TypedQuery<T> typedQuery = session.createQuery(select);
+            List<T> list = typedQuery.getResultList();
+            log.debug("loadListCriteria[0]: Loading success!");
+            log.trace("List of records: " + list)
+            ;
+            transaction.commit();
+            session.close();
+            return list;
+        } catch (Exception e) {
+            log.error("loadListCriteria[0]: Loading from table "+entity.getSimpleName()+ " Error");
+            log.error("loadListCriteria[1]: " + e.getClass().getName() + ": " + e.getMessage());
+        }
+        return new ArrayList<>();
+    }
+
     public <T> void clearTable(Class<T> entity) {
         Session session = this.getSession();
         Transaction transaction = session.beginTransaction();
@@ -53,61 +101,61 @@ public class DataProviderLab5 {
         return ;
     }
 
-    public <T> void clearTableList(Class<T> entity) {
-        Session session = this.getSession();
-        Transaction transaction = session.beginTransaction();
-        log.debug("clearTable[0]: try to clear table " + entity.getSimpleName());
-        Query query = session.createSQLQuery(String.format("truncate table lab4_list.%s_ORDERSID",entity.getSimpleName()));
-        query.executeUpdate();
-        query = session.createQuery(String.format(Constants.HQL_DELETE_FROM,entity.getSimpleName()));
-        query.executeUpdate();
-        log.debug("clearTable[0]: clearing table " + entity.getSimpleName()+" success!");
-        transaction.commit();
-        session.close();
-        return;
-    }
-
-    public <T> void clearTableMap(Class<T> entity) {
-        Session session = this.getSession();
-        Transaction transaction = session.beginTransaction();
-        log.debug("clearTable[0]: try to clear table " + entity.getSimpleName());
-        Query query = session.createSQLQuery(String.format("truncate table lab4_map.%s_ORDERSID",entity.getSimpleName()));
-        query.executeUpdate();
-        query = session.createQuery(String.format(Constants.HQL_DELETE_FROM,entity.getSimpleName()));
-        query.executeUpdate();
-        log.debug("clearTable[0]: clearing table " + entity.getSimpleName()+" success!");
-        transaction.commit();
-        session.close();
-        return;
-    }
-
-    public <T> void clearTableSet(Class<T> entity) {
-        Session session = this.getSession();
-        Transaction transaction = session.beginTransaction();
-        log.debug("clearTable[0]: try to clear table " + entity.getSimpleName());
-        Query query = session.createSQLQuery(String.format("truncate table lab4_set.%s_ORDERSID",entity.getSimpleName()));
-        query.executeUpdate();
-        query = session.createQuery(String.format(Constants.HQL_DELETE_FROM,entity.getSimpleName()));
-        query.executeUpdate();
-        log.debug("clearTable[0]: clearing table " + entity.getSimpleName()+" success!");
-        transaction.commit();
-        session.close();
-        return;
-    }
-
-    public <T> void clearTableCollection(Class<T> entity) {
-        Session session = this.getSession();
-        Transaction transaction = session.beginTransaction();
-        log.debug("clearTable[0]: try to clear table " + entity.getSimpleName());
-        Query query = session.createSQLQuery(String.format("truncate table lab4_collection.%s_ORDER",entity.getSimpleName()));
-        query.executeUpdate();
-        query = session.createQuery(String.format(Constants.HQL_DELETE_FROM,entity.getSimpleName()));
-        query.executeUpdate();
-        log.debug("clearTable[0]: clearing table " + entity.getSimpleName()+" success!");
-        transaction.commit();
-        session.close();
-        return;
-    }
+//    public <T> void clearTableList(Class<T> entity) {
+//        Session session = this.getSession();
+//        Transaction transaction = session.beginTransaction();
+//        log.debug("clearTable[0]: try to clear table " + entity.getSimpleName());
+//        Query query = session.createSQLQuery(String.format("truncate table lab4_list.%s_ORDERSID",entity.getSimpleName()));
+//        query.executeUpdate();
+//        query = session.createQuery(String.format(Constants.HQL_DELETE_FROM,entity.getSimpleName()));
+//        query.executeUpdate();
+//        log.debug("clearTable[0]: clearing table " + entity.getSimpleName()+" success!");
+//        transaction.commit();
+//        session.close();
+//        return;
+//    }
+//
+//    public <T> void clearTableMap(Class<T> entity) {
+//        Session session = this.getSession();
+//        Transaction transaction = session.beginTransaction();
+//        log.debug("clearTable[0]: try to clear table " + entity.getSimpleName());
+//        Query query = session.createSQLQuery(String.format("truncate table lab4_map.%s_ORDERSID",entity.getSimpleName()));
+//        query.executeUpdate();
+//        query = session.createQuery(String.format(Constants.HQL_DELETE_FROM,entity.getSimpleName()));
+//        query.executeUpdate();
+//        log.debug("clearTable[0]: clearing table " + entity.getSimpleName()+" success!");
+//        transaction.commit();
+//        session.close();
+//        return;
+//    }
+//
+//    public <T> void clearTableSet(Class<T> entity) {
+//        Session session = this.getSession();
+//        Transaction transaction = session.beginTransaction();
+//        log.debug("clearTable[0]: try to clear table " + entity.getSimpleName());
+//        Query query = session.createSQLQuery(String.format("truncate table lab4_set.%s_ORDERSID",entity.getSimpleName()));
+//        query.executeUpdate();
+//        query = session.createQuery(String.format(Constants.HQL_DELETE_FROM,entity.getSimpleName()));
+//        query.executeUpdate();
+//        log.debug("clearTable[0]: clearing table " + entity.getSimpleName()+" success!");
+//        transaction.commit();
+//        session.close();
+//        return;
+//    }
+//
+//    public <T> void clearTableCollection(Class<T> entity) {
+//        Session session = this.getSession();
+//        Transaction transaction = session.beginTransaction();
+//        log.debug("clearTable[0]: try to clear table " + entity.getSimpleName());
+//        Query query = session.createSQLQuery(String.format("truncate table lab4_collection.%s_ORDER",entity.getSimpleName()));
+//        query.executeUpdate();
+//        query = session.createQuery(String.format(Constants.HQL_DELETE_FROM,entity.getSimpleName()));
+//        query.executeUpdate();
+//        log.debug("clearTable[0]: clearing table " + entity.getSimpleName()+" success!");
+//        transaction.commit();
+//        session.close();
+//        return;
+//    }
 
     public <T> Optional<T> receiveRecordById(Class<T> entity, Long id) {
         Session session = this.getSession();

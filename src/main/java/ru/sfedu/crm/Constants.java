@@ -17,6 +17,8 @@ public class Constants {
             "where TABLE_SCHEMA = 'PUBLIC'";
     public static final String SQL_ALL_USERS = "select name from information_schema.users";
 
+    //native sql
+    public static final String NATIVE_QUERY = "SELECT * FROM  lab5.%s";
     //hql
     public static final String HQL_FROM = "from %s";
     public static final String HQL_DELETE_FROM = "delete from %s";
@@ -177,6 +179,7 @@ public class Constants {
 
     //defaults
     public static final String DEFAULT_USERNAME = "John Smith";
+    public static final String DEFAULT_PRIVILEGENAME = "default Privilege";
     public static final long   DEFAULT_BIRTH_DATE = 817662118;
     public static final String DEFAULT_PHONE_NUMBER = "+78005553535";
     public static final long   DEFAULT_INN = 1234567890;

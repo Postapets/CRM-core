@@ -43,6 +43,7 @@
         <mapping class="ru.sfedu.crm.lab5.model.Feedback"/>
         <mapping class="ru.sfedu.crm.lab5.model.Request"/>
         <mapping class="ru.sfedu.crm.lab5.model.User"/>
+        <mapping class="ru.sfedu.crm.lab5.model.Privilege"/>
 
     </session-factory>
 </hibernate-configuration>
