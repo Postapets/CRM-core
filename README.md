@@ -1,2 +1,2 @@
 # CRM-core
-This is a few hibernate labs
+This is a few hibernate-practise labs
